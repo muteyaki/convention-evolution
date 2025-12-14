@@ -26,11 +26,15 @@ def _normalize(dist: Dict[str, float]) -> Dict[str, float]:
     return {k: v / Z for k, v in dist.items()}
 
 
-def build_entries_with_prior(lex_cfg: List[Dict[str, Any]], lam: float = LENGTH_PRIOR_LAMBDA) -> Tuple[List[Dict[str, Any]], Dict[str, Dict[str, float]]]:
+def build_entries_with_prior(
+    lex_cfg: List[Dict[str, Any]],
+    lam: float = LENGTH_PRIOR_LAMBDA,
+) -> Tuple[List[Dict[str, Any]], Dict[str, Dict[str, float]], Dict[str, float]]:
     """
     Read from lexicon.json ：
       - entries: [{meaning, program, utterance, length}]
       - lexicon_prior: dict[meaning][utterance]，** consider the frequency of lexicons and the fidelity
+      - meaning_prior: dict[meaning] = P(m)，length prior before fidelity adjustment
     """
     entries: List[Dict[str, Any]] = []
     weights: Dict[str, float] = defaultdict(float)
@@ -61,7 +65,7 @@ def build_entries_with_prior(lex_cfg: List[Dict[str, Any]], lam: float = LENGTH_
             row[u] = base * (FIDELITY if true_m == m else 1.0)
         lexicon_prior[m] = row
 
-    return entries, lexicon_prior
+    return entries, lexicon_prior, meaning_prior
 
 
 # -------- Tool functions for managing the lexicon dict --------

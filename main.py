@@ -18,7 +18,7 @@ from population import run_population
 def main():
     # 1) 读入 lexicon 和 towers 配置
     lex_cfg = load_lexicon_config(LEXICON_CONFIG_PATH)
-    entries, lexicon_prior = build_entries_with_prior(lex_cfg)
+    entries, lexicon_prior, meaning_prior = build_entries_with_prior(lex_cfg)
     towers_cfg = load_towers_config(TOWERS_CONFIG_PATH)
 
     # 2) 跑一个 population-level 模拟
@@ -26,6 +26,7 @@ def main():
         n_dyads=N_DYADS,
         entries=entries,
         lexicon_prior=lexicon_prior,
+        meaning_prior=meaning_prior,
         towers_cfg=towers_cfg,
         n_rounds_per_dyad=ROUNDS_PER_DYAD,
     )

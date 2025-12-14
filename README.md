@@ -57,11 +57,7 @@ then normalized over $u$ for each $m$. This prior seeds agent beliefs.
 
 ## Running a Single Dyad
 ```bash
-python3 test.py \
-  --rounds 50 \
-  --lambda-length 0.3 \
-  --seed 42 \
-  --log-prefix sampling_log
+python3 test.py --rounds 50 
 ```
 Outputs:
 - `plots/loss_curve.png`, `plots/accuracy_curve.png`, `plots/program_length_curve.png`

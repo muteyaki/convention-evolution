@@ -16,6 +16,7 @@ class AgentConfig:
     epsilon: float = EPSILON
     seed: Optional[int] = GLOBAL_SEED
     update_weight: float = BELIF_UPDATE
+    choice_temperature: float = CHOICE_TEMPERATURE
 
 
 def _normalize(dist: Dict[str, float]) -> Dict[str, float]:
@@ -33,6 +34,7 @@ class DyadAgent:
         self,
         lexicon_entries: List[Dict[str, Any]],
         lexicon_prior: Dict[str, Dict[str, float]],
+        meaning_prior:  Dict[str, float],
         towers_cfg: Dict[str, Dict],
         cfg: AgentConfig,
         role: str = "pragmatic",
@@ -44,6 +46,7 @@ class DyadAgent:
         self.role = role
         self.meanings = sorted({e["meaning"] for e in lexicon_entries})
         self.utterances = sorted({e["utterance"] for e in lexicon_entries})
+        self.meaning_prior = meaning_prior
         self.lexicon_entries = list(lexicon_entries)
         self.lexicon_prior: Dict[str, Dict[str, float]] = {
             m: dict(u_dict) for m, u_dict in lexicon_prior.items()
@@ -91,6 +94,26 @@ class DyadAgent:
         self._log_records.append(entry)
         self._flush_logs()
 
+    def _apply_temperature(self, dist: Dict[str, float]) -> Dict[str, float]:
+        """Adjust distribution sharpness via τ; τ→0 -> argmax, τ large -> uniform."""
+        if not dist:
+            return {}
+        tau = max(self.cfg.choice_temperature, self.cfg.epsilon)
+        if abs(tau - 1.0) < 1e-9:
+            return dict(dist)
+        adjusted = {k: math.pow(max(v, self.cfg.epsilon), 1.0 / tau) for k, v in dist.items()}
+        return _normalize(adjusted)
+
+    def _sample_from_dist(self, dist: Dict[str, float]) -> Tuple[str, Dict[str, float]]:
+        """Sample a key from a probability dict after temperature adjustment."""
+        adjusted = self._apply_temperature(dist)
+        if not adjusted:
+            raise ValueError("Cannot sample from an empty distribution.")
+        keys = list(adjusted.keys())
+        weights = [adjusted[k] for k in keys]
+        choice = random.choices(keys, weights=weights, k=1)[0]
+        return choice, adjusted
+
     # ---------------- Task → Program ----------------
     def sample_program_for_task(self, task_id: str) -> str:
         belief = self.task_program_belief.get(task_id, {})
@@ -106,17 +129,15 @@ class DyadAgent:
 
         max_score = max(scores.values())
         exps = {p: math.exp(s - max_score) for p, s in scores.items()}
-        dist = _normalize(exps)
-
-        programs = list(dist.keys())
-        probs = [dist[p] for p in programs]
-        choice = random.choices(programs, weights=probs, k=1)[0]
+        base_dist = _normalize(exps)
+        choice, sample_dist = self._sample_from_dist(base_dist)
         # choice = max(dist.items(), key=lambda kv: kv[1])[0]
         self._log_sample(
             {
                 "event": "sample_program_for_task",
                 "task_id": task_id,
-                "dist": dist,
+                "dist": sample_dist,
+                "raw_dist": base_dist,
                 "choice": choice,
             }
         )
@@ -130,36 +151,36 @@ class DyadAgent:
 
     # ---------------- Meaning ↔ Utterance ----------------
     def sample_utterance_for_meaning(self, meaning: str) -> str:
-        dist = self.speaker_distribution(meaning)
-        if not dist:
+        speaker_dist = self.speaker_distribution(meaning)
+        if not speaker_dist:
             raise ValueError(f"No utterances available for meaning in speaker belief: {meaning}")
-        utts = list(dist.keys())
-        probs = [dist[u] for u in utts]
-        choice = random.choices(utts, weights=probs, k=1)[0]
+        choice, sample_dist = self._sample_from_dist(speaker_dist)
         self._log_sample(
             {
                 "event": "sample_utterance_for_meaning",
                 "meaning": meaning,
-                "dist": dist,
+                "dist": sample_dist,
+                "raw_dist": speaker_dist,
                 "choice": choice,
             }
         )
         return choice
 
     def interpret_utterance(self, utterance: str) -> str:
-        dist = self.literal_listener(utterance) if self.role == "literal" else self.pragmatic_listener(utterance)
-        if not dist:
+        listener_dist = (
+            self.literal_listener(utterance) if self.role == "literal" else self.pragmatic_listener(utterance)
+        )
+        if not listener_dist:
             raise ValueError(f"No meanings available for utterance in listener belief: {utterance}")
         # return max(dist.items(), key=lambda kv: kv[1])[0]
-        ms = list(dist.keys())
-        ps = [dist[m] for m in ms]
-        choice = random.choices(ms, weights=ps, k=1)[0]
+        choice, sample_dist = self._sample_from_dist(listener_dist)
         self._log_sample(
             {
                 "event": "sample_meaning_for_utterance",
                 "utterance": utterance,
                 "listener_mode": self.role,
-                "dist": dist,
+                "dist": sample_dist,
+                "raw_dist": listener_dist,
                 "choice": choice,
             }
         )
@@ -181,23 +202,21 @@ class DyadAgent:
 
     # Pragmatic speaker S1(u|m)
     def speaker_distribution(self, meaning: str) -> Dict[str, float]:
-        scores: Dict[str, float] = {}
+        post: Dict[str, float] = {}
+        dist = _normalize(self.belief_m2u.get(meaning, {}))
         for u in self.utterances:
-            L0 = self.literal_listener(u)
-            p = L0.get(meaning, self.cfg.epsilon)
-            utility = math.log(p + self.cfg.epsilon)
-            scores[u] = self.cfg.alpha_speaker * utility
-        # softmax
-        max_score = max(scores.values())
-        exps = {u: math.exp(s - max_score) for u, s in scores.items()}
-        return _normalize(exps)
+            L0 = self.literal_listener(u).get(meaning, self.cfg.epsilon)
+            prior = dist.get(u)
+            post[u] = L0 * prior
+        return _normalize(post)
 
     # Pragmatic listener L1(m|u)
     def pragmatic_listener(self, utterance: str) -> Dict[str, float]:
         post: Dict[str, float] = {}
+        Pm = self.meaning_prior
         for m in self.meanings:
             S1 = self.speaker_distribution(m).get(utterance, self.cfg.epsilon)
-            prior = self.lexicon_prior[m][utterance]
+            prior = Pm.get(m, self.cfg.epsilon) 
             post[m] = S1 * prior
         return _normalize(post)
 

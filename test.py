@@ -39,7 +39,9 @@ def run_dyad_demo(
 
     towers_cfg = load_towers_config(TOWERS_CONFIG_PATH)
     lex_cfg = load_lexicon_config(LEXICON_CONFIG_PATH)
-    lexicon_entries, lexicon_prior = build_entries_with_prior(lex_cfg, lam=length_prior_lambda)
+    lexicon_entries, lexicon_prior, meaning_prior = build_entries_with_prior(
+        lex_cfg, lam=length_prior_lambda
+    )
 
     architect_log = results_dir / f"{log_prefix}_architect.json" if log_prefix else None
     builder_log = results_dir / f"{log_prefix}_builder.json" if log_prefix else None
@@ -49,6 +51,7 @@ def run_dyad_demo(
     architect = DyadAgent(
         lexicon_entries=lexicon_entries,
         lexicon_prior=lexicon_prior,
+        meaning_prior=meaning_prior,
         towers_cfg=towers_cfg,
         cfg=cfg_A,
         log_path=architect_log,
@@ -56,6 +59,7 @@ def run_dyad_demo(
     builder = DyadAgent(
         lexicon_entries=lexicon_entries,
         lexicon_prior=lexicon_prior,
+        meaning_prior=meaning_prior,
         towers_cfg=towers_cfg,
         cfg=cfg_B,
         log_path=builder_log,
@@ -64,8 +68,19 @@ def run_dyad_demo(
     losses = []
     successes = []
     tower_ids = list(towers_cfg.keys())
+    if not tower_ids:
+        raise ValueError("No towers available in configuration.")
     program_lengths_by_task = {tid: [] for tid in tower_ids}
     belief_history = []
+
+    # Pre-generate a tower sampling schedule so each ID appears roughly equally often.
+    cycles = math.ceil(n_rounds / len(tower_ids))
+    tower_schedule: List[str] = []
+    for _ in range(cycles):
+        shuffled = tower_ids[:]
+        random.shuffle(shuffled)
+        tower_schedule.extend(shuffled)
+    tower_schedule = tower_schedule[:n_rounds]
 
     def snapshot(agent: DyadAgent) -> Dict[str, Dict[str, Dict[str, float]]]:
         meaning_to_utterance = {m: _normalize(agent.belief_m2u.get(m, {})) for m in agent.meanings}
@@ -84,7 +99,7 @@ def run_dyad_demo(
     )
 
     for t in range(n_rounds):
-        tower_id = random.choice(tower_ids)
+        tower_id = tower_schedule[t]
         # tower_id = "PiC"
         sampled_program, utterance_seq = architect.produce_message_for_task(tower_id)
         target_tokens = program_to_actions(sampled_program)
