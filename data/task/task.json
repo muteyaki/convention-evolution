@@ -1,0 +1,63 @@
+{
+  "CL": {
+    "target_id": "CL",
+    "min_program": "chunk_C r chunk_L",
+    "correct_programs": [
+      "chunk_8 r h r h l chunk_8",
+      "chunk_8 r h r h l h l v v",
+      "chunk_C r chunk_L",
+      "h l v v r h r h l h l v v"
+    ]
+  },
+  "CPi": {
+    "target_id": "CPi",
+    "min_program": "chunk_C r chunk_Pi",
+    "correct_programs": [
+      "chunk_C r chunk_Pi",
+      "chunk_8 r h r chunk_Pi",
+      "chunk_8 r h r v r v l h r h",
+      "h l v v r h r v r v l h r h"
+    ]
+  },
+  "LC": {
+    "target_id": "LC",
+    "min_program": "chunk_L r chunk_C",
+    "correct_programs": [
+      "chunk_L r chunk_C",
+      "h l chunk_8 r chunk_C",
+      "h l chunk_8 r h l v v r h",
+      "h l h l v v r h l v v r h"
+    ]
+  },
+  "LPi": {
+    "target_id": "LPi",
+    "min_program": "chunk_L r chunk_Pi",
+    "correct_programs": [
+      "chunk_L r chunk_Pi",
+      "h l chunk_8 r v r v l h r h",
+      "h l chunk_8 r chunk_Pi",
+      "h l h l v v r v r v l h r h"
+    ]
+  },
+  "PiC": {
+    "target_id": "PiC",
+    "min_program": "chunk_Pi r chunk_C",
+    "correct_programs": [
+      "chunk_Pi r chunk_C",
+      "chunk_Pi r chunk_8 r h",
+      "chunk_Pi r h r chunk_8",
+      "v r v l h r h r chunk_8 r h",
+      "v r v l h r h r h l v v r h"
+    ]
+  },
+  "PiL": {
+    "target_id": "PiL",
+    "min_program": "chunk_Pi r chunk_L",
+    "correct_programs": [
+      "chunk_Pi r chunk_L",
+      "chunk_Pi r h l chunk_8",
+      "v r v l h r h r h l chunk_8",
+      "v r v l h r h r h l h l v v"
+    ]
+  }
+}

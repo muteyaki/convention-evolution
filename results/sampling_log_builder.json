@@ -1,0 +1,5272 @@
+[
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0592342778629925,
+      "chunk_C": 0.0592342778629925,
+      "chunk_L": 0.0592342778629925,
+      "chunk_Pi": 0.059234277862992485,
+      "h": 0.059234277862992485,
+      "l": 0.059234277862992485,
+      "r": 0.5853600549590525,
+      "v": 0.059234277862992485
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0592342778629925,
+      "chunk_C": 0.0592342778629925,
+      "chunk_L": 0.0592342778629925,
+      "chunk_Pi": 0.059234277862992485,
+      "h": 0.059234277862992485,
+      "l": 0.059234277862992485,
+      "r": 0.059234277862992485,
+      "v": 0.5853600549590525
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0592342778629925,
+      "chunk_C": 0.0592342778629925,
+      "chunk_L": 0.0592342778629925,
+      "chunk_Pi": 0.059234277862992485,
+      "h": 0.059234277862992485,
+      "l": 0.5853600549590525,
+      "r": 0.059234277862992485,
+      "v": 0.059234277862992485
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0592342778629925,
+      "chunk_C": 0.0592342778629925,
+      "chunk_L": 0.0592342778629925,
+      "chunk_Pi": 0.059234277862992485,
+      "h": 0.059234277862992485,
+      "l": 0.059234277862992485,
+      "r": 0.5853600549590525,
+      "v": 0.059234277862992485
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small c-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.05923427786299246,
+      "chunk_C": 0.5853600549590526,
+      "chunk_L": 0.05923427786299246,
+      "chunk_Pi": 0.05923427786299246,
+      "h": 0.05923427786299246,
+      "l": 0.05923427786299246,
+      "r": 0.05923427786299246,
+      "v": 0.05923427786299246
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0592342778629925,
+      "chunk_C": 0.0592342778629925,
+      "chunk_L": 0.0592342778629925,
+      "chunk_Pi": 0.059234277862992485,
+      "h": 0.059234277862992485,
+      "l": 0.5853600549590525,
+      "r": 0.059234277862992485,
+      "v": 0.059234277862992485
+    },
+    "choice": "chunk_C",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.059234277862992506,
+      "chunk_C": 0.059234277862992506,
+      "chunk_L": 0.059234277862992506,
+      "chunk_Pi": 0.0592342778629925,
+      "h": 0.5853600549590526,
+      "l": 0.0592342778629925,
+      "r": 0.0592342778629925,
+      "v": 0.0592342778629925
+    },
+    "choice": "chunk_L",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0592342778629925,
+      "chunk_C": 0.0592342778629925,
+      "chunk_L": 0.0592342778629925,
+      "chunk_Pi": 0.059234277862992485,
+      "h": 0.059234277862992485,
+      "l": 0.5853600549590525,
+      "r": 0.059234277862992485,
+      "v": 0.059234277862992485
+    },
+    "choice": "chunk_L",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.059234277862992506,
+      "chunk_C": 0.059234277862992506,
+      "chunk_L": 0.059234277862992506,
+      "chunk_Pi": 0.0592342778629925,
+      "h": 0.5853600549590526,
+      "l": 0.0592342778629925,
+      "r": 0.0592342778629925,
+      "v": 0.0592342778629925
+    },
+    "choice": "chunk_L",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.059234277862992506,
+      "chunk_C": 0.059234277862992506,
+      "chunk_L": 0.059234277862992506,
+      "chunk_Pi": 0.0592342778629925,
+      "h": 0.5853600549590526,
+      "l": 0.0592342778629925,
+      "r": 0.0592342778629925,
+      "v": 0.0592342778629925
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.06112474046668578,
+      "chunk_C": 0.06112474046668578,
+      "chunk_L": 0.06112474046668578,
+      "chunk_Pi": 0.06112474046668577,
+      "h": 0.6040418272962704,
+      "l": 0.06112474046668577,
+      "r": 0.0292097299036149,
+      "v": 0.06112474046668577
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.06112474046668578,
+      "chunk_C": 0.06112474046668578,
+      "chunk_L": 0.06112474046668578,
+      "chunk_Pi": 0.06112474046668577,
+      "h": 0.06112474046668577,
+      "l": 0.6040418272962704,
+      "r": 0.0292097299036149,
+      "v": 0.06112474046668577
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.06112474046668578,
+      "chunk_C": 0.06112474046668578,
+      "chunk_L": 0.06112474046668578,
+      "chunk_Pi": 0.06112474046668577,
+      "h": 0.6040418272962704,
+      "l": 0.06112474046668577,
+      "r": 0.0292097299036149,
+      "v": 0.06112474046668577
+    },
+    "choice": "chunk_C",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a tall pi-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.06112474046668577,
+      "chunk_C": 0.06112474046668577,
+      "chunk_L": 0.06112474046668577,
+      "chunk_Pi": 0.6040418272962704,
+      "h": 0.06112474046668576,
+      "l": 0.06112474046668576,
+      "r": 0.029209729903614895,
+      "v": 0.06112474046668576
+    },
+    "choice": "chunk_Pi",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small c-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.06112474046668576,
+      "chunk_C": 0.6040418272962707,
+      "chunk_L": 0.06112474046668576,
+      "chunk_Pi": 0.06112474046668575,
+      "h": 0.06112474046668575,
+      "l": 0.06112474046668575,
+      "r": 0.029209729903614885,
+      "v": 0.06112474046668575
+    },
+    "choice": "chunk_Pi",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a long l-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.06112474046668576,
+      "chunk_C": 0.06112474046668576,
+      "chunk_L": 0.6040418272962707,
+      "chunk_Pi": 0.06112474046668575,
+      "h": 0.06112474046668575,
+      "l": 0.06112474046668575,
+      "r": 0.029209729903614885,
+      "v": 0.06112474046668575
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.06112474046668578,
+      "chunk_C": 0.06112474046668578,
+      "chunk_L": 0.06112474046668578,
+      "chunk_Pi": 0.06112474046668577,
+      "h": 0.6040418272962704,
+      "l": 0.06112474046668577,
+      "r": 0.0292097299036149,
+      "v": 0.06112474046668577
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.06112474046668578,
+      "chunk_C": 0.06112474046668578,
+      "chunk_L": 0.06112474046668578,
+      "chunk_Pi": 0.06112474046668577,
+      "h": 0.06112474046668577,
+      "l": 0.06112474046668577,
+      "r": 0.0292097299036149,
+      "v": 0.6040418272962704
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.017991948113061495,
+      "chunk_C": 0.017991948113061495,
+      "chunk_L": 0.017991948113061495,
+      "chunk_Pi": 0.017991948113061495,
+      "h": 0.017991948113061495,
+      "l": 0.017991948113061495,
+      "r": 0.8740563632085695,
+      "v": 0.017991948113061495
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.06112474046668578,
+      "chunk_C": 0.06112474046668578,
+      "chunk_L": 0.06112474046668578,
+      "chunk_Pi": 0.06112474046668577,
+      "h": 0.06112474046668577,
+      "l": 0.06112474046668577,
+      "r": 0.0292097299036149,
+      "v": 0.6040418272962704
+    },
+    "choice": "chunk_L",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.06112474046668578,
+      "chunk_C": 0.06112474046668578,
+      "chunk_L": 0.06112474046668578,
+      "chunk_Pi": 0.06112474046668577,
+      "h": 0.06112474046668577,
+      "l": 0.6040418272962704,
+      "r": 0.0292097299036149,
+      "v": 0.06112474046668577
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small c-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.06112474046668576,
+      "chunk_C": 0.6040418272962707,
+      "chunk_L": 0.06112474046668576,
+      "chunk_Pi": 0.06112474046668575,
+      "h": 0.06112474046668575,
+      "l": 0.06112474046668575,
+      "r": 0.029209729903614885,
+      "v": 0.06112474046668575
+    },
+    "choice": "chunk_Pi",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.017991948113061495,
+      "chunk_C": 0.017991948113061495,
+      "chunk_L": 0.017991948113061495,
+      "chunk_Pi": 0.017991948113061495,
+      "h": 0.017991948113061495,
+      "l": 0.017991948113061495,
+      "r": 0.8740563632085695,
+      "v": 0.017991948113061495
+    },
+    "choice": "chunk_L",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.06112474046668578,
+      "chunk_C": 0.06112474046668578,
+      "chunk_L": 0.06112474046668578,
+      "chunk_Pi": 0.06112474046668577,
+      "h": 0.6040418272962704,
+      "l": 0.06112474046668577,
+      "r": 0.0292097299036149,
+      "v": 0.06112474046668577
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.021055981998971605,
+      "chunk_C": 0.021055981998971605,
+      "chunk_L": 0.021055981998971605,
+      "chunk_Pi": 0.021055981998971598,
+      "h": 0.8928371362333286,
+      "l": 0.0070781839977969675,
+      "r": 0.007078183997796969,
+      "v": 0.008782567775191074
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small c-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0694992305690226,
+      "chunk_C": 0.6867995169889916,
+      "chunk_L": 0.0694992305690226,
+      "chunk_Pi": 0.06949923056902259,
+      "h": 0.0289885175066109,
+      "l": 0.02336287814535954,
+      "r": 0.023362878145359547,
+      "v": 0.0289885175066109
+    },
+    "choice": "chunk_Pi",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.021055981998971605,
+      "chunk_C": 0.021055981998971605,
+      "chunk_L": 0.021055981998971605,
+      "chunk_Pi": 0.021055981998971598,
+      "h": 0.008782567775191074,
+      "l": 0.0070781839977969675,
+      "r": 0.007078183997796969,
+      "v": 0.8928371362333286
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.011505426430961096,
+      "chunk_C": 0.011505426430961096,
+      "chunk_L": 0.011505426430961096,
+      "chunk_Pi": 0.011505426430961092,
+      "h": 0.004798977669021842,
+      "l": 0.9405126720083321,
+      "r": 0.0038676669297796973,
+      "v": 0.004798977669021842
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.021055981998971605,
+      "chunk_C": 0.021055981998971605,
+      "chunk_L": 0.021055981998971605,
+      "chunk_Pi": 0.021055981998971598,
+      "h": 0.008782567775191074,
+      "l": 0.0070781839977969675,
+      "r": 0.007078183997796969,
+      "v": 0.8928371362333286
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.021055981998971605,
+      "chunk_C": 0.021055981998971605,
+      "chunk_L": 0.021055981998971605,
+      "chunk_Pi": 0.021055981998971598,
+      "h": 0.008782567775191074,
+      "l": 0.0070781839977969675,
+      "r": 0.007078183997796969,
+      "v": 0.8928371362333286
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.011505426430961096,
+      "chunk_C": 0.011505426430961096,
+      "chunk_L": 0.011505426430961096,
+      "chunk_Pi": 0.011505426430961092,
+      "h": 0.004798977669021842,
+      "l": 0.0038676669297796995,
+      "r": 0.9405126720083322,
+      "v": 0.004798977669021842
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.021055981998971605,
+      "chunk_C": 0.021055981998971605,
+      "chunk_L": 0.021055981998971605,
+      "chunk_Pi": 0.021055981998971598,
+      "h": 0.8928371362333286,
+      "l": 0.0070781839977969675,
+      "r": 0.007078183997796969,
+      "v": 0.008782567775191074
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.011505426430961096,
+      "chunk_C": 0.011505426430961096,
+      "chunk_L": 0.011505426430961096,
+      "chunk_Pi": 0.011505426430961092,
+      "h": 0.004798977669021842,
+      "l": 0.9405126720083321,
+      "r": 0.0038676669297796973,
+      "v": 0.004798977669021842
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.021055981998971605,
+      "chunk_C": 0.021055981998971605,
+      "chunk_L": 0.021055981998971605,
+      "chunk_Pi": 0.021055981998971598,
+      "h": 0.008782567775191074,
+      "l": 0.0070781839977969675,
+      "r": 0.007078183997796969,
+      "v": 0.8928371362333286
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.021055981998971605,
+      "chunk_C": 0.021055981998971605,
+      "chunk_L": 0.021055981998971605,
+      "chunk_Pi": 0.021055981998971598,
+      "h": 0.008782567775191074,
+      "l": 0.0070781839977969675,
+      "r": 0.007078183997796969,
+      "v": 0.8928371362333286
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.011505426430961096,
+      "chunk_C": 0.011505426430961096,
+      "chunk_L": 0.011505426430961096,
+      "chunk_Pi": 0.011505426430961092,
+      "h": 0.004798977669021842,
+      "l": 0.0038676669297796995,
+      "r": 0.9405126720083322,
+      "v": 0.004798977669021842
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.021055981998971605,
+      "chunk_C": 0.021055981998971605,
+      "chunk_L": 0.021055981998971605,
+      "chunk_Pi": 0.021055981998971598,
+      "h": 0.8928371362333286,
+      "l": 0.0070781839977969675,
+      "r": 0.007078183997796969,
+      "v": 0.008782567775191074
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.005764583702303673,
+      "chunk_C": 0.005764583702303673,
+      "chunk_L": 0.005764583702303673,
+      "chunk_Pi": 0.0057645837023036755,
+      "h": 0.9722949704673121,
+      "l": 0.0015488982411577751,
+      "r": 0.0015488982411577751,
+      "v": 0.001548898241157775
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.005764583702303673,
+      "chunk_C": 0.005764583702303673,
+      "chunk_L": 0.005764583702303673,
+      "chunk_Pi": 0.0057645837023036755,
+      "h": 0.0015488982411577751,
+      "l": 0.9722949704673121,
+      "r": 0.0015488982411577751,
+      "v": 0.001548898241157775
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.005764583702303673,
+      "chunk_C": 0.005764583702303673,
+      "chunk_L": 0.005764583702303673,
+      "chunk_Pi": 0.0057645837023036755,
+      "h": 0.0015488982411577751,
+      "l": 0.0015488982411577751,
+      "r": 0.0015488982411577751,
+      "v": 0.972294970467312
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.005764583702303673,
+      "chunk_C": 0.005764583702303673,
+      "chunk_L": 0.005764583702303673,
+      "chunk_Pi": 0.0057645837023036755,
+      "h": 0.0015488982411577751,
+      "l": 0.0015488982411577751,
+      "r": 0.0015488982411577751,
+      "v": 0.972294970467312
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.005764583702303673,
+      "chunk_C": 0.005764583702303673,
+      "chunk_L": 0.005764583702303673,
+      "chunk_Pi": 0.0057645837023036755,
+      "h": 0.0015488982411577751,
+      "l": 0.0015488982411577751,
+      "r": 0.9722949704673121,
+      "v": 0.001548898241157775
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.005764583702303673,
+      "chunk_C": 0.005764583702303673,
+      "chunk_L": 0.005764583702303673,
+      "chunk_Pi": 0.0057645837023036755,
+      "h": 0.9722949704673121,
+      "l": 0.0015488982411577751,
+      "r": 0.0015488982411577751,
+      "v": 0.001548898241157775
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.005764583702303673,
+      "chunk_C": 0.005764583702303673,
+      "chunk_L": 0.005764583702303673,
+      "chunk_Pi": 0.0057645837023036755,
+      "h": 0.0015488982411577751,
+      "l": 0.0015488982411577751,
+      "r": 0.9722949704673121,
+      "v": 0.001548898241157775
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.005764583702303673,
+      "chunk_C": 0.005764583702303673,
+      "chunk_L": 0.005764583702303673,
+      "chunk_Pi": 0.0057645837023036755,
+      "h": 0.9722949704673121,
+      "l": 0.0015488982411577751,
+      "r": 0.0015488982411577751,
+      "v": 0.001548898241157775
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.005764583702303673,
+      "chunk_C": 0.005764583702303673,
+      "chunk_L": 0.005764583702303673,
+      "chunk_Pi": 0.0057645837023036755,
+      "h": 0.0015488982411577751,
+      "l": 0.9722949704673121,
+      "r": 0.0015488982411577751,
+      "v": 0.001548898241157775
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.005764583702303673,
+      "chunk_C": 0.005764583702303673,
+      "chunk_L": 0.005764583702303673,
+      "chunk_Pi": 0.0057645837023036755,
+      "h": 0.9722949704673121,
+      "l": 0.0015488982411577751,
+      "r": 0.0015488982411577751,
+      "v": 0.001548898241157775
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.005764583702303673,
+      "chunk_C": 0.005764583702303673,
+      "chunk_L": 0.005764583702303673,
+      "chunk_Pi": 0.0057645837023036755,
+      "h": 0.0015488982411577751,
+      "l": 0.9722949704673121,
+      "r": 0.0015488982411577751,
+      "v": 0.001548898241157775
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.7080460003731008,
+      "chunk_C": 0.07164922370525365,
+      "chunk_L": 0.07164922370525365,
+      "chunk_Pi": 0.07164922370525367,
+      "h": 0.019251582127784515,
+      "l": 0.019251582127784515,
+      "r": 0.019251582127784515,
+      "v": 0.019251582127784512
+    },
+    "choice": "chunk_L",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.005764583702303673,
+      "chunk_C": 0.005764583702303673,
+      "chunk_L": 0.005764583702303673,
+      "chunk_Pi": 0.0057645837023036755,
+      "h": 0.0015488982411577751,
+      "l": 0.0015488982411577751,
+      "r": 0.0015488982411577751,
+      "v": 0.972294970467312
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0024425374241356405,
+      "chunk_C": 0.0024425374241356405,
+      "chunk_L": 0.0024425374241356405,
+      "chunk_Pi": 0.002442537424135639,
+      "h": 0.9884398322669368,
+      "l": 0.0005927969711171348,
+      "r": 0.0006044240942864067,
+      "v": 0.0005927969711171352
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0029131008395575845,
+      "chunk_C": 0.0029131008395575845,
+      "chunk_L": 0.0029131008395575845,
+      "chunk_Pi": 0.0029131008395575832,
+      "h": 0.0006965179462424594,
+      "l": 0.9862232087860221,
+      "r": 0.0007208685193995148,
+      "v": 0.000707001390105465
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0029131008395575793,
+      "chunk_C": 0.0029131008395575793,
+      "chunk_L": 0.0029131008395575793,
+      "chunk_Pi": 0.0029131008395575806,
+      "h": 0.000696517946242459,
+      "l": 0.0007070013901054638,
+      "r": 0.0007208685193995144,
+      "v": 0.9862232087860222
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0029131008395575793,
+      "chunk_C": 0.0029131008395575793,
+      "chunk_L": 0.0029131008395575793,
+      "chunk_Pi": 0.0029131008395575806,
+      "h": 0.000696517946242459,
+      "l": 0.0007070013901054638,
+      "r": 0.0007208685193995144,
+      "v": 0.9862232087860222
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0035564187856697554,
+      "chunk_C": 0.0035564187856697554,
+      "chunk_L": 0.0035564187856697554,
+      "chunk_Pi": 0.0035564187856697562,
+      "h": 0.0008503342812358682,
+      "l": 0.0008631328483800687,
+      "r": 0.983197724879325,
+      "v": 0.0008631328483800692
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0024425374241356405,
+      "chunk_C": 0.0024425374241356405,
+      "chunk_L": 0.0024425374241356405,
+      "chunk_Pi": 0.002442537424135639,
+      "h": 0.9884398322669368,
+      "l": 0.0005927969711171348,
+      "r": 0.0006044240942864067,
+      "v": 0.0005927969711171352
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0035564187856697554,
+      "chunk_C": 0.0035564187856697554,
+      "chunk_L": 0.0035564187856697554,
+      "chunk_Pi": 0.0035564187856697562,
+      "h": 0.0008503342812358682,
+      "l": 0.0008631328483800687,
+      "r": 0.983197724879325,
+      "v": 0.0008631328483800692
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0024425374241356405,
+      "chunk_C": 0.0024425374241356405,
+      "chunk_L": 0.0024425374241356405,
+      "chunk_Pi": 0.002442537424135639,
+      "h": 0.9884398322669368,
+      "l": 0.0005927969711171348,
+      "r": 0.0006044240942864067,
+      "v": 0.0005927969711171352
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small c-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0721809696315228,
+      "chunk_C": 0.7133007757473381,
+      "chunk_L": 0.0721809696315228,
+      "chunk_Pi": 0.0721809696315228,
+      "h": 0.01725835921738054,
+      "l": 0.017518118554521872,
+      "r": 0.017861719031669207,
+      "v": 0.017518118554521876
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a long l-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0721809696315228,
+      "chunk_C": 0.0721809696315228,
+      "chunk_L": 0.7133007757473381,
+      "chunk_Pi": 0.0721809696315228,
+      "h": 0.01725835921738054,
+      "l": 0.017518118554521872,
+      "r": 0.017861719031669207,
+      "v": 0.017518118554521876
+    },
+    "choice": "chunk_L",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0029131008395575845,
+      "chunk_C": 0.0029131008395575845,
+      "chunk_L": 0.0029131008395575845,
+      "chunk_Pi": 0.0029131008395575832,
+      "h": 0.0006965179462424594,
+      "l": 0.9862232087860221,
+      "r": 0.0007208685193995148,
+      "v": 0.000707001390105465
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0029131008395575793,
+      "chunk_C": 0.0029131008395575793,
+      "chunk_L": 0.0029131008395575793,
+      "chunk_Pi": 0.0029131008395575806,
+      "h": 0.000696517946242459,
+      "l": 0.0007070013901054638,
+      "r": 0.0007208685193995144,
+      "v": 0.9862232087860222
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0029131008395575793,
+      "chunk_C": 0.0029131008395575793,
+      "chunk_L": 0.0029131008395575793,
+      "chunk_Pi": 0.0029131008395575806,
+      "h": 0.000696517946242459,
+      "l": 0.0007070013901054638,
+      "r": 0.0007208685193995144,
+      "v": 0.9862232087860222
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a long l-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.07238324944855366,
+      "chunk_C": 0.07238324944855366,
+      "chunk_L": 0.7152997285342388,
+      "chunk_Pi": 0.07238324944855366,
+      "h": 0.016688466161488204,
+      "l": 0.016985370319059338,
+      "r": 0.017188220478064526,
+      "v": 0.016688466161488207
+    },
+    "choice": "chunk_L",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a tall pi-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.07238324944855368,
+      "chunk_C": 0.07238324944855368,
+      "chunk_L": 0.07238324944855368,
+      "chunk_Pi": 0.7152997285342386,
+      "h": 0.016688466161488207,
+      "l": 0.01698537031905934,
+      "r": 0.017188220478064533,
+      "v": 0.016688466161488207
+    },
+    "choice": "chunk_Pi",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.7152997285342388,
+      "chunk_C": 0.07238324944855365,
+      "chunk_L": 0.07238324944855365,
+      "chunk_Pi": 0.07238324944855365,
+      "h": 0.016688466161488204,
+      "l": 0.016985370319059334,
+      "r": 0.017188220478064523,
+      "v": 0.016688466161488207
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small c-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.07734349159958459,
+      "chunk_C": 0.764317421040822,
+      "chunk_L": 0.016554669557238035,
+      "chunk_Pi": 0.07734349159958459,
+      "h": 0.015914027352410792,
+      "l": 0.016206446337640325,
+      "r": 0.016406425160308796,
+      "v": 0.015914027352410796
+    },
+    "choice": "chunk_C",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0027558974287446186,
+      "chunk_C": 0.0027558974287446186,
+      "chunk_L": 0.0005898747305423449,
+      "chunk_Pi": 0.0027558974287446173,
+      "h": 0.0005670474160713475,
+      "l": 0.0005774668671827906,
+      "r": 0.9894308712838983,
+      "v": 0.0005670474160713476
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a tall pi-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.07734349159958462,
+      "chunk_C": 0.07734349159958462,
+      "chunk_L": 0.01655466955723804,
+      "chunk_Pi": 0.7643174210408221,
+      "h": 0.015914027352410796,
+      "l": 0.01620644633764033,
+      "r": 0.016406425160308803,
+      "v": 0.0159140273524108
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a tall pi-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.08348120236570125,
+      "chunk_C": 0.015578616047045793,
+      "chunk_L": 0.015578616047045793,
+      "chunk_Pi": 0.8249709959807714,
+      "h": 0.014955548049281243,
+      "l": 0.01523973673043663,
+      "r": 0.01523973673043663,
+      "v": 0.014955548049281245
+    },
+    "choice": "chunk_Pi",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.8249709959807715,
+      "chunk_C": 0.01557861604704579,
+      "chunk_L": 0.01557861604704579,
+      "chunk_Pi": 0.08348120236570122,
+      "h": 0.014955548049281238,
+      "l": 0.015239736730436628,
+      "r": 0.015239736730436628,
+      "v": 0.014955548049281241
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0020604785492674823,
+      "chunk_C": 0.00038451056384640995,
+      "chunk_L": 0.00038451056384640995,
+      "chunk_Pi": 0.002060478549267483,
+      "h": 0.993988597015213,
+      "l": 0.0003761463627702828,
+      "r": 0.0003761463627702828,
+      "v": 0.0003691320330185365
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0027056014816646524,
+      "chunk_C": 0.0005048984138312941,
+      "chunk_L": 0.0005048984138312941,
+      "chunk_Pi": 0.0027056014816646537,
+      "h": 0.00048470496129158564,
+      "l": 0.9921156748526556,
+      "r": 0.0004939154337694265,
+      "v": 0.00048470496129158575
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.8249709959807715,
+      "chunk_C": 0.01557861604704579,
+      "chunk_L": 0.01557861604704579,
+      "chunk_Pi": 0.08348120236570122,
+      "h": 0.014955548049281238,
+      "l": 0.015239736730436628,
+      "r": 0.015239736730436628,
+      "v": 0.014955548049281241
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a tall pi-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0004464998873474592,
+      "chunk_C": 0.00038579432989915336,
+      "chunk_L": 0.00038579432989915336,
+      "chunk_Pi": 0.9972966669927793,
+      "h": 0.00036646949513129547,
+      "l": 0.0003726759211155744,
+      "r": 0.0003768070399658665,
+      "v": 0.00036929200386209
+    },
+    "choice": "chunk_Pi",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0005878257105132523,
+      "chunk_C": 0.0005079056736882833,
+      "chunk_L": 0.0005079056736882833,
+      "chunk_Pi": 0.00048608632819123324,
+      "h": 0.0004824641561204918,
+      "l": 0.0004906350355928928,
+      "r": 0.9964509973789211,
+      "v": 0.0004861800432844634
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0003973259116562062,
+      "chunk_C": 0.0003433059854720444,
+      "chunk_L": 0.0003433059854720444,
+      "chunk_Pi": 0.0003285577511122584,
+      "h": 0.9975919424513112,
+      "l": 0.0003316323347565221,
+      "r": 0.0003353084847620766,
+      "v": 0.0003286210954576786
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0005099060004510179,
+      "chunk_C": 0.000440579828416562,
+      "chunk_L": 0.000440579828416562,
+      "chunk_Pi": 0.00042165276381922516,
+      "h": 0.0004185107316819707,
+      "l": 0.9969167205104527,
+      "r": 0.0004303162803292366,
+      "v": 0.0004217340564328626
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.9879913463873626,
+      "chunk_C": 0.0017641947118288187,
+      "chunk_L": 0.0017641947118288187,
+      "chunk_Pi": 0.0016884058873765718,
+      "h": 0.0016758243842676737,
+      "l": 0.0017042056824160521,
+      "r": 0.001723096831053532,
+      "v": 0.0016887314038660699
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00031191330946651164,
+      "chunk_C": 0.00030739697119715924,
+      "chunk_L": 0.00030739697119715924,
+      "chunk_Pi": 0.0002806148058251388,
+      "h": 0.9979073620390522,
+      "l": 0.0002942036126603477,
+      "r": 0.0002969086779412065,
+      "v": 0.0002942036126603478
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00039268367831229886,
+      "chunk_C": 0.0003869978282049558,
+      "chunk_L": 0.0003869978282049558,
+      "chunk_Pi": 0.00035328038527364543,
+      "h": 0.0003651425861562091,
+      "l": 0.99737071608465,
+      "r": 0.0003737935773763845,
+      "v": 0.0003703880318215015
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00039268367831229875,
+      "chunk_C": 0.0003869978282049557,
+      "chunk_L": 0.0003869978282049557,
+      "chunk_Pi": 0.0003532803852736453,
+      "h": 0.00036514258615620907,
+      "l": 0.00037038803182150136,
+      "r": 0.0003737935773763844,
+      "v": 0.99737071608465
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00039268367831229875,
+      "chunk_C": 0.0003869978282049557,
+      "chunk_L": 0.0003869978282049557,
+      "chunk_Pi": 0.0003532803852736453,
+      "h": 0.00036514258615620907,
+      "l": 0.00037038803182150136,
+      "r": 0.0003737935773763844,
+      "v": 0.99737071608465
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00044714843531148225,
+      "chunk_C": 0.00044067396458776626,
+      "chunk_L": 0.00044067396458776626,
+      "chunk_Pi": 0.0004022799526078509,
+      "h": 0.00041578742657973945,
+      "l": 0.0004217604092914923,
+      "r": 0.9970099154377423,
+      "v": 0.0004217604092914924
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00031191330946651164,
+      "chunk_C": 0.00030739697119715924,
+      "chunk_L": 0.00030739697119715924,
+      "chunk_Pi": 0.0002806148058251388,
+      "h": 0.9979073620390522,
+      "l": 0.0002942036126603477,
+      "r": 0.0002969086779412065,
+      "v": 0.0002942036126603478
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00044714843531148225,
+      "chunk_C": 0.00044067396458776626,
+      "chunk_L": 0.00044067396458776626,
+      "chunk_Pi": 0.0004022799526078509,
+      "h": 0.00041578742657973945,
+      "l": 0.0004217604092914923,
+      "r": 0.9970099154377423,
+      "v": 0.0004217604092914924
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00031191330946651164,
+      "chunk_C": 0.00030739697119715924,
+      "chunk_L": 0.00030739697119715924,
+      "chunk_Pi": 0.0002806148058251388,
+      "h": 0.9979073620390522,
+      "l": 0.0002942036126603477,
+      "r": 0.0002969086779412065,
+      "v": 0.0002942036126603478
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00039268367831229886,
+      "chunk_C": 0.0003869978282049558,
+      "chunk_L": 0.0003869978282049558,
+      "chunk_Pi": 0.00035328038527364543,
+      "h": 0.0003651425861562091,
+      "l": 0.99737071608465,
+      "r": 0.0003737935773763845,
+      "v": 0.0003703880318215015
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00031191330946651164,
+      "chunk_C": 0.00030739697119715924,
+      "chunk_L": 0.00030739697119715924,
+      "chunk_Pi": 0.0002806148058251388,
+      "h": 0.9979073620390522,
+      "l": 0.0002942036126603477,
+      "r": 0.0002969086779412065,
+      "v": 0.0002942036126603478
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00039268367831229886,
+      "chunk_C": 0.0003869978282049558,
+      "chunk_L": 0.0003869978282049558,
+      "chunk_Pi": 0.00035328038527364543,
+      "h": 0.0003651425861562091,
+      "l": 0.99737071608465,
+      "r": 0.0003737935773763845,
+      "v": 0.0003703880318215015
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00039268367831229875,
+      "chunk_C": 0.0003869978282049557,
+      "chunk_L": 0.0003869978282049557,
+      "chunk_Pi": 0.0003532803852736453,
+      "h": 0.00036514258615620907,
+      "l": 0.00037038803182150136,
+      "r": 0.0003737935773763844,
+      "v": 0.99737071608465
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00039268367831229875,
+      "chunk_C": 0.0003869978282049557,
+      "chunk_L": 0.0003869978282049557,
+      "chunk_Pi": 0.0003532803852736453,
+      "h": 0.00036514258615620907,
+      "l": 0.00037038803182150136,
+      "r": 0.0003737935773763844,
+      "v": 0.99737071608465
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a long l-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0006697287445907348,
+      "chunk_C": 0.000660020822758398,
+      "chunk_L": 0.99559455310897,
+      "chunk_Pi": 0.0006024586564051114,
+      "h": 0.0006111029323661795,
+      "l": 0.0006191872711522274,
+      "r": 0.0006268142757032174,
+      "v": 0.0006161341880540093
+    },
+    "choice": "chunk_L",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0003484707480246914,
+      "chunk_C": 0.00034341955855432315,
+      "chunk_L": 0.00034341955855432315,
+      "chunk_Pi": 0.0003134690280909649,
+      "h": 0.00031796678533166096,
+      "l": 0.00032217319816194896,
+      "r": 0.9976904964938647,
+      "v": 0.0003205846294173482
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a tall pi-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0001479928108232714,
+      "chunk_C": 0.00014584761002246345,
+      "chunk_L": 0.00014584761002246345,
+      "chunk_Pi": 0.999013789895586,
+      "h": 0.00013503801560508017,
+      "l": 0.00013682444635074862,
+      "r": 0.00013850981800424194,
+      "v": 0.00013614979358568267
+    },
+    "choice": "chunk_Pi",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00021425528892441282,
+      "chunk_C": 0.00021114568280704112,
+      "chunk_L": 0.00019729507869908558,
+      "chunk_Pi": 0.00018959874596303822,
+      "h": 0.9985933534040154,
+      "l": 0.0001980672895194016,
+      "r": 0.00019919499684472995,
+      "v": 0.00019708951322678175
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00028141314718548857,
+      "chunk_C": 0.0002773288417366483,
+      "chunk_L": 0.00025913679564057695,
+      "chunk_Pi": 0.0002490280640059433,
+      "h": 0.00025675046605237045,
+      "l": 0.9981558436502329,
+      "r": 0.0002616322390317047,
+      "v": 0.00025886679611429174
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00021425528892441282,
+      "chunk_C": 0.00021114568280704112,
+      "chunk_L": 0.00019729507869908558,
+      "chunk_Pi": 0.00018959874596303822,
+      "h": 0.9985933534040154,
+      "l": 0.0001980672895194016,
+      "r": 0.00019919499684472995,
+      "v": 0.00019708951322678175
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00028141314718548857,
+      "chunk_C": 0.0002773288417366483,
+      "chunk_L": 0.00025913679564057695,
+      "chunk_Pi": 0.0002490280640059433,
+      "h": 0.00025675046605237045,
+      "l": 0.9981558436502329,
+      "r": 0.0002616322390317047,
+      "v": 0.00025886679611429174
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00025552810592127006,
+      "chunk_C": 0.00025181948446635925,
+      "chunk_L": 0.0002353007854352243,
+      "chunk_Pi": 0.00022612187864391592,
+      "h": 0.00023313395603909672,
+      "l": 0.0002362217501837626,
+      "r": 0.0002375666920907806,
+      "v": 0.9983243073472196
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00025552810592127006,
+      "chunk_C": 0.00025181948446635925,
+      "chunk_L": 0.0002353007854352243,
+      "chunk_Pi": 0.00022612187864391592,
+      "h": 0.00023313395603909672,
+      "l": 0.0002362217501837626,
+      "r": 0.0002375666920907806,
+      "v": 0.9983243073472196
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0003119811422015637,
+      "chunk_C": 0.00030745318644763664,
+      "chunk_L": 0.00028728506219047496,
+      "chunk_Pi": 0.0002760782878335422,
+      "h": 0.0002846395218593144,
+      "l": 0.0002884094928402481,
+      "r": 0.9979571675721741,
+      "v": 0.0002869857344531365
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00021425528892441282,
+      "chunk_C": 0.00021114568280704112,
+      "chunk_L": 0.00019729507869908558,
+      "chunk_Pi": 0.00018959874596303822,
+      "h": 0.9985933534040154,
+      "l": 0.0001980672895194016,
+      "r": 0.00019919499684472995,
+      "v": 0.00019708951322678175
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00028141314718548857,
+      "chunk_C": 0.0002773288417366483,
+      "chunk_L": 0.00025913679564057695,
+      "chunk_Pi": 0.0002490280640059433,
+      "h": 0.00025675046605237045,
+      "l": 0.9981558436502329,
+      "r": 0.0002616322390317047,
+      "v": 0.00025886679611429174
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00025552810592127006,
+      "chunk_C": 0.00025181948446635925,
+      "chunk_L": 0.0002353007854352243,
+      "chunk_Pi": 0.00022612187864391592,
+      "h": 0.00023313395603909672,
+      "l": 0.0002362217501837626,
+      "r": 0.0002375666920907806,
+      "v": 0.9983243073472196
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00025552810592127006,
+      "chunk_C": 0.00025181948446635925,
+      "chunk_L": 0.0002353007854352243,
+      "chunk_Pi": 0.00022612187864391592,
+      "h": 0.00023313395603909672,
+      "l": 0.0002362217501837626,
+      "r": 0.0002375666920907806,
+      "v": 0.9983243073472196
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0003119811422015637,
+      "chunk_C": 0.00030745318644763664,
+      "chunk_L": 0.00028728506219047496,
+      "chunk_Pi": 0.0002760782878335422,
+      "h": 0.0002846395218593144,
+      "l": 0.0002884094928402481,
+      "r": 0.9979571675721741,
+      "v": 0.0002869857344531365
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00021425528892441282,
+      "chunk_C": 0.00021114568280704112,
+      "chunk_L": 0.00019729507869908558,
+      "chunk_Pi": 0.00018959874596303822,
+      "h": 0.9985933534040154,
+      "l": 0.0001980672895194016,
+      "r": 0.00019919499684472995,
+      "v": 0.00019708951322678175
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a long l-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0002609361132591576,
+      "chunk_C": 0.0002571466586129426,
+      "chunk_L": 0.9983012009572892,
+      "chunk_Pi": 0.00023089084475669654,
+      "h": 0.00023524816455642103,
+      "l": 0.00023805491077265778,
+      "r": 0.0002400182715321452,
+      "v": 0.00023650407922036913
+    },
+    "choice": "chunk_L",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0002555439711791083,
+      "chunk_C": 0.00025183282412168605,
+      "chunk_L": 0.00023530369741215244,
+      "chunk_Pi": 0.0002261195763248938,
+      "h": 0.00023038685382593122,
+      "l": 0.00023313559973630167,
+      "r": 0.9983360606618924,
+      "v": 0.00023161681550765758
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a tall pi-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 8.242679255212682e-05,
+      "chunk_C": 8.122974631690902e-05,
+      "chunk_L": 7.589820633939327e-05,
+      "chunk_Pi": 0.9994604060521742,
+      "h": 7.431225757127047e-05,
+      "l": 7.519887723162551e-05,
+      "r": 7.581908088226601e-05,
+      "v": 7.470898693224478e-05
+    },
+    "choice": "chunk_Pi",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a tall pi-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 5.415721338557004e-05,
+      "chunk_C": 5.337039523554676e-05,
+      "chunk_L": 4.869325626826886e-05,
+      "chunk_Pi": 0.999646866945522,
+      "h": 4.882371546698694e-05,
+      "l": 4.9406449292804676e-05,
+      "r": 4.959755825837063e-05,
+      "v": 4.908446657034358e-05
+    },
+    "choice": "chunk_Pi",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00023340476171738385,
+      "chunk_C": 0.0002300137618608433,
+      "chunk_L": 0.0002098564007646489,
+      "chunk_Pi": 0.00020482308444622966,
+      "h": 0.00021041864900984291,
+      "l": 0.0002129300937695893,
+      "r": 0.9984870108239292,
+      "v": 0.0002115424245023743
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00015869426247187152,
+      "chunk_C": 0.00015638868731000945,
+      "chunk_L": 0.00014268349325568646,
+      "chunk_Pi": 0.00013926129049057602,
+      "h": 0.9989690357746884,
+      "l": 0.0001447733282740251,
+      "r": 0.0001453333256307267,
+      "v": 0.00014382983787864827
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00021427841135653936,
+      "chunk_C": 0.00021116528694201008,
+      "chunk_L": 0.00019265972055573975,
+      "chunk_Pi": 0.00018803885928183077,
+      "h": 0.00019317589537531804,
+      "l": 0.9986102365618995,
+      "r": 0.00019623768149043574,
+      "v": 0.0001942075830987785
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.9950748368459433,
+      "chunk_C": 0.000758606020032634,
+      "chunk_L": 0.0006921252349185854,
+      "chunk_Pi": 0.0006755249061861185,
+      "h": 0.0006939795800677901,
+      "l": 0.0007022625501749251,
+      "r": 0.0007049789702261662,
+      "v": 0.000697685892450591
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00014137678262794923,
+      "chunk_C": 0.00014633392900684268,
+      "chunk_L": 0.0001334988534510481,
+      "chunk_Pi": 0.00012964604956195794,
+      "h": 0.9990441265681541,
+      "l": 0.00013498960837773672,
+      "r": 0.0001354558714473092,
+      "v": 0.00013457233737320176
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00018817513503817333,
+      "chunk_C": 0.00019477318934322193,
+      "chunk_L": 0.00017768946434225898,
+      "chunk_Pi": 0.00017256131049246388,
+      "h": 0.0001777546101074497,
+      "l": 0.9987296337074049,
+      "r": 0.00018029429180312784,
+      "v": 0.00017911829146830953
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.9971288000842514,
+      "chunk_C": 0.00044317960616988233,
+      "chunk_L": 0.00040430793936927493,
+      "chunk_Pi": 0.0003926395305333652,
+      "h": 0.00040445616959879576,
+      "l": 0.00040882276505453875,
+      "r": 0.0004102348660276154,
+      "v": 0.00040755903899516896
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0002040288973486634,
+      "chunk_C": 0.00021118283798079093,
+      "chunk_L": 0.00019265980849633122,
+      "chunk_Pi": 0.0001870996074889253,
+      "h": 0.00019273044279472618,
+      "l": 0.00019481120194478585,
+      "r": 0.9986232781895833,
+      "v": 0.00019420901436229657
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small c-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0006377590287793394,
+      "chunk_C": 0.9957456774040755,
+      "chunk_L": 0.0006022212242879559,
+      "chunk_Pi": 0.0005848409980534277,
+      "h": 0.000602442014882466,
+      "l": 0.0006089461079394317,
+      "r": 0.0006110494482254302,
+      "v": 0.0006070637737566662
+    },
+    "choice": "chunk_C",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small c-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0002421947702097718,
+      "chunk_C": 0.9983508922928526,
+      "chunk_L": 0.00023461692864257765,
+      "chunk_Pi": 0.00022783699484795023,
+      "h": 0.00023420645193681172,
+      "l": 0.0002365060751654752,
+      "r": 0.00023724041117920893,
+      "v": 0.00023650607516547529
+    },
+    "choice": "chunk_C",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0001834293698370031,
+      "chunk_C": 0.00018197973612695144,
+      "chunk_L": 0.00017769019263597948,
+      "chunk_Pi": 0.00017255532129912952,
+      "h": 0.0001773793127461858,
+      "l": 0.0001791209624082777,
+      "r": 0.9987487241425381,
+      "v": 0.00017912096240827775
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a tall pi-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 3.621887855682304e-05,
+      "chunk_C": 3.593264245764824e-05,
+      "chunk_L": 3.508565456851259e-05,
+      "chunk_Pi": 0.9997515242407748,
+      "h": 3.502427006403438e-05,
+      "l": 3.5368165906100955e-05,
+      "r": 3.547798176578404e-05,
+      "v": 3.536816590610096e-05
+    },
+    "choice": "chunk_Pi",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a tall pi-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 2.768062337906047e-05,
+      "chunk_C": 2.681427770166312e-05,
+      "chunk_L": 2.681427770166312e-05,
+      "chunk_Pi": 0.9998108327063038,
+      "h": 2.6767349963240248e-05,
+      "l": 2.703025498356358e-05,
+      "r": 2.703025498356358e-05,
+      "v": 2.703025498356359e-05
+    },
+    "choice": "chunk_Pi",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00016988007204282106,
+      "chunk_C": 0.0001645631807259303,
+      "chunk_L": 0.0001645631807259303,
+      "chunk_Pi": 0.00015927271720381496,
+      "h": 0.00016427517826749888,
+      "l": 0.00016588866518870506,
+      "r": 0.9988456683406565,
+      "v": 0.0001658886651887051
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00012930748673588478,
+      "chunk_C": 0.00012526043256897993,
+      "chunk_L": 0.00012526043256897993,
+      "chunk_Pi": 0.00012123349442675821,
+      "h": 0.9991201301019563,
+      "l": 0.00012626935058112715,
+      "r": 0.00012626935058112715,
+      "v": 0.00012626935058112718
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00016988007204282106,
+      "chunk_C": 0.0001645631807259303,
+      "chunk_L": 0.0001645631807259303,
+      "chunk_Pi": 0.00015927271720381496,
+      "h": 0.00016427517826749888,
+      "l": 0.9988456683406565,
+      "r": 0.00016588866518870506,
+      "v": 0.0001658886651887051
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.9980963255180108,
+      "chunk_C": 0.00027233223139420465,
+      "chunk_L": 0.00027233223139420465,
+      "chunk_Pi": 0.0002635771518573864,
+      "h": 0.00027185562203477405,
+      "l": 0.00027452574843631246,
+      "r": 0.00027452574843631246,
+      "v": 0.0002745257484363125
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00011974351548696672,
+      "chunk_C": 0.00011783419002353396,
+      "chunk_L": 0.00011783419002353396,
+      "chunk_Pi": 0.0001137720775195976,
+      "h": 0.9991751297359386,
+      "l": 0.00011845136837287929,
+      "r": 0.00011845136837287929,
+      "v": 0.00011878355426205208
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00015545487342131592,
+      "chunk_C": 0.0001529761258496335,
+      "chunk_L": 0.0001529761258496335,
+      "chunk_Pi": 0.00014770256107617162,
+      "h": 0.00015241130964446938,
+      "l": 0.9989304930166141,
+      "r": 0.0001537773665830935,
+      "v": 0.00015420862096161828
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.998609253821185,
+      "chunk_C": 0.00019923683242300673,
+      "chunk_L": 0.00019923683242300673,
+      "chunk_Pi": 0.0001923685166305486,
+      "h": 0.00019850121311644446,
+      "l": 0.00020028037215743413,
+      "r": 0.00020028037215743413,
+      "v": 0.0002008420399070167
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00015545487342131592,
+      "chunk_C": 0.0001529761258496335,
+      "chunk_L": 0.0001529761258496335,
+      "chunk_Pi": 0.00014770256107617162,
+      "h": 0.00015241130964446938,
+      "l": 0.0001537773665830935,
+      "r": 0.9989304930166141,
+      "v": 0.00015420862096161828
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small c-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00013420204345550467,
+      "chunk_C": 0.9990760177044127,
+      "chunk_L": 0.00013206217493926596,
+      "chunk_Pi": 0.0001275095793639861,
+      "h": 0.00013157457691649838,
+      "l": 0.00013275387498934218,
+      "r": 0.00013275387498934218,
+      "v": 0.00013312617093332526
+    },
+    "choice": "chunk_C",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.998929025307024,
+      "chunk_C": 0.00015198483424122195,
+      "chunk_L": 0.0001538452019794453,
+      "chunk_Pi": 0.000148540172796473,
+      "h": 0.00015300209785546362,
+      "l": 0.00015425865995473233,
+      "r": 0.00015425865995473233,
+      "v": 0.00015508506619428577
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00014346564498486406,
+      "chunk_C": 0.00014096219131472622,
+      "chunk_L": 0.00014268763658260714,
+      "chunk_Pi": 0.00013776735264537255,
+      "h": 0.0001419056782680406,
+      "l": 0.00014307110867377976,
+      "r": 0.9990063028074189,
+      "v": 0.00014383758011170445
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00011171966677232592,
+      "chunk_C": 0.00010977017559039695,
+      "chunk_L": 0.00011111381552859864,
+      "chunk_Pi": 0.00010728228860136054,
+      "h": 0.9992252798867907,
+      "l": 0.0001114124331819526,
+      "r": 0.0001114124331819526,
+      "v": 0.0001120093003527968
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00014346564498486406,
+      "chunk_C": 0.00014096219131472622,
+      "chunk_L": 0.00014268763658260714,
+      "chunk_Pi": 0.00013776735264537255,
+      "h": 0.0001419056782680406,
+      "l": 0.00014307110867377976,
+      "r": 0.9990063028074189,
+      "v": 0.00014383758011170445
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00011171966677232592,
+      "chunk_C": 0.00010977017559039695,
+      "chunk_L": 0.00011111381552859864,
+      "chunk_Pi": 0.00010728228860136054,
+      "h": 0.9992252798867907,
+      "l": 0.0001114124331819526,
+      "r": 0.0001114124331819526,
+      "v": 0.0001120093003527968
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00014346564498486406,
+      "chunk_C": 0.00014096219131472622,
+      "chunk_L": 0.00014268763658260714,
+      "chunk_Pi": 0.00013776735264537255,
+      "h": 0.0001419056782680406,
+      "l": 0.9990063028074189,
+      "r": 0.00014307110867377976,
+      "v": 0.00014383758011170445
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.998929025307024,
+      "chunk_C": 0.00015198483424122195,
+      "chunk_L": 0.0001538452019794453,
+      "chunk_Pi": 0.000148540172796473,
+      "h": 0.00015300209785546362,
+      "l": 0.00015425865995473233,
+      "r": 0.00015425865995473233,
+      "v": 0.00015508506619428577
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00016324733345598281,
+      "chunk_C": 0.00016257384263296514,
+      "chunk_L": 0.00016456427428739338,
+      "chunk_Pi": 0.00015888838321963844,
+      "h": 0.00016313926957833096,
+      "l": 0.00016462475583717357,
+      "r": 0.00016427604192005327,
+      "v": 0.9988586860990684
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0001242594285195655,
+      "chunk_C": 0.00012374678562972693,
+      "chunk_L": 0.00012526184804851479,
+      "chunk_Pi": 0.00012094151419994553,
+      "h": 0.00012417717323614765,
+      "l": 0.00012530788495859817,
+      "r": 0.9991300337813883,
+      "v": 0.00012627158401914748
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00016324733345598281,
+      "chunk_C": 0.00016257384263296514,
+      "chunk_L": 0.00016456427428739338,
+      "chunk_Pi": 0.00015888838321963844,
+      "h": 0.00016313926957833096,
+      "l": 0.00016462475583717357,
+      "r": 0.00016427604192005327,
+      "v": 0.9988586860990684
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00013243423599991575,
+      "chunk_C": 0.00013188786724331177,
+      "chunk_L": 0.00013350260293230426,
+      "chunk_Pi": 0.0001288980419801367,
+      "h": 0.00013234656928724707,
+      "l": 0.9990730831402024,
+      "r": 0.00013326877471256537,
+      "v": 0.00013457876764210185
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 9.864656876915123e-05,
+      "chunk_C": 9.823959392073148e-05,
+      "chunk_L": 9.94423655000405e-05,
+      "chunk_Pi": 9.601255646923948e-05,
+      "h": 0.9993086678382876,
+      "l": 9.947891309462199e-05,
+      "r": 9.926819338069022e-05,
+      "v": 0.00010024397057783962
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0001242594285195655,
+      "chunk_C": 0.00012374678562972693,
+      "chunk_L": 0.00012526184804851479,
+      "chunk_Pi": 0.00012094151419994553,
+      "h": 0.00012417717323614765,
+      "l": 0.00012530788495859817,
+      "r": 0.9991300337813883,
+      "v": 0.00012627158401914748
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 9.864656876915123e-05,
+      "chunk_C": 9.823959392073148e-05,
+      "chunk_L": 9.94423655000405e-05,
+      "chunk_Pi": 9.601255646923948e-05,
+      "h": 0.9993086678382876,
+      "l": 9.947891309462199e-05,
+      "r": 9.926819338069022e-05,
+      "v": 0.00010024397057783962
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0001242594285195655,
+      "chunk_C": 0.00012374678562972693,
+      "chunk_L": 0.00012526184804851479,
+      "chunk_Pi": 0.00012094151419994553,
+      "h": 0.00012417717323614765,
+      "l": 0.00012530788495859817,
+      "r": 0.9991300337813883,
+      "v": 0.00012627158401914748
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.9992921753323283,
+      "chunk_C": 0.00010059271146907743,
+      "chunk_L": 0.00010182429284693068,
+      "chunk_Pi": 9.831233013963578e-05,
+      "h": 0.00010094256990048822,
+      "l": 0.00010186171586029931,
+      "r": 0.00010164594881018823,
+      "v": 0.00010264509864513318
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0001242594285195655,
+      "chunk_C": 0.00012374678562972693,
+      "chunk_L": 0.00012526184804851479,
+      "chunk_Pi": 0.00012094151419994553,
+      "h": 0.00012417717323614765,
+      "l": 0.00012530788495859817,
+      "r": 0.9991300337813883,
+      "v": 0.00012627158401914748
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 9.864656876915123e-05,
+      "chunk_C": 9.823959392073148e-05,
+      "chunk_L": 9.94423655000405e-05,
+      "chunk_Pi": 9.601255646923948e-05,
+      "h": 0.9993086678382876,
+      "l": 9.947891309462199e-05,
+      "r": 9.926819338069022e-05,
+      "v": 0.00010024397057783962
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a tall pi-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 2.1083168802088546e-05,
+      "chunk_C": 2.1091593933513826e-05,
+      "chunk_L": 2.1349879018245896e-05,
+      "chunk_Pi": 0.9998515105045362,
+      "h": 2.1080129243164038e-05,
+      "l": 2.1312476936767046e-05,
+      "r": 2.1164965493086324e-05,
+      "v": 2.1407282036839043e-05
+    },
+    "choice": "chunk_Pi",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 9.820050241124814e-05,
+      "chunk_C": 9.823974471616964e-05,
+      "chunk_L": 9.944277663817886e-05,
+      "chunk_Pi": 9.60122417287922e-05,
+      "h": 9.818634485190319e-05,
+      "l": 9.92685664315952e-05,
+      "r": 0.9993109396766587,
+      "v": 9.97101465633872e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 8.43150183692292e-05,
+      "chunk_C": 8.43487118390085e-05,
+      "chunk_L": 8.538163586803423e-05,
+      "chunk_Pi": 8.243617625429516e-05,
+      "h": 0.9994080330623056,
+      "l": 8.52320588658037e-05,
+      "r": 8.464213662971273e-05,
+      "v": 8.561119986823571e-05
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 9.820050241124814e-05,
+      "chunk_C": 9.823974471616964e-05,
+      "chunk_L": 9.944277663817886e-05,
+      "chunk_Pi": 9.60122417287922e-05,
+      "h": 9.818634485190319e-05,
+      "l": 9.92685664315952e-05,
+      "r": 0.9993109396766587,
+      "v": 9.97101465633872e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.9994046264849545,
+      "chunk_C": 8.483585331826415e-05,
+      "chunk_L": 8.587474282238115e-05,
+      "chunk_Pi": 8.291227221319188e-05,
+      "h": 8.478973936443403e-05,
+      "l": 8.572430196389793e-05,
+      "r": 8.513097273338498e-05,
+      "v": 8.610563262998626e-05
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.9994894959038099,
+      "chunk_C": 7.28017876825103e-05,
+      "chunk_L": 7.369337574808734e-05,
+      "chunk_Pi": 7.102285375413793e-05,
+      "h": 7.26771842681564e-05,
+      "l": 7.356426540805108e-05,
+      "r": 7.28531008204197e-05,
+      "v": 7.389152850864546e-05
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 8.82376476244084e-05,
+      "chunk_C": 8.859509373059096e-05,
+      "chunk_L": 8.968009906841797e-05,
+      "chunk_Pi": 8.643024554290639e-05,
+      "h": 8.84434593885611e-05,
+      "l": 8.95229800876728e-05,
+      "r": 0.9993791692363225,
+      "v": 8.992123823482391e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 8.010660241600987e-05,
+      "chunk_C": 8.043111008234067e-05,
+      "chunk_L": 8.141613284254077e-05,
+      "chunk_Pi": 7.846575132980412e-05,
+      "h": 0.9994361840592452,
+      "l": 8.127349227968107e-05,
+      "r": 8.048780062216448e-05,
+      "v": 8.163505118239079e-05
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 8.82376476244084e-05,
+      "chunk_C": 8.859509373059096e-05,
+      "chunk_L": 8.968009906841797e-05,
+      "chunk_Pi": 8.643024554290639e-05,
+      "h": 8.84434593885611e-05,
+      "l": 8.95229800876728e-05,
+      "r": 0.9993791692363225,
+      "v": 8.992123823482391e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 8.010660241600987e-05,
+      "chunk_C": 8.043111008234067e-05,
+      "chunk_L": 8.141613284254077e-05,
+      "chunk_Pi": 7.846575132980412e-05,
+      "h": 0.9994361840592452,
+      "l": 8.127349227968107e-05,
+      "r": 8.048780062216448e-05,
+      "v": 8.163505118239079e-05
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00012324764321579122,
+      "chunk_C": 0.00012374691298725184,
+      "chunk_L": 0.00012526241520613402,
+      "chunk_Pi": 0.00012072311935454066,
+      "h": 0.00012353511478332296,
+      "l": 0.9991340514294906,
+      "r": 0.00012383413395550147,
+      "v": 0.00012559923100694792
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.9994894959038099,
+      "chunk_C": 7.28017876825103e-05,
+      "chunk_L": 7.369337574808734e-05,
+      "chunk_Pi": 7.102285375413793e-05,
+      "h": 7.26771842681564e-05,
+      "l": 7.356426540805108e-05,
+      "r": 7.28531008204197e-05,
+      "v": 7.389152850864546e-05
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 7.275124315669548e-05,
+      "chunk_C": 7.344817381345631e-05,
+      "chunk_L": 7.434776787944774e-05,
+      "chunk_Pi": 7.16532724739429e-05,
+      "h": 0.9994858563772155,
+      "l": 7.407301351792348e-05,
+      "r": 7.332245169795007e-05,
+      "v": 7.454770024477784e-05
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.0001153055546916075,
+      "chunk_C": 0.00011641014029691886,
+      "chunk_L": 0.00011783593301571823,
+      "chunk_Pi": 0.0001135653491209999,
+      "h": 0.00011596364526973016,
+      "l": 0.9991865556863156,
+      "r": 0.00011621087967075711,
+      "v": 0.00011815281161854213
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.9996090406002087,
+      "chunk_C": 5.580557885788169e-05,
+      "chunk_L": 5.6489086220736904e-05,
+      "chunk_Pi": 5.444182121703505e-05,
+      "h": 5.559153467422313e-05,
+      "l": 5.628032914220788e-05,
+      "r": 5.57100557826738e-05,
+      "v": 5.664099389659021e-05
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 7.966801024197271e-05,
+      "chunk_C": 8.043120103145762e-05,
+      "chunk_L": 8.141632329402375e-05,
+      "chunk_Pi": 7.846565086220909e-05,
+      "h": 8.012270444172959e-05,
+      "l": 8.11154468781968e-05,
+      "r": 0.999437145399179,
+      "v": 8.163526407135881e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small c-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 8.53726444713055e-05,
+      "chunk_C": 0.9993969896838615,
+      "chunk_L": 8.724614561892998e-05,
+      "chunk_Pi": 8.4084190052229e-05,
+      "h": 8.58598970855117e-05,
+      "l": 8.692372492334366e-05,
+      "r": 8.604295031895221e-05,
+      "v": 8.748076366809336e-05
+    },
+    "choice": "chunk_C",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a long l-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00012895417546897648,
+      "chunk_C": 0.0001295068012917121,
+      "chunk_L": 0.9990905636383312,
+      "chunk_Pi": 0.0001272773528611636,
+      "h": 0.00012983917554040228,
+      "l": 0.0001313398367515589,
+      "r": 0.00013009974265396377,
+      "v": 0.00013241927710118832
+    },
+    "choice": "chunk_L",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 7.591771538954872e-05,
+      "chunk_C": 7.624305646342074e-05,
+      "chunk_L": 7.774858429091248e-05,
+      "chunk_Pi": 7.493053881278618e-05,
+      "h": 7.643873134965928e-05,
+      "l": 7.732219844415541e-05,
+      "r": 0.9994634414902464,
+      "v": 7.795768500319962e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a tall pi-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 1.7105652076027255e-05,
+      "chunk_C": 1.7178957380160023e-05,
+      "chunk_L": 1.7518180380690355e-05,
+      "chunk_Pi": 0.9998787291507032,
+      "h": 1.7223046516757955e-05,
+      "l": 1.74221078381047e-05,
+      "r": 1.725761050331231e-05,
+      "v": 1.756529460185574e-05
+    },
+    "choice": "chunk_Pi",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a tall pi-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 1.436315916326623e-05,
+      "chunk_C": 1.4424719371952914e-05,
+      "chunk_L": 1.4531567289975924e-05,
+      "chunk_Pi": 0.9998983649212864,
+      "h": 1.4461744506804172e-05,
+      "l": 1.4628912337472672e-05,
+      "r": 1.4475817944316034e-05,
+      "v": 1.47491580998892e-05
+    },
+    "choice": "chunk_Pi",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 7.259718832541543e-05,
+      "chunk_C": 7.290833840128513e-05,
+      "chunk_L": 7.344839079078541e-05,
+      "chunk_Pi": 7.155253442017605e-05,
+      "h": 7.30954783373547e-05,
+      "l": 7.394041184724923e-05,
+      "r": 0.9994879094755422,
+      "v": 7.454818233563953e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 6.951182179937461e-05,
+      "chunk_C": 6.980974805692838e-05,
+      "chunk_L": 7.032684832385603e-05,
+      "chunk_Pi": 6.851156548397132e-05,
+      "h": 0.9995096051145468,
+      "l": 7.079795858015338e-05,
+      "r": 7.005704426912879e-05,
+      "v": 7.13798989398066e-05
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00010849856846519534,
+      "chunk_C": 0.00010896359112775874,
+      "chunk_L": 0.00010977071482646645,
+      "chunk_Pi": 0.00010693730340969502,
+      "h": 0.00010924327709955151,
+      "l": 0.9992358225732887,
+      "r": 0.000109349587125505,
+      "v": 0.00011141438465692762
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.9996535360738469,
+      "chunk_C": 4.92726402860692e-05,
+      "chunk_L": 4.963761646995943e-05,
+      "chunk_Pi": 4.835636591575065e-05,
+      "h": 4.939911249700291e-05,
+      "l": 4.997013229818856e-05,
+      "r": 4.9447185212057486e-05,
+      "v": 5.038087347413086e-05
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00013907511813344964,
+      "chunk_C": 0.00013992583268052167,
+      "chunk_L": 0.00014096235227097767,
+      "chunk_Pi": 0.00013716929097700925,
+      "h": 0.00014015628337287823,
+      "l": 0.00014167109571507934,
+      "r": 0.0001402850092507206,
+      "v": 0.9990207550175992
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 6.938534494656444e-05,
+      "chunk_C": 6.980977113502912e-05,
+      "chunk_L": 7.032689648637094e-05,
+      "chunk_Pi": 6.843451724688016e-05,
+      "h": 6.992474425888432e-05,
+      "l": 7.0680492507051e-05,
+      "r": 0.999510058234101,
+      "v": 7.137999931835477e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00013907511813344964,
+      "chunk_C": 0.00013992583268052167,
+      "chunk_L": 0.00014096235227097767,
+      "chunk_Pi": 0.00013716929097700925,
+      "h": 0.00014015628337287823,
+      "l": 0.00014167109571507934,
+      "r": 0.0001402850092507206,
+      "v": 0.9990207550175992
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00010235019248111715,
+      "chunk_C": 0.00010297626275743907,
+      "chunk_L": 0.00010373907339544141,
+      "chunk_Pi": 0.00010094762832071686,
+      "h": 0.00010314585939727417,
+      "l": 0.9992783078870103,
+      "r": 0.00010324059322566348,
+      "v": 0.0001052925034120964
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 6.651769864042236e-05,
+      "chunk_C": 6.692458360036795e-05,
+      "chunk_L": 6.742033653358995e-05,
+      "chunk_Pi": 6.560616796438012e-05,
+      "h": 0.9995302456064227,
+      "l": 6.775931868554384e-05,
+      "r": 6.709637276852294e-05,
+      "v": 6.842991538441534e-05
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 6.938534494656444e-05,
+      "chunk_C": 6.980977113502912e-05,
+      "chunk_L": 7.032689648637094e-05,
+      "chunk_Pi": 6.843451724688016e-05,
+      "h": 6.992474425888432e-05,
+      "l": 7.0680492507051e-05,
+      "r": 0.999510058234101,
+      "v": 7.137999931835477e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 6.651769864042236e-05,
+      "chunk_C": 6.692458360036795e-05,
+      "chunk_L": 6.742033653358995e-05,
+      "chunk_Pi": 6.560616796438012e-05,
+      "h": 0.9995302456064227,
+      "l": 6.775931868554384e-05,
+      "r": 6.709637276852294e-05,
+      "v": 6.842991538441534e-05
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 6.938534494656444e-05,
+      "chunk_C": 6.980977113502912e-05,
+      "chunk_L": 7.032689648637094e-05,
+      "chunk_Pi": 6.843451724688016e-05,
+      "h": 6.992474425888432e-05,
+      "l": 7.0680492507051e-05,
+      "r": 0.999510058234101,
+      "v": 7.137999931835477e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.9996894110897334,
+      "chunk_C": 4.420007058624835e-05,
+      "chunk_L": 4.4527488606098854e-05,
+      "chunk_Pi": 4.3329328311322096e-05,
+      "h": 4.427286584266156e-05,
+      "l": 4.475136799746434e-05,
+      "r": 4.431352804761627e-05,
+      "v": 4.519426087524479e-05
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 6.938534494656444e-05,
+      "chunk_C": 6.980977113502912e-05,
+      "chunk_L": 7.032689648637094e-05,
+      "chunk_Pi": 6.843451724688016e-05,
+      "h": 6.992474425888432e-05,
+      "l": 7.0680492507051e-05,
+      "r": 0.999510058234101,
+      "v": 7.137999931835477e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 6.651769864042236e-05,
+      "chunk_C": 6.692458360036795e-05,
+      "chunk_L": 6.742033653358995e-05,
+      "chunk_Pi": 6.560616796438012e-05,
+      "h": 0.9995302456064227,
+      "l": 6.775931868554384e-05,
+      "r": 6.709637276852294e-05,
+      "v": 6.842991538441534e-05
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.99971981060594,
+      "chunk_C": 3.9941804730299076e-05,
+      "chunk_L": 4.023771247739838e-05,
+      "chunk_Pi": 3.915486391952366e-05,
+      "h": 3.9908949544221603e-05,
+      "l": 4.037776762734927e-05,
+      "r": 3.9908949544221603e-05,
+      "v": 4.065934621678859e-05
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 5.890653720827148e-05,
+      "chunk_C": 5.9360698917794605e-05,
+      "chunk_L": 5.98004710012448e-05,
+      "chunk_Pi": 5.819116346865829e-05,
+      "h": 5.931187020757977e-05,
+      "l": 6.000861812039124e-05,
+      "r": 0.9995839935465752,
+      "v": 6.042709450077184e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 5.890653720827148e-05,
+      "chunk_C": 5.9360698917794605e-05,
+      "chunk_L": 5.98004710012448e-05,
+      "chunk_Pi": 5.819116346865829e-05,
+      "h": 0.9995839935465752,
+      "l": 6.000861812039124e-05,
+      "r": 5.931187020757977e-05,
+      "v": 6.042709450077184e-05
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 5.890653720827148e-05,
+      "chunk_C": 5.9360698917794605e-05,
+      "chunk_L": 5.98004710012448e-05,
+      "chunk_Pi": 5.819116346865829e-05,
+      "h": 5.931187020757977e-05,
+      "l": 6.000861812039124e-05,
+      "r": 0.9995839935465752,
+      "v": 6.042709450077184e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 5.890653720827148e-05,
+      "chunk_C": 5.9360698917794605e-05,
+      "chunk_L": 5.98004710012448e-05,
+      "chunk_Pi": 5.819116346865829e-05,
+      "h": 0.9995839935465752,
+      "l": 6.000861812039124e-05,
+      "r": 5.931187020757977e-05,
+      "v": 6.042709450077184e-05
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 9.677166357511379e-05,
+      "chunk_C": 9.751776046428046e-05,
+      "chunk_L": 9.824021807469645e-05,
+      "chunk_Pi": 9.559644754407208e-05,
+      "h": 9.743754465561717e-05,
+      "l": 0.9993177291858256,
+      "r": 9.743754465561717e-05,
+      "v": 9.926963520492249e-05
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.99971981060594,
+      "chunk_C": 3.9941804730299076e-05,
+      "chunk_L": 4.023771247739838e-05,
+      "chunk_Pi": 3.915486391952366e-05,
+      "h": 3.9908949544221603e-05,
+      "l": 4.037776762734927e-05,
+      "r": 3.9908949544221603e-05,
+      "v": 4.065934621678859e-05
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00012157954121375308,
+      "chunk_C": 0.00012283714554345583,
+      "chunk_L": 0.00012374722758978814,
+      "chunk_Pi": 0.00012041686514827056,
+      "h": 0.00012255911676974264,
+      "l": 0.00012400010638448494,
+      "r": 0.00012255911676974261,
+      "v": 0.9991423008805808
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 5.451091022622018e-05,
+      "chunk_C": 5.507476460527235e-05,
+      "chunk_L": 5.548280530217627e-05,
+      "chunk_Pi": 5.3989617498883204e-05,
+      "h": 5.4950108751393627e-05,
+      "l": 5.559618501341892e-05,
+      "r": 0.9996143313927656,
+      "v": 5.606421583715941e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00012157954121375308,
+      "chunk_C": 0.00012283714554345583,
+      "chunk_L": 0.00012374722758978814,
+      "chunk_Pi": 0.00012041686514827056,
+      "h": 0.00012255911676974264,
+      "l": 0.00012400010638448494,
+      "r": 0.00012255911676974261,
+      "v": 0.9991423008805808
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 9.157767736438612e-05,
+      "chunk_C": 9.252494597889e-05,
+      "chunk_L": 9.321044947053105e-05,
+      "chunk_Pi": 9.07019118158317e-05,
+      "h": 9.231552563494944e-05,
+      "l": 0.9993531667518836,
+      "r": 9.231552563494941e-05,
+      "v": 9.418721221707072e-05
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 5.451091022622017e-05,
+      "chunk_C": 5.507476460527234e-05,
+      "chunk_L": 5.5482805302176263e-05,
+      "chunk_Pi": 5.39896174988832e-05,
+      "h": 0.9996143313927656,
+      "l": 5.559618501341891e-05,
+      "r": 5.4950108751393606e-05,
+      "v": 5.6064215837159395e-05
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 5.451091022622018e-05,
+      "chunk_C": 5.507476460527235e-05,
+      "chunk_L": 5.548280530217627e-05,
+      "chunk_Pi": 5.3989617498883204e-05,
+      "h": 5.4950108751393627e-05,
+      "l": 5.559618501341892e-05,
+      "r": 0.9996143313927656,
+      "v": 5.606421583715941e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 5.451091022622017e-05,
+      "chunk_C": 5.507476460527234e-05,
+      "chunk_L": 5.5482805302176263e-05,
+      "chunk_Pi": 5.39896174988832e-05,
+      "h": 0.9996143313927656,
+      "l": 5.559618501341891e-05,
+      "r": 5.4950108751393606e-05,
+      "v": 5.6064215837159395e-05
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 5.451091022622018e-05,
+      "chunk_C": 5.507476460527235e-05,
+      "chunk_L": 5.548280530217627e-05,
+      "chunk_Pi": 5.3989617498883204e-05,
+      "h": 5.4950108751393627e-05,
+      "l": 5.559618501341892e-05,
+      "r": 0.9996143313927656,
+      "v": 5.606421583715941e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.9997670770666993,
+      "chunk_C": 3.3224336652507384e-05,
+      "chunk_L": 3.347049079549871e-05,
+      "chunk_Pi": 3.256971210642778e-05,
+      "h": 3.314913691112572e-05,
+      "l": 3.353888810455465e-05,
+      "r": 3.314913691112571e-05,
+      "v": 3.382123181974168e-05
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 5.451091022622018e-05,
+      "chunk_C": 5.507476460527235e-05,
+      "chunk_L": 5.548280530217627e-05,
+      "chunk_Pi": 5.3989617498883204e-05,
+      "h": 5.4950108751393627e-05,
+      "l": 5.559618501341892e-05,
+      "r": 0.9996143313927656,
+      "v": 5.606421583715941e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 5.451091022622017e-05,
+      "chunk_C": 5.507476460527234e-05,
+      "chunk_L": 5.5482805302176263e-05,
+      "chunk_Pi": 5.39896174988832e-05,
+      "h": 0.9996143313927656,
+      "l": 5.559618501341891e-05,
+      "r": 5.4950108751393606e-05,
+      "v": 5.6064215837159395e-05
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small c-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 6.11502640310241e-05,
+      "chunk_C": 0.9995676830376109,
+      "chunk_L": 6.230848202005174e-05,
+      "chunk_Pi": 6.063145823982068e-05,
+      "h": 6.15920636722138e-05,
+      "l": 6.235242685162236e-05,
+      "r": 6.155626428479727e-05,
+      "v": 6.272600328952986e-05
+    },
+    "choice": "chunk_C",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 4.736115006284236e-05,
+      "chunk_C": 4.790325669541102e-05,
+      "chunk_L": 4.825819502009701e-05,
+      "chunk_Pi": 4.6959332682001754e-05,
+      "h": 4.770332583976916e-05,
+      "l": 4.829223048659061e-05,
+      "r": 0.9996649409421225,
+      "v": 4.858156709070899e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a tall pi-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 1.2195570714799973e-05,
+      "chunk_C": 1.2335164026273209e-05,
+      "chunk_L": 1.242656120375638e-05,
+      "chunk_Pi": 0.9999135373253023,
+      "h": 1.2283681516139581e-05,
+      "l": 1.2435325389969833e-05,
+      "r": 1.227654182561325e-05,
+      "v": 1.2509830021112102e-05
+    },
+    "choice": "chunk_Pi",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 4.8983441554511117e-05,
+      "chunk_C": 4.9299376379204127e-05,
+      "chunk_L": 4.9911254810192766e-05,
+      "chunk_Pi": 4.852311648005702e-05,
+      "h": 0.9996538093616814,
+      "l": 4.994645771034718e-05,
+      "r": 4.9281272589360777e-05,
+      "v": 5.02457187950218e-05
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 8.694877909147602e-05,
+      "chunk_C": 8.750958385340698e-05,
+      "chunk_L": 8.859570767073136e-05,
+      "chunk_Pi": 8.613167229091701e-05,
+      "h": 8.757699596456694e-05,
+      "l": 0.999386570409783,
+      "r": 8.747744845471197e-05,
+      "v": 8.918940289115784e-05
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.99978638034664,
+      "chunk_C": 3.0389500225726885e-05,
+      "chunk_L": 3.0766679027617185e-05,
+      "chunk_Pi": 2.9910992136721838e-05,
+      "h": 3.041291046580692e-05,
+      "l": 3.07883790697021e-05,
+      "r": 3.037834054854762e-05,
+      "v": 3.0972851885956756e-05
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 4.582646482731692e-05,
+      "chunk_C": 4.612203769177985e-05,
+      "chunk_L": 4.6694480633852234e-05,
+      "chunk_Pi": 4.539580764676487e-05,
+      "h": 4.61575673308764e-05,
+      "l": 4.6727414711461916e-05,
+      "r": 0.9996760688387016,
+      "v": 4.700738845638068e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small c-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 4.6838634785772986e-05,
+      "chunk_C": 0.9996689314763669,
+      "chunk_L": 4.772582247314507e-05,
+      "chunk_Pi": 4.639846567227583e-05,
+      "h": 4.7177050356324104e-05,
+      "l": 4.7759483966323276e-05,
+      "r": 4.712342488272172e-05,
+      "v": 4.8045641496415766e-05
+    },
+    "choice": "chunk_C",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a long l-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 8.450624506588088e-05,
+      "chunk_C": 8.483243714275402e-05,
+      "chunk_L": 0.9994037463969483,
+      "chunk_Pi": 8.37937960936725e-05,
+      "h": 8.515043105369696e-05,
+      "l": 8.61441783727752e-05,
+      "r": 8.505783950449535e-05,
+      "v": 8.676867581825857e-05
+    },
+    "choice": "chunk_L",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 4.432961699985224e-05,
+      "chunk_C": 4.450072825707234e-05,
+      "chunk_L": 4.521342719139699e-05,
+      "chunk_Pi": 4.395588615847697e-05,
+      "h": 4.466753898531374e-05,
+      "l": 4.5188831086448096e-05,
+      "r": 0.9996866275463093,
+      "v": 4.551642501224709e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a tall pi-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 1.0573995085970524e-05,
+      "chunk_C": 1.0614810453109961e-05,
+      "chunk_L": 1.0784811358584745e-05,
+      "chunk_Pi": 0.9999250927385632,
+      "h": 1.0654600010071792e-05,
+      "l": 1.0778944421072868e-05,
+      "r": 1.0643014326842143e-05,
+      "v": 1.085708578109418e-05
+    },
+    "choice": "chunk_Pi",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 4.7314946453824636e-05,
+      "chunk_C": 4.749759296601592e-05,
+      "chunk_L": 4.790334304135429e-05,
+      "chunk_Pi": 4.687998275279458e-05,
+      "h": 0.9996659907511143,
+      "l": 4.82320843296933e-05,
+      "r": 4.759953578042093e-05,
+      "v": 4.8581763561501666e-05
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 8.270059113445752e-05,
+      "chunk_C": 8.301983432628076e-05,
+      "chunk_L": 8.372903455999722e-05,
+      "chunk_Pi": 8.194032914763857e-05,
+      "h": 8.333105415278247e-05,
+      "l": 0.9994171663105736,
+      "r": 8.319801757798185e-05,
+      "v": 8.491482852699852e-05
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.9998031663682743,
+      "chunk_C": 2.7960418327859217e-05,
+      "chunk_L": 2.819927131249653e-05,
+      "chunk_Pi": 2.7596849590016385e-05,
+      "h": 2.8065234684233902e-05,
+      "l": 2.8392791517829356e-05,
+      "r": 2.8020429026471304e-05,
+      "v": 2.8598637266874395e-05
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 4.295264161184664e-05,
+      "chunk_C": 4.311844862987765e-05,
+      "chunk_L": 4.3486789690709176e-05,
+      "chunk_Pi": 4.2557780339357624e-05,
+      "h": 4.328008851040154e-05,
+      "l": 4.378522195787496e-05,
+      "r": 0.9996967163675109,
+      "v": 4.4102661749075586e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small c-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 3.731576206053709e-05,
+      "chunk_C": 0.9997364373228069,
+      "chunk_L": 3.77798113452365e-05,
+      "chunk_Pi": 3.6972720311806625e-05,
+      "h": 3.7600236544419935e-05,
+      "l": 3.80390789258752e-05,
+      "r": 3.754020842246205e-05,
+      "v": 3.831485958272128e-05
+    },
+    "choice": "chunk_C",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00010753056540298262,
+      "chunk_C": 0.00010775220494766247,
+      "chunk_L": 0.0001089636064114338,
+      "chunk_Pi": 0.00010663572559367001,
+      "h": 0.00010838538333490397,
+      "l": 0.00010958309705034481,
+      "r": 0.00010821961953390614,
+      "v": 0.999242929797725
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 4.160890108500557e-05,
+      "chunk_C": 4.169466440129195e-05,
+      "chunk_L": 4.216341562092325e-05,
+      "chunk_Pi": 4.126264324684506e-05,
+      "h": 4.193967247676483e-05,
+      "l": 4.240312722869669e-05,
+      "r": 0.9997061670066932,
+      "v": 4.2760569247089635e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.00010753056540298262,
+      "chunk_C": 0.00010775220494766247,
+      "chunk_L": 0.0001089636064114338,
+      "chunk_Pi": 0.00010663572559367001,
+      "h": 0.00010838538333490397,
+      "l": 0.00010958309705034481,
+      "r": 0.00010821961953390614,
+      "v": 0.999242929797725
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 7.879018642868015e-05,
+      "chunk_C": 7.89525869608437e-05,
+      "chunk_L": 7.984020944113869e-05,
+      "chunk_Pi": 7.813451615357909e-05,
+      "h": 7.941653172842126e-05,
+      "l": 0.9994445999232177,
+      "r": 7.929507267410678e-05,
+      "v": 8.097097339561302e-05
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 4.574152231117364e-05,
+      "chunk_C": 4.5835803691914246e-05,
+      "chunk_L": 4.6351111566240245e-05,
+      "chunk_Pi": 4.536087393506583e-05,
+      "h": 0.9996770538489187,
+      "l": 4.66146314759061e-05,
+      "r": 4.603463324930668e-05,
+      "v": 4.700757485179266e-05
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 4.160890108500557e-05,
+      "chunk_C": 4.169466440129195e-05,
+      "chunk_L": 4.216341562092325e-05,
+      "chunk_Pi": 4.126264324684506e-05,
+      "h": 4.193967247676483e-05,
+      "l": 4.240312722869669e-05,
+      "r": 0.9997061670066932,
+      "v": 4.2760569247089635e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 4.574152231117364e-05,
+      "chunk_C": 4.5835803691914246e-05,
+      "chunk_L": 4.6351111566240245e-05,
+      "chunk_Pi": 4.536087393506583e-05,
+      "h": 0.9996770538489187,
+      "l": 4.66146314759061e-05,
+      "r": 4.603463324930668e-05,
+      "v": 4.700757485179266e-05
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 4.160890108500557e-05,
+      "chunk_C": 4.169466440129195e-05,
+      "chunk_L": 4.216341562092325e-05,
+      "chunk_Pi": 4.126264324684506e-05,
+      "h": 4.193967247676483e-05,
+      "l": 4.240312722869669e-05,
+      "r": 0.9997061670066932,
+      "v": 4.2760569247089635e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.9998176488972592,
+      "chunk_C": 2.5852015612993055e-05,
+      "chunk_L": 2.614265625065082e-05,
+      "chunk_Pi": 2.5584148781822255e-05,
+      "h": 2.6003928398079254e-05,
+      "l": 2.629128505761593e-05,
+      "r": 2.5964158182949575e-05,
+      "v": 2.6512910456762875e-05
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 4.160890108500557e-05,
+      "chunk_C": 4.169466440129195e-05,
+      "chunk_L": 4.216341562092325e-05,
+      "chunk_Pi": 4.126264324684506e-05,
+      "h": 4.193967247676483e-05,
+      "l": 4.240312722869669e-05,
+      "r": 0.9997061670066932,
+      "v": 4.2760569247089635e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 4.574152231117364e-05,
+      "chunk_C": 4.5835803691914246e-05,
+      "chunk_L": 4.6351111566240245e-05,
+      "chunk_Pi": 4.536087393506583e-05,
+      "h": 0.9996770538489187,
+      "l": 4.66146314759061e-05,
+      "r": 4.603463324930668e-05,
+      "v": 4.700757485179266e-05
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small c-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 3.0604029947374035e-05,
+      "chunk_C": 0.9997838366338585,
+      "chunk_L": 3.1036613108796126e-05,
+      "chunk_Pi": 3.0373510186153106e-05,
+      "h": 3.0824686308007476e-05,
+      "l": 3.117881029220098e-05,
+      "r": 3.077020409855729e-05,
+      "v": 3.137551220041575e-05
+    },
+    "choice": "chunk_C",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 3.696224179206147e-05,
+      "chunk_C": 3.7067935133675216e-05,
+      "chunk_L": 3.7484697280281565e-05,
+      "chunk_Pi": 3.6683829858510625e-05,
+      "h": 3.72287411311588e-05,
+      "l": 3.765643697221751e-05,
+      "r": 0.9997390221126865,
+      "v": 3.789400514558868e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a long l-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 6.0988282238179584e-05,
+      "chunk_C": 6.11626779197321e-05,
+      "chunk_L": 0.9995699132724302,
+      "chunk_Pi": 6.0528898154351545e-05,
+      "h": 6.142801035317305e-05,
+      "l": 6.213371524015819e-05,
+      "r": 6.131943718903023e-05,
+      "v": 6.252570647515632e-05
+    },
+    "choice": "chunk_L",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small c-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 2.5721559706714407e-05,
+      "chunk_C": 0.9998184618429288,
+      "chunk_L": 2.5956244165842533e-05,
+      "chunk_Pi": 2.5527806640487073e-05,
+      "h": 2.590702267102571e-05,
+      "l": 2.6204666237132708e-05,
+      "r": 2.5850861999579905e-05,
+      "v": 2.636999565052751e-05
+    },
+    "choice": "chunk_C",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 3.594097839287848e-05,
+      "chunk_C": 3.5968711871870335e-05,
+      "chunk_L": 3.626890520489317e-05,
+      "chunk_Pi": 3.567024540287973e-05,
+      "h": 3.620012754514593e-05,
+      "l": 3.661602771217346e-05,
+      "r": 0.9997464879598066,
+      "v": 3.684704406352555e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a tall pi-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 9.274438709772313e-06,
+      "chunk_C": 9.281595233123097e-06,
+      "chunk_L": 9.359059030512494e-06,
+      "chunk_Pi": 0.9999344656561133,
+      "h": 9.341311205649337e-06,
+      "l": 9.448632730576024e-06,
+      "r": 9.321061317572457e-06,
+      "v": 9.508245659532758e-06
+    },
+    "choice": "chunk_Pi",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a tall pi-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 8.232512088004605e-06,
+      "chunk_C": 8.225113689662138e-06,
+      "chunk_L": 8.307626916524424e-06,
+      "chunk_Pi": 0.9999418449785833,
+      "h": 8.29187272241255e-06,
+      "l": 8.387138727277505e-06,
+      "r": 8.27070197495989e-06,
+      "v": 8.44005529780395e-06
+    },
+    "choice": "chunk_Pi",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 3.496589076895072e-05,
+      "chunk_C": 3.4934467603634654e-05,
+      "chunk_L": 3.528492545254133e-05,
+      "chunk_Pi": 3.4679923887703684e-05,
+      "h": 3.52180127745422e-05,
+      "l": 3.5622635407888346e-05,
+      "r": 0.9997534467565186,
+      "v": 3.584738758621688e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 4.157578017197654e-05,
+      "chunk_C": 4.1538416827735686e-05,
+      "chunk_L": 4.1955124601090236e-05,
+      "chunk_Pi": 4.123575462337104e-05,
+      "h": 0.9997069456890679,
+      "l": 4.235667464190496e-05,
+      "r": 4.176864649611583e-05,
+      "v": 4.2623913569724815e-05
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 7.51806316545876e-05,
+      "chunk_C": 7.511306828454051e-05,
+      "chunk_L": 7.586659241533453e-05,
+      "chunk_Pi": 7.456577042006312e-05,
+      "h": 7.572272256711829e-05,
+      "l": 0.9994709458769726,
+      "r": 7.552938787789144e-05,
+      "v": 7.707594980797002e-05
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.999830761713528,
+      "chunk_C": 2.396383973952068e-05,
+      "chunk_L": 2.420424173510693e-05,
+      "chunk_Pi": 2.3789231530674324e-05,
+      "h": 2.4158341946098933e-05,
+      "l": 2.4435899115439652e-05,
+      "r": 2.4096661048027096e-05,
+      "v": 2.4590071357126056e-05
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 4.030648550837564e-05,
+      "chunk_C": 4.029944594767982e-05,
+      "chunk_L": 4.070373260565013e-05,
+      "chunk_Pi": 3.9983484714912386e-05,
+      "h": 0.999715795656201,
+      "l": 4.105088290814938e-05,
+      "r": 4.0507725289847444e-05,
+      "v": 4.135258682434861e-05
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 7.184029715237001e-05,
+      "chunk_C": 7.182775018565161e-05,
+      "chunk_L": 7.254833083854158e-05,
+      "chunk_Pi": 7.126459642604324e-05,
+      "h": 7.237679259734492e-05,
+      "l": 0.9994942384390781,
+      "r": 7.21989770401714e-05,
+      "v": 7.370481668174865e-05
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.9998420659248825,
+      "chunk_C": 2.2370952826260205e-05,
+      "chunk_L": 2.2595379677326156e-05,
+      "chunk_Pi": 2.2195557019520234e-05,
+      "h": 2.2541953614393773e-05,
+      "l": 2.2788089101939964e-05,
+      "r": 2.248657246391889e-05,
+      "v": 2.2955570413855608e-05
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 3.4009460632116197e-05,
+      "chunk_C": 3.4003520851970846e-05,
+      "chunk_L": 3.434464638065218e-05,
+      "chunk_Pi": 3.3736921792996924e-05,
+      "h": 3.4263439546992974e-05,
+      "l": 3.463756188537466e-05,
+      "r": 0.9997601123178819,
+      "v": 3.489213102806017e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small c-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 2.1996085005146982e-05,
+      "chunk_C": 0.9998447356898686,
+      "chunk_L": 2.221287098411511e-05,
+      "chunk_Pi": 2.1819816773865165e-05,
+      "h": 2.2160349350929314e-05,
+      "l": 2.2402318103282796e-05,
+      "r": 2.210590572714348e-05,
+      "v": 2.2566964186993688e-05
+    },
+    "choice": "chunk_C",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 9.602534052899903e-05,
+      "chunk_C": 9.59407266662931e-05,
+      "chunk_L": 9.703596309478278e-05,
+      "chunk_Pi": 9.53188826332046e-05,
+      "h": 9.676291470740759e-05,
+      "l": 9.776836762788338e-05,
+      "r": 9.653399449416221e-05,
+      "v": 0.9993246138102473
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 3.309706713150343e-05,
+      "chunk_C": 3.306790325997946e-05,
+      "chunk_L": 3.344539854819084e-05,
+      "chunk_Pi": 3.285357219283537e-05,
+      "h": 3.335128692351635e-05,
+      "l": 3.3697836517854985e-05,
+      "r": 0.9997665083741429,
+      "v": 3.397856128311576e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "stack one vertical block on top",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 9.602534052899903e-05,
+      "chunk_C": 9.59407266662931e-05,
+      "chunk_L": 9.703596309478278e-05,
+      "chunk_Pi": 9.53188826332046e-05,
+      "h": 9.676291470740759e-05,
+      "l": 9.776836762788338e-05,
+      "r": 9.653399449416221e-05,
+      "v": 0.9993246138102473
+    },
+    "choice": "v",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 6.874159770897036e-05,
+      "chunk_C": 6.868102523842572e-05,
+      "chunk_L": 6.946507142403346e-05,
+      "chunk_Pi": 6.823586615724147e-05,
+      "h": 6.926960445357934e-05,
+      "l": 0.9995159286733846,
+      "r": 6.910572749027283e-05,
+      "v": 7.057243414266956e-05
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 3.910180466914716e-05,
+      "chunk_C": 3.906734965223597e-05,
+      "chunk_L": 3.9513333188013224e-05,
+      "chunk_Pi": 3.8814132909837045e-05,
+      "h": 0.9997242396523893,
+      "l": 3.9811570495314925e-05,
+      "r": 3.930893007875704e-05,
+      "v": 4.014322661739382e-05
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 3.309706713150343e-05,
+      "chunk_C": 3.306790325997946e-05,
+      "chunk_L": 3.344539854819084e-05,
+      "chunk_Pi": 3.285357219283537e-05,
+      "h": 3.335128692351635e-05,
+      "l": 3.3697836517854985e-05,
+      "r": 0.9997665083741429,
+      "v": 3.397856128311576e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 3.910180466914716e-05,
+      "chunk_C": 3.906734965223597e-05,
+      "chunk_L": 3.9513333188013224e-05,
+      "chunk_Pi": 3.8814132909837045e-05,
+      "h": 0.9997242396523893,
+      "l": 3.9811570495314925e-05,
+      "r": 3.930893007875704e-05,
+      "v": 4.014322661739382e-05
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 3.309706713150343e-05,
+      "chunk_C": 3.306790325997946e-05,
+      "chunk_L": 3.344539854819084e-05,
+      "chunk_Pi": 3.285357219283537e-05,
+      "h": 3.335128692351635e-05,
+      "l": 3.3697836517854985e-05,
+      "r": 0.9997665083741429,
+      "v": 3.397856128311576e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.9998521849837614,
+      "chunk_C": 2.091837458994893e-05,
+      "chunk_L": 2.115717375972584e-05,
+      "chunk_Pi": 2.0782791226421623e-05,
+      "h": 2.109763983032209e-05,
+      "l": 2.131686311071507e-05,
+      "r": 2.104772735896325e-05,
+      "v": 2.1494446362674908e-05
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 3.309706713150343e-05,
+      "chunk_C": 3.306790325997946e-05,
+      "chunk_L": 3.344539854819084e-05,
+      "chunk_Pi": 3.285357219283537e-05,
+      "h": 3.335128692351635e-05,
+      "l": 3.3697836517854985e-05,
+      "r": 0.9997665083741429,
+      "v": 3.397856128311576e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 3.910180466914716e-05,
+      "chunk_C": 3.906734965223597e-05,
+      "chunk_L": 3.9513333188013224e-05,
+      "chunk_Pi": 3.8814132909837045e-05,
+      "h": 0.9997242396523893,
+      "l": 3.9811570495314925e-05,
+      "r": 3.930893007875704e-05,
+      "v": 4.014322661739382e-05
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 3.586940131323745e-05,
+      "chunk_C": 3.5859558134593965e-05,
+      "chunk_L": 3.626894293645251e-05,
+      "chunk_Pi": 3.562712131781797e-05,
+      "h": 0.999747086872568,
+      "l": 3.6509152097226793e-05,
+      "r": 3.603377760529106e-05,
+      "v": 3.6745174027300886e-05
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 6.586055347200824e-05,
+      "chunk_C": 6.58424802070624e-05,
+      "chunk_L": 6.65941601528183e-05,
+      "chunk_Pi": 6.541569813544499e-05,
+      "h": 6.632375907113883e-05,
+      "l": 0.9995363324028027,
+      "r": 6.61623681992123e-05,
+      "v": 6.746857795951523e-05
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.9998613355770355,
+      "chunk_C": 1.9641091980585008e-05,
+      "chunk_L": 1.9865321306517502e-05,
+      "chunk_Pi": 1.951378107282545e-05,
+      "h": 1.9784659513398316e-05,
+      "l": 1.9996889303078937e-05,
+      "r": 1.973651592964559e-05,
+      "v": 2.0126163858571812e-05
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 2.987930608411549e-05,
+      "chunk_C": 2.987110669029343e-05,
+      "chunk_L": 3.0212125312101368e-05,
+      "chunk_Pi": 2.9677486207670412e-05,
+      "h": 3.0089451021360538e-05,
+      "l": 3.0412220177814524e-05,
+      "r": 0.9997892494774374,
+      "v": 3.060882706928904e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small c-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 1.9077577631938013e-05,
+      "chunk_C": 0.9998653456649024,
+      "chunk_L": 1.929007870680995e-05,
+      "chunk_Pi": 1.8948718067739627e-05,
+      "h": 1.9211752647347166e-05,
+      "l": 1.9417836872399488e-05,
+      "r": 1.916500316338522e-05,
+      "v": 1.9543368008381024e-05
+    },
+    "choice": "chunk_C",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a tall pi-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 7.353259278210235e-06,
+      "chunk_C": 7.346955364614546e-06,
+      "chunk_L": 7.439323883836066e-06,
+      "chunk_Pi": 0.999948046254482,
+      "h": 7.4062545404741135e-06,
+      "l": 7.482095143863573e-06,
+      "r": 7.388849073233821e-06,
+      "v": 7.537008233887327e-06
+    },
+    "choice": "chunk_Pi",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 2.9143465286727575e-05,
+      "chunk_C": 2.9118480734966854e-05,
+      "chunk_L": 2.9484568565093516e-05,
+      "chunk_Pi": 2.896279432518443e-05,
+      "h": 2.935350351980404e-05,
+      "l": 2.9654085603010975e-05,
+      "r": 0.999794411377126,
+      "v": 2.9871724839211516e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 3.487675725567764e-05,
+      "chunk_C": 3.4846857580456184e-05,
+      "chunk_L": 3.528496458866431e-05,
+      "chunk_Pi": 3.466054352793813e-05,
+      "h": 0.9997540492013085,
+      "l": 3.548783012040467e-05,
+      "r": 3.504556085621095e-05,
+      "v": 3.574828476214331e-05
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 2.9143465286727575e-05,
+      "chunk_C": 2.9118480734966854e-05,
+      "chunk_L": 2.9484568565093516e-05,
+      "chunk_Pi": 2.896279432518443e-05,
+      "h": 2.935350351980404e-05,
+      "l": 2.9654085603010975e-05,
+      "r": 0.999794411377126,
+      "v": 2.9871724839211516e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.999869521616368,
+      "chunk_C": 1.846759470734279e-05,
+      "chunk_L": 1.869977583435988e-05,
+      "chunk_Pi": 1.8368854888343564e-05,
+      "h": 1.861665143790745e-05,
+      "l": 1.8807287348464716e-05,
+      "r": 1.8572900373863446e-05,
+      "v": 1.894531904191569e-05
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a long l-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 4.6571449810754865e-05,
+      "chunk_C": 4.655554816661359e-05,
+      "chunk_L": 0.9996717091599453,
+      "chunk_Pi": 4.6284224446741e-05,
+      "h": 4.6913838314547754e-05,
+      "l": 4.7411898984983823e-05,
+      "r": 4.679400917875046e-05,
+      "v": 4.775987115226936e-05
+    },
+    "choice": "chunk_L",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 2.7774504812134123e-05,
+      "chunk_C": 2.776502131326266e-05,
+      "chunk_L": 2.811409654450213e-05,
+      "chunk_Pi": 2.760320797067036e-05,
+      "h": 2.797870011171912e-05,
+      "l": 2.8275735925376922e-05,
+      "r": 0.9998040054720853,
+      "v": 2.8483261237000976e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a tall pi-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 6.631309218446348e-06,
+      "chunk_C": 6.629044983173215e-06,
+      "chunk_L": 6.712388532032393e-06,
+      "chunk_Pi": 0.9999531326865656,
+      "h": 6.68006192102954e-06,
+      "l": 6.75098078502517e-06,
+      "r": 6.662999449148589e-06,
+      "v": 6.800528545510618e-06
+    },
+    "choice": "chunk_Pi",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a tall pi-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 6.0229423756220394e-06,
+      "chunk_C": 6.020885810005634e-06,
+      "chunk_L": 6.07495514232871e-06,
+      "chunk_Pi": 0.9999574556522124,
+      "h": 6.067223618663445e-06,
+      "l": 6.131638036724787e-06,
+      "r": 6.050061343434306e-06,
+      "v": 6.176641460722149e-06
+    },
+    "choice": "chunk_Pi",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 2.713637377902538e-05,
+      "chunk_C": 2.7127107920282692e-05,
+      "chunk_L": 2.7370717359058007e-05,
+      "chunk_Pi": 2.69575854138803e-05,
+      "h": 2.73358829703195e-05,
+      "l": 2.7626102204749817e-05,
+      "r": 0.9998086173651696,
+      "v": 2.7828865183169033e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 3.392982927989801e-05,
+      "chunk_C": 3.391824375974594e-05,
+      "chunk_L": 3.422283960353576e-05,
+      "chunk_Pi": 3.3706282141433506e-05,
+      "h": 0.9997608023618928,
+      "l": 3.4542158768489704e-05,
+      "r": 3.408260210931136e-05,
+      "v": 3.479568244479479e-05
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 2.713637377902538e-05,
+      "chunk_C": 2.7127107920282692e-05,
+      "chunk_L": 2.7370717359058007e-05,
+      "chunk_Pi": 2.69575854138803e-05,
+      "h": 2.73358829703195e-05,
+      "l": 2.7626102204749817e-05,
+      "r": 0.9998086173651696,
+      "v": 2.7828865183169033e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.9998769887545436,
+      "chunk_C": 1.7424832136652083e-05,
+      "chunk_L": 1.758131227416022e-05,
+      "chunk_Pi": 1.7315941014674517e-05,
+      "h": 1.7558936745661756e-05,
+      "l": 1.7745356228993217e-05,
+      "r": 1.750926801345398e-05,
+      "v": 1.7875599042671144e-05
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a long l-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 3.7121395919636674e-05,
+      "chunk_C": 3.712646918932486e-05,
+      "chunk_L": 0.9997382896129225,
+      "chunk_Pi": 3.6880663292814776e-05,
+      "h": 3.739876482233499e-05,
+      "l": 3.780940464745502e-05,
+      "r": 3.7286778254617226e-05,
+      "v": 3.8086910951148675e-05
+    },
+    "choice": "chunk_L",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 2.591866089484891e-05,
+      "chunk_C": 2.5922203120388087e-05,
+      "chunk_L": 2.6154994249146406e-05,
+      "chunk_Pi": 2.5750578117616315e-05,
+      "h": 2.6112323615598356e-05,
+      "l": 2.6399037897578677e-05,
+      "r": 0.9998171494055513,
+      "v": 2.659279655356214e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a tall pi-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 5.499592185125321e-06,
+      "chunk_C": 5.500343797871528e-06,
+      "chunk_L": 5.549738952878948e-06,
+      "chunk_Pi": 0.9999611413899426,
+      "h": 5.540684816797332e-06,
+      "l": 5.601521741626893e-06,
+      "r": 5.524093833689019e-06,
+      "v": 5.6426347294687456e-06
+    },
+    "choice": "chunk_Pi",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a tall pi-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 5.050022615977894e-06,
+      "chunk_C": 5.050712800592044e-06,
+      "chunk_L": 5.082462376911141e-06,
+      "chunk_Pi": 0.999964332800683,
+      "h": 5.087756816540177e-06,
+      "l": 5.143621662444831e-06,
+      "r": 5.07124846225936e-06,
+      "v": 5.181374582246865e-06
+    },
+    "choice": "chunk_Pi",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 2.53493267105979e-05,
+      "chunk_C": 2.535279119315672e-05,
+      "chunk_L": 2.551216283250135e-05,
+      "chunk_Pi": 2.517656060148998e-05,
+      "h": 2.5538739046136783e-05,
+      "l": 2.5819160806228255e-05,
+      "r": 0.9998212425917042,
+      "v": 2.6008667105727357e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 3.302563822225568e-05,
+      "chunk_C": 3.303015182330399e-05,
+      "chunk_L": 3.323778456100835e-05,
+      "chunk_Pi": 3.280055488644939e-05,
+      "h": 0.999767219032776,
+      "l": 3.3637748005048516e-05,
+      "r": 3.316444891154545e-05,
+      "v": 3.388464081445315e-05
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 6.311342136393095e-05,
+      "chunk_C": 6.312204705052368e-05,
+      "chunk_L": 6.351884218209665e-05,
+      "chunk_Pi": 6.268327738551214e-05,
+      "h": 6.358501024204477e-05,
+      "l": 0.9995558436947611,
+      "r": 6.337869458784277e-05,
+      "v": 6.475501242688683e-05
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.9998837573393339,
+      "chunk_C": 1.647663393826532e-05,
+      "chunk_L": 1.6580208654816902e-05,
+      "chunk_Pi": 1.6362102685059532e-05,
+      "h": 1.659748038400048e-05,
+      "l": 1.67797248814268e-05,
+      "r": 1.6543626181406275e-05,
+      "v": 1.6902883941194738e-05
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a tall pi-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 4.656463110390725e-06,
+      "chunk_C": 4.659168780802109e-06,
+      "chunk_L": 4.688457427616604e-06,
+      "chunk_Pi": 0.9999671065445903,
+      "h": 4.6917141232416085e-06,
+      "l": 4.740976411299611e-06,
+      "r": 4.676972639826492e-06,
+      "v": 4.779702916360442e-06
+    },
+    "choice": "chunk_Pi",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 2.4789519634240845e-05,
+      "chunk_C": 2.480392375775621e-05,
+      "chunk_L": 2.4959847141675666e-05,
+      "chunk_Pi": 2.4624177605904596e-05,
+      "h": 2.497718474711243e-05,
+      "l": 2.5239441405887722e-05,
+      "r": 0.9998251602967803,
+      "v": 2.5445608927204234e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 3.2161460805775854e-05,
+      "chunk_C": 3.218014844719513e-05,
+      "chunk_L": 3.2382440539765694e-05,
+      "chunk_Pi": 3.194694913946108e-05,
+      "h": 0.9997732680444013,
+      "l": 3.2745180927746234e-05,
+      "r": 3.230311691073273e-05,
+      "v": 3.301265882784585e-05
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 6.0614254674370486e-05,
+      "chunk_C": 6.064947501038358e-05,
+      "chunk_L": 6.103073208361582e-05,
+      "chunk_Pi": 6.020996754166995e-05,
+      "h": 6.107312524197038e-05,
+      "l": 0.9995733227178334,
+      "r": 6.0881231951114486e-05,
+      "v": 6.221849566328743e-05
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.9998898884031225,
+      "chunk_C": 1.5611414643903865e-05,
+      "chunk_L": 1.5709551721844458e-05,
+      "chunk_Pi": 1.5498283683874846e-05,
+      "h": 1.5720463888405243e-05,
+      "l": 1.5885526379455097e-05,
+      "r": 1.5671069796693462e-05,
+      "v": 1.6015286763046484e-05
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a tall pi-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 4.3114328165720974e-06,
+      "chunk_C": 4.315723345441082e-06,
+      "chunk_L": 4.342853339527693e-06,
+      "chunk_Pi": 0.9999695389332923,
+      "h": 4.344414569527812e-06,
+      "l": 4.388079236977402e-06,
+      "r": 4.331189585347356e-06,
+      "v": 4.427373814419384e-06
+    },
+    "choice": "chunk_Pi",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 2.425044504564787e-05,
+      "chunk_C": 2.427457791260433e-05,
+      "chunk_L": 2.4427175542830003e-05,
+      "chunk_Pi": 2.4092210892887408e-05,
+      "h": 2.443595696745895e-05,
+      "l": 2.4681556902207488e-05,
+      "r": 0.9998289355002725,
+      "v": 2.4902576463775504e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 3.133480194472254e-05,
+      "chunk_C": 3.136598482013021e-05,
+      "chunk_L": 3.156316126416474e-05,
+      "chunk_Pi": 3.113034236353518e-05,
+      "h": 0.9997790580202922,
+      "l": 3.18918558303683e-05,
+      "r": 3.147839097022255e-05,
+      "v": 3.21774425144315e-05
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move left __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 5.82762036909936e-05,
+      "chunk_C": 5.833419734297628e-05,
+      "chunk_L": 5.870090445144603e-05,
+      "chunk_Pi": 5.7895951464703215e-05,
+      "h": 5.872200707819826e-05,
+      "l": 0.9995896841470022,
+      "r": 5.854324936476526e-05,
+      "v": 5.984333960477027e-05
+    },
+    "choice": "l",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.9998954992327197,
+      "chunk_C": 1.4819353005708374e-05,
+      "chunk_L": 1.4912512118846845e-05,
+      "chunk_Pi": 1.4708020019754343e-05,
+      "h": 1.4917873078445723e-05,
+      "l": 1.5067809037963591e-05,
+      "r": 1.487246105979256e-05,
+      "v": 1.5202738959951755e-05
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small c-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 1.672274615361434e-05,
+      "chunk_C": 0.9998819632713902,
+      "chunk_L": 1.685112702804299e-05,
+      "chunk_Pi": 1.6616019910260803e-05,
+      "h": 1.685172899811933e-05,
+      "l": 1.7014015942483285e-05,
+      "r": 1.6802003666237665e-05,
+      "v": 1.717908691104187e-05
+    },
+    "choice": "chunk_C",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 2.3731000262434768e-05,
+      "chunk_C": 2.3763795272562867e-05,
+      "chunk_L": 2.3913183651261695e-05,
+      "chunk_Pi": 2.3579546638384872e-05,
+      "h": 2.3914037898040807e-05,
+      "l": 2.414433688625204e-05,
+      "r": 0.9998325755127493,
+      "v": 2.4378586641776643e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a tall pi-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 4.006955237706684e-06,
+      "chunk_C": 4.01249264178364e-06,
+      "chunk_L": 4.037716717459342e-06,
+      "chunk_Pi": 0.9999716859819866,
+      "h": 4.0378609561584275e-06,
+      "l": 4.076746705888595e-06,
+      "r": 4.025946215768323e-06,
+      "v": 4.116299538658001e-06
+    },
+    "choice": "chunk_Pi",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a tall pi-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 3.7380139091380066e-06,
+      "chunk_C": 3.7395600872214884e-06,
+      "chunk_L": 3.7667109109709575e-06,
+      "chunk_Pi": 0.9999735908375422,
+      "h": 3.766845469466044e-06,
+      "l": 3.8031215058740355e-06,
+      "r": 3.754890714481747e-06,
+      "v": 3.84001986057729e-06
+    },
+    "choice": "chunk_Pi",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 2.3238562468795346e-05,
+      "chunk_C": 2.324817478080228e-05,
+      "chunk_L": 2.3416966585519446e-05,
+      "chunk_Pi": 2.3085161439429472e-05,
+      "h": 2.341780311156504e-05,
+      "l": 2.3643324727770525e-05,
+      "r": 0.9998360772917009,
+      "v": 2.3872715185272896e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "place one horizontal block right here",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 3.054337093435941e-05,
+      "chunk_C": 3.055600478000106e-05,
+      "chunk_L": 3.077785459145472e-05,
+      "chunk_Pi": 3.0341749833745892e-05,
+      "h": 0.9997846475189607,
+      "l": 3.107536613985928e-05,
+      "r": 3.068127157847972e-05,
+      "v": 3.1376863181326674e-05
+    },
+    "choice": "h",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 2.3238562468795346e-05,
+      "chunk_C": 2.324817478080228e-05,
+      "chunk_L": 2.3416966585519446e-05,
+      "chunk_Pi": 2.3085161439429472e-05,
+      "h": 2.341780311156504e-05,
+      "l": 2.3643324727770525e-05,
+      "r": 0.9998360772917009,
+      "v": 2.3872715185272896e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small eight-shaped unit",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 0.9999006694419651,
+      "chunk_C": 1.4078446400622091e-05,
+      "chunk_L": 1.4180662011007871e-05,
+      "chunk_Pi": 1.397973006651235e-05,
+      "h": 1.4181168587855582e-05,
+      "l": 1.4317738190237982e-05,
+      "r": 1.4136162123631594e-05,
+      "v": 1.4456650655031908e-05
+    },
+    "choice": "chunk_8",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a small c-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 1.4845158973711312e-05,
+      "chunk_C": 0.999895204238635,
+      "chunk_L": 1.4964536261552768e-05,
+      "chunk_Pi": 1.4749526547627823e-05,
+      "h": 1.4960387171403762e-05,
+      "l": 1.5109190648776831e-05,
+      "r": 1.4911178903400126e-05,
+      "v": 1.5255782858584211e-05
+    },
+    "choice": "chunk_C",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 2.229522655620384e-05,
+      "chunk_C": 2.2312513973408683e-05,
+      "chunk_L": 2.247451353337961e-05,
+      "chunk_Pi": 2.2151600838929508e-05,
+      "h": 2.2468282215477386e-05,
+      "l": 2.2691762964067447e-05,
+      "r": 0.9998426941772015,
+      "v": 2.2911922716806904e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a long l-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 3.04467492115236e-05,
+      "chunk_C": 3.047035720917386e-05,
+      "chunk_L": 0.9997852898655724,
+      "chunk_Pi": 3.025061143363859e-05,
+      "h": 3.068307703013777e-05,
+      "l": 3.098826622786907e-05,
+      "r": 3.058215309946831e-05,
+      "v": 3.128892021589791e-05
+    },
+    "choice": "chunk_L",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a long l-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 2.558937621879346e-05,
+      "chunk_C": 2.5587972351186768e-05,
+      "chunk_L": 0.9998195705182681,
+      "chunk_Pi": 2.542452680530226e-05,
+      "h": 2.5788004510511076e-05,
+      "l": 2.604450934268488e-05,
+      "r": 2.569788998664014e-05,
+      "v": 2.6297202516568818e-05
+    },
+    "choice": "chunk_L",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "move right __ blocks then stop",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 2.1851015482833963e-05,
+      "chunk_C": 2.1849816706726753e-05,
+      "chunk_L": 2.1980860817749828e-05,
+      "chunk_Pi": 2.17102489766193e-05,
+      "h": 2.202062609938596e-05,
+      "l": 2.223965805277665e-05,
+      "r": 0.9998458923386695,
+      "v": 2.245543519434249e-05
+    },
+    "choice": "r",
+    "agent_role": "pragmatic"
+  },
+  {
+    "event": "sample_meaning_for_utterance",
+    "utterance": "build a tall pi-shaped tower",
+    "listener_mode": "pragmatic",
+    "dist": {
+      "chunk_8": 3.4966031801469384e-06,
+      "chunk_C": 3.496411351792232e-06,
+      "chunk_L": 3.517381052523202e-06,
+      "chunk_Pi": 0.9999753023129605,
+      "h": 3.5237442995923167e-06,
+      "l": 3.5587938296876727e-06,
+      "r": 3.511430801676211e-06,
+      "v": 3.593322524246279e-06
+    },
+    "choice": "chunk_Pi",
+    "agent_role": "pragmatic"
+  }
+]

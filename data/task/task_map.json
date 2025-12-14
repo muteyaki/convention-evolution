@@ -1,0 +1,92 @@
+[
+  {
+    "towers": "CL",
+    "program": "chunk_8 r h r h l chunk_8",
+    "length": 7
+  },
+  {
+    "towers": "CL",
+    "program": "chunk_C r chunk_L",
+    "length": 3
+  },
+  {
+    "towers": "CL",
+    "program": "h l v v r h r h l h l v v",
+    "length": 13
+  },
+  {
+    "towers": "CPi",
+    "program": "chunk_C r chunk_Pi",
+    "length": 3
+  },
+  {
+    "towers": "CPi",
+    "program": "h l v v r h r v r v l h r h",
+    "length": 14
+  },
+  {
+    "towers": "LC",
+    "program": "chunk_L r chunk_C",
+    "length": 3
+  },
+  {
+    "towers": "LC",
+    "program": "h l h l v v r h l v v r h",
+    "length": 13
+  },
+  {
+    "towers": "LPi",
+    "program": "chunk_L r chunk_Pi",
+    "length": 3
+  },
+  {
+    "towers": "LPi",
+    "program": "h l h l v v r v r v l h r h",
+    "length": 14
+  },
+  {
+    "towers": "PiC",
+    "program": "chunk_Pi r chunk_C",
+    "length": 3
+  },
+  {
+    "towers": "PiC",
+    "program": "chunk_Pi r h r chunk_8 r h",
+    "length": 7
+  },
+  {
+    "towers": "PiC",
+    "program": "chunk_Pi r h r chunk_C",
+    "length": 5
+  },
+  {
+    "towers": "PiC",
+    "program": "v r v l h r h r chunk_8 r h",
+    "length": 11
+  },
+  {
+    "towers": "PiC",
+    "program": "v r v l h r h r h l v v r h",
+    "length": 14
+  },
+  {
+    "towers": "PiL",
+    "program": "chunk_Pi r chunk_L",
+    "length": 3
+  },
+  {
+    "towers": "PiL",
+    "program": "chunk_Pi r h l chunk_8",
+    "length": 5
+  },
+  {
+    "towers": "PiL",
+    "program": "v r v l h r h r h l chunk_8",
+    "length": 11
+  },
+  {
+    "towers": "PiL",
+    "program": "v r v l h r h r h l h l v v",
+    "length": 14
+  }
+]

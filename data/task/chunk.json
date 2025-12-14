@@ -1,0 +1,1031 @@
+[
+  {
+    "ppt": 1,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 2,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 3,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 4,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 5,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 6,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 7,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 8,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 9,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 10,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 11,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 12,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 13,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 14,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 15,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 16,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 17,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 18,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 19,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 20,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 21,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 22,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 23,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 24,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 25,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 26,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 27,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 28,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 29,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 30,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 31,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 32,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 33,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 34,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 35,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 36,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 37,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 38,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 39,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 40,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 41,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 42,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 43,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 44,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 45,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 46,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 47,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 48,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  },
+  {
+    "ppt": 49,
+    "chunks": [
+      "chunk_8",
+      "chunk_Pi",
+      "chunk_L",
+      "chunk_C"
+    ],
+    "chunk_lambdas": [
+      "#(lambda (2x1 (left 1 (1x2 (1x2 $0)))))",
+      "#(lambda (1x2 (right 6 (1x2 (left 5 (2x1 (right 4 (2x1 $0))))))))",
+      "#(lambda (2x1 (left 4 (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) $0))))",
+      "#(lambda (#(lambda (2x1 (left 1 (1x2 (1x2 $0))))) (right 1 (2x1 $0))))"
+    ],
+    "chunk_dsl": [
+      "h l_1 v v",
+      "v r_6 v l_5 h r_4 h",
+      "h l_4 h l_1 v v",
+      "h l_1 v v r_1 h"
+    ]
+  }
+]

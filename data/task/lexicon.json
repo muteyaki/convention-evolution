@@ -1,0 +1,74 @@
+[
+    {
+      "meaning": "h",
+      "kind": "primitive",
+      "program": "h",
+      "length": 1,
+      "utterance": [
+        "place one horizontal block right here"
+      ]
+    },
+    {
+      "meaning": "v",
+      "kind": "primitive",
+      "program": "v",
+      "length": 1,
+      "utterance": [
+        "stack one vertical block on top"
+      ]
+    },
+    {
+      "meaning": "l",
+      "kind": "primitive",
+      "program": "l",
+      "length": 1,
+      "utterance": [
+        "move left __ blocks then stop"
+      ]
+    },
+    {
+      "meaning": "r",
+      "kind": "primitive",
+      "program": "r",
+      "length": 1,
+      "utterance": [
+        "move right __ blocks then stop"
+      ]
+    },
+  {
+      "meaning": "chunk_8",
+      "kind": "chunk",
+      "program": "h l_1 v v",
+      "length": 4,
+      "utterance": [
+        "build a small eight-shaped unit"
+      ]
+    },
+    {
+      "meaning": "chunk_C",
+      "kind": "chunk",
+      "program": "h l_1 v v r_1 h",
+      "length": 6,
+      "utterance": [
+        "build a small c-shaped tower"
+      ]
+    },
+    {
+      "meaning": "chunk_L",
+      "kind": "chunk",
+      "program": "h l_4 h l_1 v v",
+      "length": 6,
+      "utterance": [
+        "build a long l-shaped tower"
+      ]
+    },
+    {
+      "meaning": "chunk_Pi",
+      "kind": "chunk",
+      "program": "v r_6 v l_5 h r_4 h",
+      "length": 7,
+      "utterance": [
+        "build a tall pi-shaped tower"
+      ]
+    }
+]
