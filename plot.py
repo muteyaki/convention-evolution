@@ -69,6 +69,8 @@ def _infer_utterance_meaning(history: List[Dict], agent_key: str) -> Dict[str, s
 
 
 def load_history(path: Path) -> List[Dict]:
+    if not path.exists():
+        raise FileNotFoundError(f"belief history not found at {path}. Run test.py first or pass --input <path>.")
     with path.open("r", encoding="utf-8") as f:
         return json.load(f)
 
@@ -83,9 +85,9 @@ def _meaning_utterance_slice_grids(
     out_path: Path,
     title_prefix: str,
 ) -> None:
-    """Draw 6-slice grids (every 5 rounds from 0–30) with x=utterance, y=meaning."""
+    """Draw 4-slice grids (every 10 rounds from 0–40) with x=utterance, y=meaning."""
     round_index = _build_round_index(history)
-    slice_rounds = _slice_rounds(history, step=5, max_round=20, max_slices=4)
+    slice_rounds = _slice_rounds(history, step=10, max_round=40, max_slices=4)
     if not slice_rounds:
         return
 
@@ -133,7 +135,7 @@ def _meaning_utterance_slice_grids(
     for j in range(len(slice_rounds), 4):
         axes[j // 2][j % 2].axis("off")
 
-    fig.suptitle(f"{title_prefix}: P(utterance|meaning) slices (every 5 rounds, 0–20)", fontsize=14)
+    fig.suptitle(f"{title_prefix}: P(utterance|meaning) slices (every 10 rounds, 0–40)", fontsize=14)
     cbar = fig.colorbar(im, ax=axes.ravel().tolist(), fraction=0.025, pad=0.18, location="right")
     cbar.set_label("Probability")
     fig.subplots_adjust(top=0.9, right=0.82, hspace=0.35, wspace=0.25)
@@ -142,7 +144,7 @@ def _meaning_utterance_slice_grids(
 
 
 def _utterance_to_meaning_slice_grids(history: List[Dict], out_path: Path) -> None:
-    """Builder u->m slices derived from builder meaning->utterance; 6 slices every 5 rounds (0–30)."""
+    """Builder u->m slices derived from builder meaning->utterance; 4 slices every 10 rounds (0–40)."""
     round_index = _build_round_index(history)
     slice_rounds = _slice_rounds(history, step=5, max_round=20, max_slices=4)
     if not slice_rounds:
@@ -200,7 +202,7 @@ def _utterance_to_meaning_slice_grids(history: List[Dict], out_path: Path) -> No
     for j in range(len(slice_rounds), 4):
         axes[j // 2][j % 2].axis("off")
 
-    fig.suptitle("Builder: P(meaning|utterance) slices (every 5 rounds, 0–20)", fontsize=14)
+    fig.suptitle("Builder: P(meaning|utterance) slices (every 10 rounds, 0–40)", fontsize=14)
     cbar = fig.colorbar(im, ax=axes.ravel().tolist(), fraction=0.025, pad=0.12, location="right")
     cbar.set_label("Probability")
     fig.subplots_adjust(top=0.9, right=0.82, hspace=0.35, wspace=0.25)

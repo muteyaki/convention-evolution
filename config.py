@@ -9,10 +9,10 @@ TOWERS_CONFIG_PATH = DATA_DIR / "task" / "task.json"
 
 # ---- RSA / agent para ----
 LENGTH_PRIOR_LAMBDA = 0.4        # length-based P(m) 的 λ
-FIDELITY = 2.5
+FIDELITY = 1.5
 ALPHA_SPEAKER = 1.5              # speaker
-TASK_COST_WEIGHT = 0.7      # cost(u)
-BELIF_UPDATE = 2 # Dyad's update weight 
+TASK_COST_WEIGHT = 0.8      # cost(u)
+BELIF_UPDATE = 3 # Dyad's update weight 
 
 # ---- Population para ----
 N_DYADS = 10
