@@ -16,8 +16,9 @@ BELIF_UPDATE = 1 # Dyad's update weight
 CHOICE_TEMPERATURE = 0.5
 
 # ---- Population para ----
-N_DYADS = 10
-ROUNDS_PER_DYAD = 200
+N_DYADS = 5
+ROUNDS_PER_DYAD = 50
+NEWPOP_RATIO = 0.5
 
 # System para
 GLOBAL_SEED = 42

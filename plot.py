@@ -106,6 +106,7 @@ def _meaning_utterance_slice_grids(
         utterances_raw,
         key=lambda u: (meaning_order.get(u_to_m.get(u, ""), 1e9), u),
     )
+    utterances = list(reversed(utterances))
     if not meanings or not utterances:
         return
 
@@ -166,6 +167,7 @@ def _utterance_to_meaning_slice_grids(history: List[Dict], out_path: Path) -> No
         utterances_raw,
         key=lambda u: (meaning_order.get(u_to_m.get(u, ""), 1e9), u),
     )
+    utterances = list(reversed(utterances))
     if not meanings or not utterances:
         return
 
