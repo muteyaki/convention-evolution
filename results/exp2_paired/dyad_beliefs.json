@@ -1,0 +1,1257 @@
+[
+  {
+    "dyad_id": 0,
+    "speaker": {
+      "role": "pragmatic",
+      "meaning_to_utterance": {
+        "chunk_8": {
+          "build a long l-shaped tower": 0.0019308968659406955,
+          "build a small c-shaped tower": 0.0019308968659406955,
+          "build a small eight-shaped unit": 0.9377738663373104,
+          "build a tall pi-shaped tower": 0.0012943188760674382,
+          "move left __ blocks then stop": 0.014267505263685174,
+          "move right __ blocks then stop": 0.014267505263685174,
+          "place one horizontal block right here": 0.014267505263685174,
+          "stack one vertical block on top": 0.014267505263685174
+        },
+        "chunk_C": {
+          "build a long l-shaped tower": 0.0013184856412498558,
+          "build a small c-shaped tower": 0.95589390576946,
+          "build a small eight-shaped unit": 0.00293434375823119,
+          "build a tall pi-shaped tower": 0.0008838073557399324,
+          "move left __ blocks then stop": 0.009742364368829736,
+          "move right __ blocks then stop": 0.009742364368829736,
+          "place one horizontal block right here": 0.009742364368829736,
+          "stack one vertical block on top": 0.009742364368829736
+        },
+        "chunk_L": {
+          "build a long l-shaped tower": 0.9686929089081544,
+          "build a small c-shaped tower": 0.0009358786080250543,
+          "build a small eight-shaped unit": 0.002082836146260317,
+          "build a tall pi-shaped tower": 0.0006273381916151241,
+          "move left __ blocks then stop": 0.006915259536486254,
+          "move right __ blocks then stop": 0.006915259536486254,
+          "place one horizontal block right here": 0.006915259536486254,
+          "stack one vertical block on top": 0.006915259536486254
+        },
+        "chunk_Pi": {
+          "build a long l-shaped tower": 0.0009067811792591105,
+          "build a small c-shaped tower": 0.0009067811792591105,
+          "build a small eight-shaped unit": 0.002018078627627815,
+          "build a tall pi-shaped tower": 0.9693673310018537,
+          "move left __ blocks then stop": 0.006700257003000057,
+          "move right __ blocks then stop": 0.006700257003000057,
+          "place one horizontal block right here": 0.006700257003000057,
+          "stack one vertical block on top": 0.006700257003000057
+        },
+        "h": {
+          "build a long l-shaped tower": 0.0009330889608565028,
+          "build a small c-shaped tower": 0.0009330889608565028,
+          "build a small eight-shaped unit": 0.002076627672310652,
+          "build a tall pi-shaped tower": 0.0006254682351966776,
+          "move left __ blocks then stop": 0.006894646677061604,
+          "move right __ blocks then stop": 0.006894646677061604,
+          "place one horizontal block right here": 0.9747477861395949,
+          "stack one vertical block on top": 0.006894646677061604
+        },
+        "l": {
+          "build a long l-shaped tower": 0.0020575127348683975,
+          "build a small c-shaped tower": 0.0020575127348683975,
+          "build a small eight-shaped unit": 0.004579078802344089,
+          "build a tall pi-shaped tower": 0.001379192031155898,
+          "move left __ blocks then stop": 0.9443174726301427,
+          "move right __ blocks then stop": 0.015203077022206813,
+          "place one horizontal block right here": 0.015203077022206813,
+          "stack one vertical block on top": 0.015203077022206813
+        },
+        "r": {
+          "build a long l-shaped tower": 0.00036233704175793046,
+          "build a small c-shaped tower": 0.00036233704175793046,
+          "build a small eight-shaped unit": 0.0008063959163411583,
+          "build a tall pi-shaped tower": 0.0002428817825115932,
+          "move left __ blocks then stop": 0.0026773287282699254,
+          "move right __ blocks then stop": 0.9901940620328216,
+          "place one horizontal block right here": 0.0026773287282699254,
+          "stack one vertical block on top": 0.0026773287282699254
+        },
+        "v": {
+          "build a long l-shaped tower": 0.0016966982847186239,
+          "build a small c-shaped tower": 0.0016966982847186239,
+          "build a small eight-shaped unit": 0.0037760714759442625,
+          "build a tall pi-shaped tower": 0.0011373308723211777,
+          "move left __ blocks then stop": 0.01253699880874532,
+          "move right __ blocks then stop": 0.01253699880874532,
+          "place one horizontal block right here": 0.01253699880874532,
+          "stack one vertical block on top": 0.9540822046560614
+        }
+      },
+      "task_to_program": {
+        "CL": {
+          "chunk_8 r h r h l chunk_8": 0.00016961637524521065,
+          "chunk_8 r h r h l h l v v": 0.0005631461978248563,
+          "chunk_C r chunk_L": 0.9973975262055569,
+          "h l v v r h r h l h l v v": 0.0018697112213730501
+        },
+        "CPi": {
+          "chunk_C r chunk_Pi": 9.935719974255614e-06,
+          "chunk_8 r h r chunk_Pi": 0.9989370429070124,
+          "chunk_8 r h r v r v l h r h": 0.00024374835029844835,
+          "h l v v r h r v r v l h r h": 0.0008092730227149946
+        },
+        "LC": {
+          "chunk_L r chunk_C": 0.9979190270763678,
+          "h l chunk_8 r chunk_C": 6.320998341086738e-05,
+          "h l chunk_8 r h l v v r h": 0.0004670621134353748,
+          "h l h l v v r h l v v r h": 0.001550700826785886
+        },
+        "LPi": {
+          "chunk_L r chunk_Pi": 0.9531396421136463,
+          "h l chunk_8 r v r v l h r h": 0.00035920809517666074,
+          "h l chunk_8 r chunk_Pi": 0.033018697734310536,
+          "h l h l v v r v r v l h r h": 0.013482452056866543
+        },
+        "PiC": {
+          "chunk_Pi r chunk_C": 0.9939162023797936,
+          "chunk_Pi r chunk_8 r h": 0.003950133226696551,
+          "chunk_Pi r h r chunk_8": 4.388322669655123e-05,
+          "v r v l h r h r chunk_8 r h": 0.0004837325480277642,
+          "v r v l h r h r h l v v r h": 0.0016060486187854503
+        },
+        "PiL": {
+          "chunk_Pi r chunk_L": 0.9961026921479769,
+          "chunk_Pi r h l chunk_8": 1.9901116311071395e-05,
+          "v r v l h r h r h l chunk_8": 0.0021724985152686035,
+          "v r v l h r h r h l h l v v": 0.001704908220443495
+        }
+      }
+    },
+    "listener": {
+      "role": "pragmatic",
+      "meaning_to_utterance": {
+        "chunk_8": {
+          "build a long l-shaped tower": 0.0019308968659406955,
+          "build a small c-shaped tower": 0.0019308968659406955,
+          "build a small eight-shaped unit": 0.9377738663373104,
+          "build a tall pi-shaped tower": 0.0012943188760674382,
+          "move left __ blocks then stop": 0.014267505263685174,
+          "move right __ blocks then stop": 0.014267505263685174,
+          "place one horizontal block right here": 0.014267505263685174,
+          "stack one vertical block on top": 0.014267505263685174
+        },
+        "chunk_C": {
+          "build a long l-shaped tower": 0.0013184856412498558,
+          "build a small c-shaped tower": 0.95589390576946,
+          "build a small eight-shaped unit": 0.00293434375823119,
+          "build a tall pi-shaped tower": 0.0008838073557399324,
+          "move left __ blocks then stop": 0.009742364368829736,
+          "move right __ blocks then stop": 0.009742364368829736,
+          "place one horizontal block right here": 0.009742364368829736,
+          "stack one vertical block on top": 0.009742364368829736
+        },
+        "chunk_L": {
+          "build a long l-shaped tower": 0.9686929089081544,
+          "build a small c-shaped tower": 0.0009358786080250543,
+          "build a small eight-shaped unit": 0.002082836146260317,
+          "build a tall pi-shaped tower": 0.0006273381916151241,
+          "move left __ blocks then stop": 0.006915259536486254,
+          "move right __ blocks then stop": 0.006915259536486254,
+          "place one horizontal block right here": 0.006915259536486254,
+          "stack one vertical block on top": 0.006915259536486254
+        },
+        "chunk_Pi": {
+          "build a long l-shaped tower": 0.0009067811792591105,
+          "build a small c-shaped tower": 0.0009067811792591105,
+          "build a small eight-shaped unit": 0.002018078627627815,
+          "build a tall pi-shaped tower": 0.9693673310018537,
+          "move left __ blocks then stop": 0.006700257003000057,
+          "move right __ blocks then stop": 0.006700257003000057,
+          "place one horizontal block right here": 0.006700257003000057,
+          "stack one vertical block on top": 0.006700257003000057
+        },
+        "h": {
+          "build a long l-shaped tower": 0.0009330889608565028,
+          "build a small c-shaped tower": 0.0009330889608565028,
+          "build a small eight-shaped unit": 0.002076627672310652,
+          "build a tall pi-shaped tower": 0.0006254682351966776,
+          "move left __ blocks then stop": 0.006894646677061604,
+          "move right __ blocks then stop": 0.006894646677061604,
+          "place one horizontal block right here": 0.9747477861395949,
+          "stack one vertical block on top": 0.006894646677061604
+        },
+        "l": {
+          "build a long l-shaped tower": 0.0020575127348683975,
+          "build a small c-shaped tower": 0.0020575127348683975,
+          "build a small eight-shaped unit": 0.004579078802344089,
+          "build a tall pi-shaped tower": 0.001379192031155898,
+          "move left __ blocks then stop": 0.9443174726301427,
+          "move right __ blocks then stop": 0.015203077022206813,
+          "place one horizontal block right here": 0.015203077022206813,
+          "stack one vertical block on top": 0.015203077022206813
+        },
+        "r": {
+          "build a long l-shaped tower": 0.00036233704175793046,
+          "build a small c-shaped tower": 0.00036233704175793046,
+          "build a small eight-shaped unit": 0.0008063959163411583,
+          "build a tall pi-shaped tower": 0.0002428817825115932,
+          "move left __ blocks then stop": 0.0026773287282699254,
+          "move right __ blocks then stop": 0.9901940620328216,
+          "place one horizontal block right here": 0.0026773287282699254,
+          "stack one vertical block on top": 0.0026773287282699254
+        },
+        "v": {
+          "build a long l-shaped tower": 0.0016966982847186239,
+          "build a small c-shaped tower": 0.0016966982847186239,
+          "build a small eight-shaped unit": 0.0037760714759442625,
+          "build a tall pi-shaped tower": 0.0011373308723211777,
+          "move left __ blocks then stop": 0.01253699880874532,
+          "move right __ blocks then stop": 0.01253699880874532,
+          "place one horizontal block right here": 0.01253699880874532,
+          "stack one vertical block on top": 0.9540822046560614
+        }
+      },
+      "task_to_program": {
+        "CL": {
+          "chunk_8 r h r h l chunk_8": 0.00016961637524521065,
+          "chunk_8 r h r h l h l v v": 0.0005631461978248563,
+          "chunk_C r chunk_L": 0.9973975262055569,
+          "h l v v r h r h l h l v v": 0.0018697112213730501
+        },
+        "CPi": {
+          "chunk_C r chunk_Pi": 9.935719974255614e-06,
+          "chunk_8 r h r chunk_Pi": 0.9989370429070124,
+          "chunk_8 r h r v r v l h r h": 0.00024374835029844835,
+          "h l v v r h r v r v l h r h": 0.0008092730227149946
+        },
+        "LC": {
+          "chunk_L r chunk_C": 0.9979190270763678,
+          "h l chunk_8 r chunk_C": 6.320998341086738e-05,
+          "h l chunk_8 r h l v v r h": 0.0004670621134353748,
+          "h l h l v v r h l v v r h": 0.001550700826785886
+        },
+        "LPi": {
+          "chunk_L r chunk_Pi": 0.9531396421136463,
+          "h l chunk_8 r v r v l h r h": 0.00035920809517666074,
+          "h l chunk_8 r chunk_Pi": 0.033018697734310536,
+          "h l h l v v r v r v l h r h": 0.013482452056866543
+        },
+        "PiC": {
+          "chunk_Pi r chunk_C": 0.9939162023797936,
+          "chunk_Pi r chunk_8 r h": 0.003950133226696551,
+          "chunk_Pi r h r chunk_8": 4.388322669655123e-05,
+          "v r v l h r h r chunk_8 r h": 0.0004837325480277642,
+          "v r v l h r h r h l v v r h": 0.0016060486187854503
+        },
+        "PiL": {
+          "chunk_Pi r chunk_L": 0.9961026921479769,
+          "chunk_Pi r h l chunk_8": 1.9901116311071395e-05,
+          "v r v l h r h r h l chunk_8": 0.0021724985152686035,
+          "v r v l h r h r h l h l v v": 0.001704908220443495
+        }
+      }
+    }
+  },
+  {
+    "dyad_id": 1,
+    "speaker": {
+      "role": "pragmatic",
+      "meaning_to_utterance": {
+        "chunk_8": {
+          "build a long l-shaped tower": 0.0024123252747647096,
+          "build a small c-shaped tower": 0.0024123252747647096,
+          "build a small eight-shaped unit": 0.9222590923248183,
+          "build a tall pi-shaped tower": 0.0016170299892332158,
+          "move left __ blocks then stop": 0.01782480678410473,
+          "move right __ blocks then stop": 0.01782480678410473,
+          "place one horizontal block right here": 0.01782480678410473,
+          "stack one vertical block on top": 0.01782480678410473
+        },
+        "chunk_C": {
+          "build a long l-shaped tower": 0.001381227311586096,
+          "build a small c-shaped tower": 0.9537950660571,
+          "build a small eight-shaped unit": 0.003073977913486474,
+          "build a tall pi-shaped tower": 0.0009258643550880737,
+          "move left __ blocks then stop": 0.010205966090684826,
+          "move right __ blocks then stop": 0.010205966090684826,
+          "place one horizontal block right here": 0.010205966090684826,
+          "stack one vertical block on top": 0.010205966090684826
+        },
+        "chunk_L": {
+          "build a long l-shaped tower": 0.9686929089081544,
+          "build a small c-shaped tower": 0.0009358786080250543,
+          "build a small eight-shaped unit": 0.002082836146260317,
+          "build a tall pi-shaped tower": 0.0006273381916151241,
+          "move left __ blocks then stop": 0.006915259536486254,
+          "move right __ blocks then stop": 0.006915259536486254,
+          "place one horizontal block right here": 0.006915259536486254,
+          "stack one vertical block on top": 0.006915259536486254
+        },
+        "chunk_Pi": {
+          "build a long l-shaped tower": 0.0008060549341899826,
+          "build a small c-shaped tower": 0.0008060549341899826,
+          "build a small eight-shaped unit": 0.0017939082466531082,
+          "build a tall pi-shaped tower": 0.9727700413747684,
+          "move left __ blocks then stop": 0.005955985127549634,
+          "move right __ blocks then stop": 0.005955985127549634,
+          "place one horizontal block right here": 0.005955985127549634,
+          "stack one vertical block on top": 0.005955985127549634
+        },
+        "h": {
+          "build a long l-shaped tower": 0.0012561354498317869,
+          "build a small c-shaped tower": 0.0012561354498317869,
+          "build a small eight-shaped unit": 0.002795580855330938,
+          "build a tall pi-shaped tower": 0.0008420127725582415,
+          "move left __ blocks then stop": 0.00928165530666256,
+          "move right __ blocks then stop": 0.00928165530666256,
+          "place one horizontal block right here": 0.9660051695524596,
+          "stack one vertical block on top": 0.00928165530666256
+        },
+        "l": {
+          "build a long l-shaped tower": 0.0031871159295299113,
+          "build a small c-shaped tower": 0.0031871159295299113,
+          "build a small eight-shaped unit": 0.007093056945019131,
+          "build a tall pi-shaped tower": 0.0021363876966034086,
+          "move left __ blocks then stop": 0.9137469883080415,
+          "move right __ blocks then stop": 0.023549778397092016,
+          "place one horizontal block right here": 0.023549778397092016,
+          "stack one vertical block on top": 0.023549778397092016
+        },
+        "r": {
+          "build a long l-shaped tower": 0.00038138054182200513,
+          "build a small c-shaped tower": 0.00038138054182200513,
+          "build a small eight-shaped unit": 0.0008487780051555055,
+          "build a tall pi-shaped tower": 0.0002556470223512234,
+          "move left __ blocks then stop": 0.0028180422185633625,
+          "move right __ blocks then stop": 0.9896786872331592,
+          "place one horizontal block right here": 0.0028180422185633625,
+          "stack one vertical block on top": 0.0028180422185633625
+        },
+        "v": {
+          "build a long l-shaped tower": 0.002397394209944266,
+          "build a small c-shaped tower": 0.002397394209944266,
+          "build a small eight-shaped unit": 0.005335498935961826,
+          "build a tall pi-shaped tower": 0.001607021397175415,
+          "move left __ blocks then stop": 0.017714480308529706,
+          "move right __ blocks then stop": 0.017714480308529706,
+          "place one horizontal block right here": 0.017714480308529706,
+          "stack one vertical block on top": 0.9351192503213851
+        }
+      },
+      "task_to_program": {
+        "CL": {
+          "chunk_8 r h r h l chunk_8": 0.00016961637524521065,
+          "chunk_8 r h r h l h l v v": 0.0005631461978248563,
+          "chunk_C r chunk_L": 0.9973975262055569,
+          "h l v v r h r h l h l v v": 0.0018697112213730501
+        },
+        "CPi": {
+          "chunk_C r chunk_Pi": 0.9953278293965317,
+          "chunk_8 r h r chunk_Pi": 0.0030475090565332654,
+          "chunk_8 r h r v r v l h r h": 0.000376068883317606,
+          "h l v v r h r v r v l h r h": 0.0012485926636174203
+        },
+        "LC": {
+          "chunk_L r chunk_C": 0.9875178370527914,
+          "h l chunk_8 r chunk_C": 3.9697091030979524e-05,
+          "h l chunk_8 r h l v v r h": 0.0002933240325922644,
+          "h l h l v v r h l v v r h": 0.01214914182358534
+        },
+        "LPi": {
+          "chunk_L r chunk_Pi": 0.9973874250495375,
+          "h l chunk_8 r v r v l h r h": 0.0005923084912252296,
+          "h l chunk_8 r chunk_Pi": 5.373301403989277e-05,
+          "h l h l v v r v r v l h r h": 0.001966533445197437
+        },
+        "PiC": {
+          "chunk_Pi r chunk_C": 9.737286317867934e-06,
+          "chunk_Pi r chunk_8 r h": 2.1670729232864802e-05,
+          "chunk_Pi r h r chunk_8": 0.9989366012847885,
+          "v r v l h r h r chunk_8 r h": 0.00023888027063099474,
+          "v r v l h r h r h l v v r h": 0.0007931104290298522
+        },
+        "PiL": {
+          "chunk_Pi r chunk_L": 0.9982582833663584,
+          "chunk_Pi r h l chunk_8": 3.582200935992852e-05,
+          "v r v l h r h r h l chunk_8": 0.00039487232748348634,
+          "v r v l h r h r h l h l v v": 0.0013110222967982913
+        }
+      }
+    },
+    "listener": {
+      "role": "pragmatic",
+      "meaning_to_utterance": {
+        "chunk_8": {
+          "build a long l-shaped tower": 0.0024123252747647096,
+          "build a small c-shaped tower": 0.0024123252747647096,
+          "build a small eight-shaped unit": 0.9222590923248183,
+          "build a tall pi-shaped tower": 0.0016170299892332158,
+          "move left __ blocks then stop": 0.01782480678410473,
+          "move right __ blocks then stop": 0.01782480678410473,
+          "place one horizontal block right here": 0.01782480678410473,
+          "stack one vertical block on top": 0.01782480678410473
+        },
+        "chunk_C": {
+          "build a long l-shaped tower": 0.001381227311586096,
+          "build a small c-shaped tower": 0.9537950660571,
+          "build a small eight-shaped unit": 0.003073977913486474,
+          "build a tall pi-shaped tower": 0.0009258643550880737,
+          "move left __ blocks then stop": 0.010205966090684826,
+          "move right __ blocks then stop": 0.010205966090684826,
+          "place one horizontal block right here": 0.010205966090684826,
+          "stack one vertical block on top": 0.010205966090684826
+        },
+        "chunk_L": {
+          "build a long l-shaped tower": 0.9686929089081544,
+          "build a small c-shaped tower": 0.0009358786080250543,
+          "build a small eight-shaped unit": 0.002082836146260317,
+          "build a tall pi-shaped tower": 0.0006273381916151241,
+          "move left __ blocks then stop": 0.006915259536486254,
+          "move right __ blocks then stop": 0.006915259536486254,
+          "place one horizontal block right here": 0.006915259536486254,
+          "stack one vertical block on top": 0.006915259536486254
+        },
+        "chunk_Pi": {
+          "build a long l-shaped tower": 0.0008060549341899826,
+          "build a small c-shaped tower": 0.0008060549341899826,
+          "build a small eight-shaped unit": 0.0017939082466531082,
+          "build a tall pi-shaped tower": 0.9727700413747684,
+          "move left __ blocks then stop": 0.005955985127549634,
+          "move right __ blocks then stop": 0.005955985127549634,
+          "place one horizontal block right here": 0.005955985127549634,
+          "stack one vertical block on top": 0.005955985127549634
+        },
+        "h": {
+          "build a long l-shaped tower": 0.0012561354498317869,
+          "build a small c-shaped tower": 0.0012561354498317869,
+          "build a small eight-shaped unit": 0.002795580855330938,
+          "build a tall pi-shaped tower": 0.0008420127725582415,
+          "move left __ blocks then stop": 0.00928165530666256,
+          "move right __ blocks then stop": 0.00928165530666256,
+          "place one horizontal block right here": 0.9660051695524596,
+          "stack one vertical block on top": 0.00928165530666256
+        },
+        "l": {
+          "build a long l-shaped tower": 0.0031871159295299113,
+          "build a small c-shaped tower": 0.0031871159295299113,
+          "build a small eight-shaped unit": 0.007093056945019131,
+          "build a tall pi-shaped tower": 0.0021363876966034086,
+          "move left __ blocks then stop": 0.9137469883080415,
+          "move right __ blocks then stop": 0.023549778397092016,
+          "place one horizontal block right here": 0.023549778397092016,
+          "stack one vertical block on top": 0.023549778397092016
+        },
+        "r": {
+          "build a long l-shaped tower": 0.00038138054182200513,
+          "build a small c-shaped tower": 0.00038138054182200513,
+          "build a small eight-shaped unit": 0.0008487780051555055,
+          "build a tall pi-shaped tower": 0.0002556470223512234,
+          "move left __ blocks then stop": 0.0028180422185633625,
+          "move right __ blocks then stop": 0.9896786872331592,
+          "place one horizontal block right here": 0.0028180422185633625,
+          "stack one vertical block on top": 0.0028180422185633625
+        },
+        "v": {
+          "build a long l-shaped tower": 0.002397394209944266,
+          "build a small c-shaped tower": 0.002397394209944266,
+          "build a small eight-shaped unit": 0.005335498935961826,
+          "build a tall pi-shaped tower": 0.001607021397175415,
+          "move left __ blocks then stop": 0.017714480308529706,
+          "move right __ blocks then stop": 0.017714480308529706,
+          "place one horizontal block right here": 0.017714480308529706,
+          "stack one vertical block on top": 0.9351192503213851
+        }
+      },
+      "task_to_program": {
+        "CL": {
+          "chunk_8 r h r h l chunk_8": 0.00016961637524521065,
+          "chunk_8 r h r h l h l v v": 0.0005631461978248563,
+          "chunk_C r chunk_L": 0.9973975262055569,
+          "h l v v r h r h l h l v v": 0.0018697112213730501
+        },
+        "CPi": {
+          "chunk_C r chunk_Pi": 0.9953278293965317,
+          "chunk_8 r h r chunk_Pi": 0.0030475090565332654,
+          "chunk_8 r h r v r v l h r h": 0.000376068883317606,
+          "h l v v r h r v r v l h r h": 0.0012485926636174203
+        },
+        "LC": {
+          "chunk_L r chunk_C": 0.9875178370527914,
+          "h l chunk_8 r chunk_C": 3.9697091030979524e-05,
+          "h l chunk_8 r h l v v r h": 0.0002933240325922644,
+          "h l h l v v r h l v v r h": 0.01214914182358534
+        },
+        "LPi": {
+          "chunk_L r chunk_Pi": 0.9973874250495375,
+          "h l chunk_8 r v r v l h r h": 0.0005923084912252296,
+          "h l chunk_8 r chunk_Pi": 5.373301403989277e-05,
+          "h l h l v v r v r v l h r h": 0.001966533445197437
+        },
+        "PiC": {
+          "chunk_Pi r chunk_C": 9.737286317867934e-06,
+          "chunk_Pi r chunk_8 r h": 2.1670729232864802e-05,
+          "chunk_Pi r h r chunk_8": 0.9989366012847885,
+          "v r v l h r h r chunk_8 r h": 0.00023888027063099474,
+          "v r v l h r h r h l v v r h": 0.0007931104290298522
+        },
+        "PiL": {
+          "chunk_Pi r chunk_L": 0.9982582833663584,
+          "chunk_Pi r h l chunk_8": 3.582200935992852e-05,
+          "v r v l h r h r h l chunk_8": 0.00039487232748348634,
+          "v r v l h r h r h l h l v v": 0.0013110222967982913
+        }
+      }
+    }
+  },
+  {
+    "dyad_id": 2,
+    "speaker": {
+      "role": "pragmatic",
+      "meaning_to_utterance": {
+        "chunk_8": {
+          "build a long l-shaped tower": 0.0019308968659406955,
+          "build a small c-shaped tower": 0.0019308968659406955,
+          "build a small eight-shaped unit": 0.9377738663373104,
+          "build a tall pi-shaped tower": 0.0012943188760674382,
+          "move left __ blocks then stop": 0.014267505263685174,
+          "move right __ blocks then stop": 0.014267505263685174,
+          "place one horizontal block right here": 0.014267505263685174,
+          "stack one vertical block on top": 0.014267505263685174
+        },
+        "chunk_C": {
+          "build a long l-shaped tower": 0.0010003896760510062,
+          "build a small c-shaped tower": 0.9665348791532242,
+          "build a small eight-shaped unit": 0.0022264081684928343,
+          "build a tall pi-shaped tower": 0.0006705812537040884,
+          "move left __ blocks then stop": 0.007391935437131943,
+          "move right __ blocks then stop": 0.007391935437131943,
+          "place one horizontal block right here": 0.007391935437131943,
+          "stack one vertical block on top": 0.007391935437131943
+        },
+        "chunk_L": {
+          "build a long l-shaped tower": 0.9537950660571,
+          "build a small c-shaped tower": 0.001381227311586096,
+          "build a small eight-shaped unit": 0.003073977913486474,
+          "build a tall pi-shaped tower": 0.0009258643550880737,
+          "move left __ blocks then stop": 0.010205966090684826,
+          "move right __ blocks then stop": 0.010205966090684826,
+          "place one horizontal block right here": 0.010205966090684826,
+          "stack one vertical block on top": 0.010205966090684826
+        },
+        "chunk_Pi": {
+          "build a long l-shaped tower": 0.0008534563675220415,
+          "build a small c-shaped tower": 0.0008534563675220415,
+          "build a small eight-shaped unit": 0.0018994020766028123,
+          "build a tall pi-shaped tower": 0.9711687372779133,
+          "move left __ blocks then stop": 0.006306236977609938,
+          "move right __ blocks then stop": 0.006306236977609938,
+          "place one horizontal block right here": 0.006306236977609938,
+          "stack one vertical block on top": 0.006306236977609938
+        },
+        "h": {
+          "build a long l-shaped tower": 0.0010326813509637235,
+          "build a small c-shaped tower": 0.0010326813509637235,
+          "build a small eight-shaped unit": 0.0022982746126606604,
+          "build a tall pi-shaped tower": 0.000692227010718149,
+          "move left __ blocks then stop": 0.007630540434590443,
+          "move right __ blocks then stop": 0.007630540434590443,
+          "place one horizontal block right here": 0.9720525143709224,
+          "stack one vertical block on top": 0.007630540434590443
+        },
+        "l": {
+          "build a long l-shaped tower": 0.0013129555520771557,
+          "build a small c-shaped tower": 0.0013129555520771557,
+          "build a small eight-shaped unit": 0.0029220363184391325,
+          "build a tall pi-shaped tower": 0.0008801004261111068,
+          "move left __ blocks then stop": 0.9644674454621938,
+          "move right __ blocks then stop": 0.009701502229700565,
+          "place one horizontal block right here": 0.009701502229700565,
+          "stack one vertical block on top": 0.009701502229700565
+        },
+        "r": {
+          "build a long l-shaped tower": 0.0004200112832626466,
+          "build a small c-shaped tower": 0.0004200112832626466,
+          "build a small eight-shaped unit": 0.0009347523013296631,
+          "build a tall pi-shaped tower": 0.00028154198273210506,
+          "move left __ blocks then stop": 0.0031034869342115474,
+          "move right __ blocks then stop": 0.9886332223467783,
+          "place one horizontal block right here": 0.0031034869342115474,
+          "stack one vertical block on top": 0.0031034869342115474
+        },
+        "v": {
+          "build a long l-shaped tower": 0.002057512734868398,
+          "build a small c-shaped tower": 0.002057512734868398,
+          "build a small eight-shaped unit": 0.004579078802344089,
+          "build a tall pi-shaped tower": 0.001379192031155898,
+          "move left __ blocks then stop": 0.015203077022206815,
+          "move right __ blocks then stop": 0.015203077022206815,
+          "place one horizontal block right here": 0.015203077022206815,
+          "stack one vertical block on top": 0.9443174726301428
+        }
+      },
+      "task_to_program": {
+        "CL": {
+          "chunk_8 r h r h l chunk_8": 0.004000481319580673,
+          "chunk_8 r h r h l h l v v": 0.010078483998791587,
+          "chunk_C r chunk_L": 0.9848823062253094,
+          "h l v v r h r h l h l v v": 0.0010387284563183612
+        },
+        "CPi": {
+          "chunk_C r chunk_Pi": 0.99790994003963,
+          "chunk_8 r h r chunk_Pi": 4.298641123191422e-05,
+          "chunk_8 r h r v r v l h r h": 0.0004738467929801837,
+          "h l v v r h r v r v l h r h": 0.0015732267561579495
+        },
+        "LC": {
+          "chunk_L r chunk_C": 1.9480162117881904e-05,
+          "h l chunk_8 r chunk_C": 0.9353732150091982,
+          "h l chunk_8 r h l v v r h": 0.06354372401470192,
+          "h l h l v v r h l v v r h": 0.0010635808139820898
+        },
+        "LPi": {
+          "chunk_L r chunk_Pi": 0.9965165667327166,
+          "h l chunk_8 r v r v l h r h": 0.0007897446549669726,
+          "h l chunk_8 r chunk_Pi": 7.164401871985702e-05,
+          "h l h l v v r v r v l h r h": 0.0026220445935965825
+        },
+        "PiC": {
+          "chunk_Pi r chunk_C": 0.9978224523797936,
+          "chunk_Pi r chunk_8 r h": 4.388322669655123e-05,
+          "chunk_Pi r h r chunk_8": 4.388322669655123e-05,
+          "v r v l h r h r chunk_8 r h": 0.0004837325480277642,
+          "v r v l h r h r h l v v r h": 0.0016060486187854503
+        },
+        "PiL": {
+          "chunk_Pi r chunk_L": 0.9953232305775722,
+          "chunk_Pi r h l chunk_8": 2.388133957328568e-05,
+          "v r v l h r h r h l chunk_8": 0.0014351232183223246,
+          "v r v l h r h r h l h l v v": 0.0032177648645321947
+        }
+      }
+    },
+    "listener": {
+      "role": "pragmatic",
+      "meaning_to_utterance": {
+        "chunk_8": {
+          "build a long l-shaped tower": 0.0019308968659406955,
+          "build a small c-shaped tower": 0.0019308968659406955,
+          "build a small eight-shaped unit": 0.9377738663373104,
+          "build a tall pi-shaped tower": 0.0012943188760674382,
+          "move left __ blocks then stop": 0.014267505263685174,
+          "move right __ blocks then stop": 0.014267505263685174,
+          "place one horizontal block right here": 0.014267505263685174,
+          "stack one vertical block on top": 0.014267505263685174
+        },
+        "chunk_C": {
+          "build a long l-shaped tower": 0.0010003896760510062,
+          "build a small c-shaped tower": 0.9665348791532242,
+          "build a small eight-shaped unit": 0.0022264081684928343,
+          "build a tall pi-shaped tower": 0.0006705812537040884,
+          "move left __ blocks then stop": 0.007391935437131943,
+          "move right __ blocks then stop": 0.007391935437131943,
+          "place one horizontal block right here": 0.007391935437131943,
+          "stack one vertical block on top": 0.007391935437131943
+        },
+        "chunk_L": {
+          "build a long l-shaped tower": 0.9537950660571,
+          "build a small c-shaped tower": 0.001381227311586096,
+          "build a small eight-shaped unit": 0.003073977913486474,
+          "build a tall pi-shaped tower": 0.0009258643550880737,
+          "move left __ blocks then stop": 0.010205966090684826,
+          "move right __ blocks then stop": 0.010205966090684826,
+          "place one horizontal block right here": 0.010205966090684826,
+          "stack one vertical block on top": 0.010205966090684826
+        },
+        "chunk_Pi": {
+          "build a long l-shaped tower": 0.0008534563675220415,
+          "build a small c-shaped tower": 0.0008534563675220415,
+          "build a small eight-shaped unit": 0.0018994020766028123,
+          "build a tall pi-shaped tower": 0.9711687372779133,
+          "move left __ blocks then stop": 0.006306236977609938,
+          "move right __ blocks then stop": 0.006306236977609938,
+          "place one horizontal block right here": 0.006306236977609938,
+          "stack one vertical block on top": 0.006306236977609938
+        },
+        "h": {
+          "build a long l-shaped tower": 0.0010326813509637235,
+          "build a small c-shaped tower": 0.0010326813509637235,
+          "build a small eight-shaped unit": 0.0022982746126606604,
+          "build a tall pi-shaped tower": 0.000692227010718149,
+          "move left __ blocks then stop": 0.007630540434590443,
+          "move right __ blocks then stop": 0.007630540434590443,
+          "place one horizontal block right here": 0.9720525143709224,
+          "stack one vertical block on top": 0.007630540434590443
+        },
+        "l": {
+          "build a long l-shaped tower": 0.0013129555520771557,
+          "build a small c-shaped tower": 0.0013129555520771557,
+          "build a small eight-shaped unit": 0.0029220363184391325,
+          "build a tall pi-shaped tower": 0.0008801004261111068,
+          "move left __ blocks then stop": 0.9644674454621938,
+          "move right __ blocks then stop": 0.009701502229700565,
+          "place one horizontal block right here": 0.009701502229700565,
+          "stack one vertical block on top": 0.009701502229700565
+        },
+        "r": {
+          "build a long l-shaped tower": 0.0004200112832626466,
+          "build a small c-shaped tower": 0.0004200112832626466,
+          "build a small eight-shaped unit": 0.0009347523013296631,
+          "build a tall pi-shaped tower": 0.00028154198273210506,
+          "move left __ blocks then stop": 0.0031034869342115474,
+          "move right __ blocks then stop": 0.9886332223467783,
+          "place one horizontal block right here": 0.0031034869342115474,
+          "stack one vertical block on top": 0.0031034869342115474
+        },
+        "v": {
+          "build a long l-shaped tower": 0.002057512734868398,
+          "build a small c-shaped tower": 0.002057512734868398,
+          "build a small eight-shaped unit": 0.004579078802344089,
+          "build a tall pi-shaped tower": 0.001379192031155898,
+          "move left __ blocks then stop": 0.015203077022206815,
+          "move right __ blocks then stop": 0.015203077022206815,
+          "place one horizontal block right here": 0.015203077022206815,
+          "stack one vertical block on top": 0.9443174726301428
+        }
+      },
+      "task_to_program": {
+        "CL": {
+          "chunk_8 r h r h l chunk_8": 0.004000481319580673,
+          "chunk_8 r h r h l h l v v": 0.010078483998791587,
+          "chunk_C r chunk_L": 0.9848823062253094,
+          "h l v v r h r h l h l v v": 0.0010387284563183612
+        },
+        "CPi": {
+          "chunk_C r chunk_Pi": 0.99790994003963,
+          "chunk_8 r h r chunk_Pi": 4.298641123191422e-05,
+          "chunk_8 r h r v r v l h r h": 0.0004738467929801837,
+          "h l v v r h r v r v l h r h": 0.0015732267561579495
+        },
+        "LC": {
+          "chunk_L r chunk_C": 1.9480162117881904e-05,
+          "h l chunk_8 r chunk_C": 0.9353732150091982,
+          "h l chunk_8 r h l v v r h": 0.06354372401470192,
+          "h l h l v v r h l v v r h": 0.0010635808139820898
+        },
+        "LPi": {
+          "chunk_L r chunk_Pi": 0.9965165667327166,
+          "h l chunk_8 r v r v l h r h": 0.0007897446549669726,
+          "h l chunk_8 r chunk_Pi": 7.164401871985702e-05,
+          "h l h l v v r v r v l h r h": 0.0026220445935965825
+        },
+        "PiC": {
+          "chunk_Pi r chunk_C": 0.9978224523797936,
+          "chunk_Pi r chunk_8 r h": 4.388322669655123e-05,
+          "chunk_Pi r h r chunk_8": 4.388322669655123e-05,
+          "v r v l h r h r chunk_8 r h": 0.0004837325480277642,
+          "v r v l h r h r h l v v r h": 0.0016060486187854503
+        },
+        "PiL": {
+          "chunk_Pi r chunk_L": 0.9953232305775722,
+          "chunk_Pi r h l chunk_8": 2.388133957328568e-05,
+          "v r v l h r h r h l chunk_8": 0.0014351232183223246,
+          "v r v l h r h r h l h l v v": 0.0032177648645321947
+        }
+      }
+    }
+  },
+  {
+    "dyad_id": 3,
+    "speaker": {
+      "role": "pragmatic",
+      "meaning_to_utterance": {
+        "chunk_8": {
+          "build a long l-shaped tower": 0.014282257733535395,
+          "build a small c-shaped tower": 0.014282257733535395,
+          "build a small eight-shaped unit": 0.5397321864215764,
+          "build a tall pi-shaped tower": 0.009573683661436308,
+          "move left __ blocks then stop": 0.10553240361247915,
+          "move right __ blocks then stop": 0.10553240361247915,
+          "place one horizontal block right here": 0.10553240361247915,
+          "stack one vertical block on top": 0.10553240361247915
+        },
+        "chunk_C": {
+          "build a long l-shaped tower": 0.0008533363169877489,
+          "build a small c-shaped tower": 0.9714541206745904,
+          "build a small eight-shaped unit": 0.0018991348992252568,
+          "build a tall pi-shaped tower": 0.0005720084392871105,
+          "move left __ blocks then stop": 0.006305349917477344,
+          "move right __ blocks then stop": 0.006305349917477344,
+          "place one horizontal block right here": 0.006305349917477344,
+          "stack one vertical block on top": 0.006305349917477344
+        },
+        "chunk_L": {
+          "build a long l-shaped tower": 0.9737677439332677,
+          "build a small c-shaped tower": 0.0007841740141575984,
+          "build a small eight-shaped unit": 0.0017452113635679665,
+          "build a tall pi-shaped tower": 0.0005256475612700732,
+          "move left __ blocks then stop": 0.005794305781934132,
+          "move right __ blocks then stop": 0.005794305781934132,
+          "place one horizontal block right here": 0.005794305781934132,
+          "stack one vertical block on top": 0.005794305781934132
+        },
+        "chunk_Pi": {
+          "build a long l-shaped tower": 0.0009067811792591105,
+          "build a small c-shaped tower": 0.0009067811792591105,
+          "build a small eight-shaped unit": 0.002018078627627815,
+          "build a tall pi-shaped tower": 0.9693673310018537,
+          "move left __ blocks then stop": 0.006700257003000057,
+          "move right __ blocks then stop": 0.006700257003000057,
+          "place one horizontal block right here": 0.006700257003000057,
+          "stack one vertical block on top": 0.006700257003000057
+        },
+        "h": {
+          "build a long l-shaped tower": 0.004083980931408084,
+          "build a small c-shaped tower": 0.004083980931408084,
+          "build a small eight-shaped unit": 0.00908906671403148,
+          "build a tall pi-shaped tower": 0.0027375742859501394,
+          "move left __ blocks then stop": 0.030176764209137383,
+          "move right __ blocks then stop": 0.030176764209137383,
+          "place one horizontal block right here": 0.88947510450979,
+          "stack one vertical block on top": 0.030176764209137383
+        },
+        "l": {
+          "build a long l-shaped tower": 0.005683272747642951,
+          "build a small c-shaped tower": 0.005683272747642951,
+          "build a small eight-shaped unit": 0.012648356107665227,
+          "build a tall pi-shaped tower": 0.0038096116498331153,
+          "move left __ blocks then stop": 0.8461934232736431,
+          "move right __ blocks then stop": 0.0419940211578575,
+          "place one horizontal block right here": 0.0419940211578575,
+          "stack one vertical block on top": 0.0419940211578575
+        },
+        "r": {
+          "build a long l-shaped tower": 0.00044581555968605397,
+          "build a small c-shaped tower": 0.00044581555968605397,
+          "build a small eight-shaped unit": 0.0009921807746400893,
+          "build a tall pi-shaped tower": 0.0002988391064921599,
+          "move left __ blocks then stop": 0.003294156180296418,
+          "move right __ blocks then stop": 0.9879348804586064,
+          "place one horizontal block right here": 0.003294156180296418,
+          "stack one vertical block on top": 0.003294156180296418
+        },
+        "v": {
+          "build a long l-shaped tower": 0.004083980931408085,
+          "build a small c-shaped tower": 0.004083980931408085,
+          "build a small eight-shaped unit": 0.00908906671403148,
+          "build a tall pi-shaped tower": 0.00273757428595014,
+          "move left __ blocks then stop": 0.030176764209137386,
+          "move right __ blocks then stop": 0.030176764209137386,
+          "place one horizontal block right here": 0.030176764209137386,
+          "stack one vertical block on top": 0.8894751045097901
+        }
+      },
+      "task_to_program": {
+        "CL": {
+          "chunk_8 r h r h l chunk_8": 0.00011307758349680713,
+          "chunk_8 r h r h l h l v v": 0.00037543079854990426,
+          "chunk_C r chunk_L": 0.9982650174703713,
+          "h l v v r h r h l h l v v": 0.0012464741475820339
+        },
+        "CPi": {
+          "chunk_C r chunk_Pi": 0.9982582833663584,
+          "chunk_8 r h r chunk_Pi": 3.582200935992852e-05,
+          "chunk_8 r h r v r v l h r h": 0.00039487232748348634,
+          "h l v v r h r v r v l h r h": 0.0013110222967982913
+        },
+        "LC": {
+          "chunk_L r chunk_C": 0.9966017549141445,
+          "h l chunk_8 r chunk_C": 4.389582181310236e-05,
+          "h l chunk_8 r h l v v r h": 0.0022774736898856776,
+          "h l h l v v r h l v v r h": 0.0010768755741568656
+        },
+        "LPi": {
+          "chunk_L r chunk_Pi": 0.99790994003963,
+          "h l chunk_8 r v r v l h r h": 0.0004738467929801837,
+          "h l chunk_8 r chunk_Pi": 4.298641123191422e-05,
+          "h l h l v v r v r v l h r h": 0.0015732267561579497
+        },
+        "PiC": {
+          "chunk_Pi r chunk_C": 0.997083944700845,
+          "chunk_Pi r chunk_8 r h": 3.0339020926010723e-05,
+          "chunk_Pi r h r chunk_8": 3.0339020926010723e-05,
+          "v r v l h r h r chunk_8 r h": 0.0003344323788833927,
+          "v r v l h r h r h l v v r h": 0.0025209448784195717
+        },
+        "PiL": {
+          "chunk_Pi r chunk_L": 0.9986066266930866,
+          "chunk_Pi r h l chunk_8": 2.8657607487942813e-05,
+          "v r v l h r h r h l chunk_8": 0.0003158978619867891,
+          "v r v l h r h r h l h l v v": 0.001048817837438633
+        }
+      }
+    },
+    "listener": {
+      "role": "pragmatic",
+      "meaning_to_utterance": {
+        "chunk_8": {
+          "build a long l-shaped tower": 0.014282257733535395,
+          "build a small c-shaped tower": 0.014282257733535395,
+          "build a small eight-shaped unit": 0.5397321864215764,
+          "build a tall pi-shaped tower": 0.009573683661436308,
+          "move left __ blocks then stop": 0.10553240361247915,
+          "move right __ blocks then stop": 0.10553240361247915,
+          "place one horizontal block right here": 0.10553240361247915,
+          "stack one vertical block on top": 0.10553240361247915
+        },
+        "chunk_C": {
+          "build a long l-shaped tower": 0.0008533363169877489,
+          "build a small c-shaped tower": 0.9714541206745904,
+          "build a small eight-shaped unit": 0.0018991348992252568,
+          "build a tall pi-shaped tower": 0.0005720084392871105,
+          "move left __ blocks then stop": 0.006305349917477344,
+          "move right __ blocks then stop": 0.006305349917477344,
+          "place one horizontal block right here": 0.006305349917477344,
+          "stack one vertical block on top": 0.006305349917477344
+        },
+        "chunk_L": {
+          "build a long l-shaped tower": 0.9737677439332677,
+          "build a small c-shaped tower": 0.0007841740141575984,
+          "build a small eight-shaped unit": 0.0017452113635679665,
+          "build a tall pi-shaped tower": 0.0005256475612700732,
+          "move left __ blocks then stop": 0.005794305781934132,
+          "move right __ blocks then stop": 0.005794305781934132,
+          "place one horizontal block right here": 0.005794305781934132,
+          "stack one vertical block on top": 0.005794305781934132
+        },
+        "chunk_Pi": {
+          "build a long l-shaped tower": 0.0009067811792591105,
+          "build a small c-shaped tower": 0.0009067811792591105,
+          "build a small eight-shaped unit": 0.002018078627627815,
+          "build a tall pi-shaped tower": 0.9693673310018537,
+          "move left __ blocks then stop": 0.006700257003000057,
+          "move right __ blocks then stop": 0.006700257003000057,
+          "place one horizontal block right here": 0.006700257003000057,
+          "stack one vertical block on top": 0.006700257003000057
+        },
+        "h": {
+          "build a long l-shaped tower": 0.004083980931408084,
+          "build a small c-shaped tower": 0.004083980931408084,
+          "build a small eight-shaped unit": 0.00908906671403148,
+          "build a tall pi-shaped tower": 0.0027375742859501394,
+          "move left __ blocks then stop": 0.030176764209137383,
+          "move right __ blocks then stop": 0.030176764209137383,
+          "place one horizontal block right here": 0.88947510450979,
+          "stack one vertical block on top": 0.030176764209137383
+        },
+        "l": {
+          "build a long l-shaped tower": 0.005683272747642951,
+          "build a small c-shaped tower": 0.005683272747642951,
+          "build a small eight-shaped unit": 0.012648356107665227,
+          "build a tall pi-shaped tower": 0.0038096116498331153,
+          "move left __ blocks then stop": 0.8461934232736431,
+          "move right __ blocks then stop": 0.0419940211578575,
+          "place one horizontal block right here": 0.0419940211578575,
+          "stack one vertical block on top": 0.0419940211578575
+        },
+        "r": {
+          "build a long l-shaped tower": 0.00044581555968605397,
+          "build a small c-shaped tower": 0.00044581555968605397,
+          "build a small eight-shaped unit": 0.0009921807746400893,
+          "build a tall pi-shaped tower": 0.0002988391064921599,
+          "move left __ blocks then stop": 0.003294156180296418,
+          "move right __ blocks then stop": 0.9879348804586064,
+          "place one horizontal block right here": 0.003294156180296418,
+          "stack one vertical block on top": 0.003294156180296418
+        },
+        "v": {
+          "build a long l-shaped tower": 0.004083980931408085,
+          "build a small c-shaped tower": 0.004083980931408085,
+          "build a small eight-shaped unit": 0.00908906671403148,
+          "build a tall pi-shaped tower": 0.00273757428595014,
+          "move left __ blocks then stop": 0.030176764209137386,
+          "move right __ blocks then stop": 0.030176764209137386,
+          "place one horizontal block right here": 0.030176764209137386,
+          "stack one vertical block on top": 0.8894751045097901
+        }
+      },
+      "task_to_program": {
+        "CL": {
+          "chunk_8 r h r h l chunk_8": 0.00011307758349680713,
+          "chunk_8 r h r h l h l v v": 0.00037543079854990426,
+          "chunk_C r chunk_L": 0.9982650174703713,
+          "h l v v r h r h l h l v v": 0.0012464741475820339
+        },
+        "CPi": {
+          "chunk_C r chunk_Pi": 0.9982582833663584,
+          "chunk_8 r h r chunk_Pi": 3.582200935992852e-05,
+          "chunk_8 r h r v r v l h r h": 0.00039487232748348634,
+          "h l v v r h r v r v l h r h": 0.0013110222967982913
+        },
+        "LC": {
+          "chunk_L r chunk_C": 0.9966017549141445,
+          "h l chunk_8 r chunk_C": 4.389582181310236e-05,
+          "h l chunk_8 r h l v v r h": 0.0022774736898856776,
+          "h l h l v v r h l v v r h": 0.0010768755741568656
+        },
+        "LPi": {
+          "chunk_L r chunk_Pi": 0.99790994003963,
+          "h l chunk_8 r v r v l h r h": 0.0004738467929801837,
+          "h l chunk_8 r chunk_Pi": 4.298641123191422e-05,
+          "h l h l v v r v r v l h r h": 0.0015732267561579497
+        },
+        "PiC": {
+          "chunk_Pi r chunk_C": 0.997083944700845,
+          "chunk_Pi r chunk_8 r h": 3.0339020926010723e-05,
+          "chunk_Pi r h r chunk_8": 3.0339020926010723e-05,
+          "v r v l h r h r chunk_8 r h": 0.0003344323788833927,
+          "v r v l h r h r h l v v r h": 0.0025209448784195717
+        },
+        "PiL": {
+          "chunk_Pi r chunk_L": 0.9986066266930866,
+          "chunk_Pi r h l chunk_8": 2.8657607487942813e-05,
+          "v r v l h r h r h l chunk_8": 0.0003158978619867891,
+          "v r v l h r h r h l h l v v": 0.001048817837438633
+        }
+      }
+    }
+  },
+  {
+    "dyad_id": 4,
+    "speaker": {
+      "role": "pragmatic",
+      "meaning_to_utterance": {
+        "chunk_8": {
+          "build a long l-shaped tower": 0.0028932370292698815,
+          "build a small c-shaped tower": 0.0028932370292698815,
+          "build a small eight-shaped unit": 0.9067609682956934,
+          "build a tall pi-shaped tower": 0.0019393947786522025,
+          "move left __ blocks then stop": 0.021378290716778613,
+          "move right __ blocks then stop": 0.021378290716778613,
+          "place one horizontal block right here": 0.021378290716778613,
+          "stack one vertical block on top": 0.021378290716778613
+        },
+        "chunk_C": {
+          "build a long l-shaped tower": 0.0008533363169877489,
+          "build a small c-shaped tower": 0.9714541206745904,
+          "build a small eight-shaped unit": 0.0018991348992252568,
+          "build a tall pi-shaped tower": 0.0005720084392871105,
+          "move left __ blocks then stop": 0.006305349917477344,
+          "move right __ blocks then stop": 0.006305349917477344,
+          "place one horizontal block right here": 0.006305349917477344,
+          "stack one vertical block on top": 0.006305349917477344
+        },
+        "chunk_L": {
+          "build a long l-shaped tower": 0.9595671923688259,
+          "build a small c-shaped tower": 0.0012086782388499853,
+          "build a small eight-shaped unit": 0.002689962889938836,
+          "build a tall pi-shaped tower": 0.0008102012527081971,
+          "move left __ blocks then stop": 0.008930991312419239,
+          "move right __ blocks then stop": 0.008930991312419239,
+          "place one horizontal block right here": 0.008930991312419239,
+          "stack one vertical block on top": 0.008930991312419239
+        },
+        "chunk_Pi": {
+          "build a long l-shaped tower": 0.000784275392125205,
+          "build a small c-shaped tower": 0.000784275392125205,
+          "build a small eight-shaped unit": 0.0017454369843841223,
+          "build a tall pi-shaped tower": 0.9735057927536696,
+          "move left __ blocks then stop": 0.005795054869423972,
+          "move right __ blocks then stop": 0.005795054869423972,
+          "place one horizontal block right here": 0.005795054869423972,
+          "stack one vertical block on top": 0.005795054869423972
+        },
+        "h": {
+          "build a long l-shaped tower": 0.0013751595994636776,
+          "build a small c-shaped tower": 0.0013751595994636776,
+          "build a small eight-shaped unit": 0.003060473971815722,
+          "build a tall pi-shaped tower": 0.0009217970460188433,
+          "move left __ blocks then stop": 0.010161131425420116,
+          "move right __ blocks then stop": 0.010161131425420116,
+          "place one horizontal block right here": 0.9627840155069778,
+          "stack one vertical block on top": 0.010161131425420116
+        },
+        "l": {
+          "build a long l-shaped tower": 0.0019213188845100188,
+          "build a small c-shaped tower": 0.0019213188845100188,
+          "build a small eight-shaped unit": 0.004275973814162538,
+          "build a tall pi-shaped tower": 0.0012878985631138984,
+          "move left __ blocks then stop": 0.9480032907889653,
+          "move right __ blocks then stop": 0.014196733021579385,
+          "place one horizontal block right here": 0.014196733021579385,
+          "stack one vertical block on top": 0.014196733021579385
+        },
+        "r": {
+          "build a long l-shaped tower": 0.0004200112832626466,
+          "build a small c-shaped tower": 0.0004200112832626466,
+          "build a small eight-shaped unit": 0.0009347523013296631,
+          "build a tall pi-shaped tower": 0.00028154198273210506,
+          "move left __ blocks then stop": 0.0031034869342115474,
+          "move right __ blocks then stop": 0.9886332223467783,
+          "place one horizontal block right here": 0.0031034869342115474,
+          "stack one vertical block on top": 0.0031034869342115474
+        },
+        "v": {
+          "build a long l-shaped tower": 0.004752692679447252,
+          "build a small c-shaped tower": 0.004752692679447252,
+          "build a small eight-shaped unit": 0.010577312078656387,
+          "build a tall pi-shaped tower": 0.0031858251756803264,
+          "move left __ blocks then stop": 0.03511791282941277,
+          "move right __ blocks then stop": 0.03511791282941277,
+          "place one horizontal block right here": 0.03511791282941277,
+          "stack one vertical block on top": 0.8713777388985305
+        }
+      },
+      "task_to_program": {
+        "CL": {
+          "chunk_8 r h r h l chunk_8": 9.91908627164975e-05,
+          "chunk_8 r h r h l h l v v": 0.001717071972412197,
+          "chunk_C r chunk_L": 0.9970903387897994,
+          "h l v v r h r h l h l v v": 0.0010933983750719596
+        },
+        "CPi": {
+          "chunk_C r chunk_Pi": 0.9985485694719652,
+          "chunk_8 r h r chunk_Pi": 2.9851674466607096e-05,
+          "chunk_8 r h r v r v l h r h": 0.00032906027290290535,
+          "h l v v r h r v r v l h r h": 0.0010925185806652429
+        },
+        "LC": {
+          "chunk_L r chunk_C": 0.9971006565986837,
+          "h l chunk_8 r chunk_C": 6.7532033558619e-05,
+          "h l chunk_8 r h l v v r h": 0.001175079715208734,
+          "h l h l v v r h l v v r h": 0.0016567316525490235
+        },
+        "LPi": {
+          "chunk_L r chunk_Pi": 0.99790994003963,
+          "h l chunk_8 r v r v l h r h": 0.0004738467929801837,
+          "h l chunk_8 r chunk_Pi": 4.298641123191422e-05,
+          "h l h l v v r v r v l h r h": 0.0015732267561579497
+        },
+        "PiC": {
+          "chunk_Pi r chunk_C": 0.9961038489569525,
+          "chunk_Pi r chunk_8 r h": 2.247564203294264e-05,
+          "chunk_Pi r h r chunk_8": 2.247564203294264e-05,
+          "v r v l h r h r chunk_8 r h": 0.0030286309425877657,
+          "v r v l h r h r h l v v r h": 0.0008225688163938182
+        },
+        "PiL": {
+          "chunk_Pi r chunk_L": 9.935719974255614e-06,
+          "chunk_Pi r h l chunk_8": 0.9989370429070124,
+          "v r v l h r h r h l chunk_8": 0.00024374835029844835,
+          "v r v l h r h r h l h l v v": 0.0008092730227149946
+        }
+      }
+    },
+    "listener": {
+      "role": "pragmatic",
+      "meaning_to_utterance": {
+        "chunk_8": {
+          "build a long l-shaped tower": 0.0028932370292698815,
+          "build a small c-shaped tower": 0.0028932370292698815,
+          "build a small eight-shaped unit": 0.9067609682956934,
+          "build a tall pi-shaped tower": 0.0019393947786522025,
+          "move left __ blocks then stop": 0.021378290716778613,
+          "move right __ blocks then stop": 0.021378290716778613,
+          "place one horizontal block right here": 0.021378290716778613,
+          "stack one vertical block on top": 0.021378290716778613
+        },
+        "chunk_C": {
+          "build a long l-shaped tower": 0.0008533363169877489,
+          "build a small c-shaped tower": 0.9714541206745904,
+          "build a small eight-shaped unit": 0.0018991348992252568,
+          "build a tall pi-shaped tower": 0.0005720084392871105,
+          "move left __ blocks then stop": 0.006305349917477344,
+          "move right __ blocks then stop": 0.006305349917477344,
+          "place one horizontal block right here": 0.006305349917477344,
+          "stack one vertical block on top": 0.006305349917477344
+        },
+        "chunk_L": {
+          "build a long l-shaped tower": 0.9595671923688259,
+          "build a small c-shaped tower": 0.0012086782388499853,
+          "build a small eight-shaped unit": 0.002689962889938836,
+          "build a tall pi-shaped tower": 0.0008102012527081971,
+          "move left __ blocks then stop": 0.008930991312419239,
+          "move right __ blocks then stop": 0.008930991312419239,
+          "place one horizontal block right here": 0.008930991312419239,
+          "stack one vertical block on top": 0.008930991312419239
+        },
+        "chunk_Pi": {
+          "build a long l-shaped tower": 0.000784275392125205,
+          "build a small c-shaped tower": 0.000784275392125205,
+          "build a small eight-shaped unit": 0.0017454369843841223,
+          "build a tall pi-shaped tower": 0.9735057927536696,
+          "move left __ blocks then stop": 0.005795054869423972,
+          "move right __ blocks then stop": 0.005795054869423972,
+          "place one horizontal block right here": 0.005795054869423972,
+          "stack one vertical block on top": 0.005795054869423972
+        },
+        "h": {
+          "build a long l-shaped tower": 0.0013751595994636776,
+          "build a small c-shaped tower": 0.0013751595994636776,
+          "build a small eight-shaped unit": 0.003060473971815722,
+          "build a tall pi-shaped tower": 0.0009217970460188433,
+          "move left __ blocks then stop": 0.010161131425420116,
+          "move right __ blocks then stop": 0.010161131425420116,
+          "place one horizontal block right here": 0.9627840155069778,
+          "stack one vertical block on top": 0.010161131425420116
+        },
+        "l": {
+          "build a long l-shaped tower": 0.0019213188845100188,
+          "build a small c-shaped tower": 0.0019213188845100188,
+          "build a small eight-shaped unit": 0.004275973814162538,
+          "build a tall pi-shaped tower": 0.0012878985631138984,
+          "move left __ blocks then stop": 0.9480032907889653,
+          "move right __ blocks then stop": 0.014196733021579385,
+          "place one horizontal block right here": 0.014196733021579385,
+          "stack one vertical block on top": 0.014196733021579385
+        },
+        "r": {
+          "build a long l-shaped tower": 0.0004200112832626466,
+          "build a small c-shaped tower": 0.0004200112832626466,
+          "build a small eight-shaped unit": 0.0009347523013296631,
+          "build a tall pi-shaped tower": 0.00028154198273210506,
+          "move left __ blocks then stop": 0.0031034869342115474,
+          "move right __ blocks then stop": 0.9886332223467783,
+          "place one horizontal block right here": 0.0031034869342115474,
+          "stack one vertical block on top": 0.0031034869342115474
+        },
+        "v": {
+          "build a long l-shaped tower": 0.004752692679447252,
+          "build a small c-shaped tower": 0.004752692679447252,
+          "build a small eight-shaped unit": 0.010577312078656387,
+          "build a tall pi-shaped tower": 0.0031858251756803264,
+          "move left __ blocks then stop": 0.03511791282941277,
+          "move right __ blocks then stop": 0.03511791282941277,
+          "place one horizontal block right here": 0.03511791282941277,
+          "stack one vertical block on top": 0.8713777388985305
+        }
+      },
+      "task_to_program": {
+        "CL": {
+          "chunk_8 r h r h l chunk_8": 9.91908627164975e-05,
+          "chunk_8 r h r h l h l v v": 0.001717071972412197,
+          "chunk_C r chunk_L": 0.9970903387897994,
+          "h l v v r h r h l h l v v": 0.0010933983750719596
+        },
+        "CPi": {
+          "chunk_C r chunk_Pi": 0.9985485694719652,
+          "chunk_8 r h r chunk_Pi": 2.9851674466607096e-05,
+          "chunk_8 r h r v r v l h r h": 0.00032906027290290535,
+          "h l v v r h r v r v l h r h": 0.0010925185806652429
+        },
+        "LC": {
+          "chunk_L r chunk_C": 0.9971006565986837,
+          "h l chunk_8 r chunk_C": 6.7532033558619e-05,
+          "h l chunk_8 r h l v v r h": 0.001175079715208734,
+          "h l h l v v r h l v v r h": 0.0016567316525490235
+        },
+        "LPi": {
+          "chunk_L r chunk_Pi": 0.99790994003963,
+          "h l chunk_8 r v r v l h r h": 0.0004738467929801837,
+          "h l chunk_8 r chunk_Pi": 4.298641123191422e-05,
+          "h l h l v v r v r v l h r h": 0.0015732267561579497
+        },
+        "PiC": {
+          "chunk_Pi r chunk_C": 0.9961038489569525,
+          "chunk_Pi r chunk_8 r h": 2.247564203294264e-05,
+          "chunk_Pi r h r chunk_8": 2.247564203294264e-05,
+          "v r v l h r h r chunk_8 r h": 0.0030286309425877657,
+          "v r v l h r h r h l v v r h": 0.0008225688163938182
+        },
+        "PiL": {
+          "chunk_Pi r chunk_L": 9.935719974255614e-06,
+          "chunk_Pi r h l chunk_8": 0.9989370429070124,
+          "v r v l h r h r h l chunk_8": 0.00024374835029844835,
+          "v r v l h r h r h l h l v v": 0.0008092730227149946
+        }
+      }
+    }
+  }
+]

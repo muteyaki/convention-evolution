@@ -23,15 +23,6 @@ def _normalize(dist: Dict[str, float]) -> Dict[str, float]:
     return {k: v / Z for k, v in dist.items()}
 
 
-def _prepare_ticks(xs: List[int], max_ticks: int = 12) -> Tuple[List[int], List[int]]:
-    if not xs:
-        return [], []
-    step = max(1, len(xs) // max_ticks)
-    tick_idx = list(range(0, len(xs), step))
-    tick_labels = [xs[i] for i in tick_idx]
-    return tick_idx, tick_labels
-
-
 def _slice_rounds(history: List[Dict], step: int, max_round: int, max_slices: int) -> List[int]:
     rounds = sorted({entry["round"] for entry in history if entry["round"] >= 0})
     targets = [r for r in range(0, max_round + 1, step)]

@@ -6,6 +6,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent
 DATA_DIR = PROJECT_ROOT / "data"
 LEXICON_CONFIG_PATH = DATA_DIR / "task" / "lexicon.json"
 TOWERS_CONFIG_PATH = DATA_DIR / "task" / "task.json"
+RESULTS_DIR  = PROJECT_ROOT / "results"
 
 # ---- RSA / agent para ----
 LENGTH_PRIOR_LAMBDA = 0.4        # length-based P(m) 的 λ
@@ -17,7 +18,7 @@ CHOICE_TEMPERATURE = 0.5
 
 # ---- Population para ----
 N_DYADS = 5
-ROUNDS_PER_DYAD = 50
+ROUNDS_PER_DYAD = 60
 NEWPOP_RATIO = 0.5
 
 # System para
