@@ -273,7 +273,7 @@ def main() -> None:
     parser.add_argument("--out-dir", type=Path, default=Path("plots"), help="Directory to save figures")
     args = parser.parse_args()
 
-    out_dir: Path = args.out_dir
+    out_dir: Path = args.out_dir / "exp1"
     os.makedirs(out_dir, exist_ok=True)
 
     history = load_history(args.input)
@@ -281,8 +281,8 @@ def main() -> None:
         print("No history entries found.")
         return
 
-    _meaning_utterance_slice_grids(history, agent_key="architect", out_path=out_dir / "architect_m2u_slices.png", title_prefix="Architect")
-    _utterance_to_meaning_slice_grids(history, out_path=out_dir / "builder_u2m_slices.png")
+    _meaning_utterance_slice_grids(history, agent_key="architect", out_path=out_dir / "architect_m2u_heatmap.png", title_prefix="Architect")
+    _utterance_to_meaning_slice_grids(history, out_path=out_dir / "builder_u2m_heatmap.png")
     architect_task_confidence_heatmap(history, out_path=out_dir / "architect_task_heatmap.png")
     print(f"Saved heatmaps to {out_dir}")
 

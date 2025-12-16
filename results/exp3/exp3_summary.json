@@ -1,0 +1,34 @@
+{
+  "metrics": [
+    {
+      "generation": 0,
+      "mean_accuracy": 0.6237500000000001,
+      "avg_loss": 0.17215563603063613,
+      "overall_js": 0.04564095067731167
+    },
+    {
+      "generation": 1,
+      "mean_accuracy": 0.7362499999999998,
+      "avg_loss": 0.11822231934731914,
+      "overall_js": 0.04373297849815262
+    },
+    {
+      "generation": 2,
+      "mean_accuracy": 0.6999999999999998,
+      "avg_loss": 0.14034744422244438,
+      "overall_js": 0.05085276124505392
+    },
+    {
+      "generation": 3,
+      "mean_accuracy": 0.7262500000000001,
+      "avg_loss": 0.11325690975690968,
+      "overall_js": 0.052392359348806816
+    },
+    {
+      "generation": 4,
+      "mean_accuracy": 0.7662500000000001,
+      "avg_loss": 0.11408824508824514,
+      "overall_js": 0.049530211574905496
+    }
+  ]
+}
