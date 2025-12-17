@@ -1,22 +1,19 @@
-# lexicon.py
-from typing import List, Dict, Any, Tuple
-from pathlib import Path
-from collections import defaultdict
+"""Lexicon utilities and priors."""
+
 import json
 import math
-from config import LENGTH_PRIOR_LAMBDA, FIDELITY
+from collections import defaultdict
+from pathlib import Path
+from typing import Any, Dict, List, Tuple
 
+from config import FIDELITY, LENGTH_PRIOR_LAMBDA
 from task import program_length
 
-
-# -------- Read lexicon defination --------
 
 def load_lexicon_config(path: Path) -> List[Dict[str, Any]]:
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
-
-# -------- Build dict and prior --------
 
 def _normalize(dist: Dict[str, float]) -> Dict[str, float]:
     Z = sum(dist.values())
@@ -31,10 +28,12 @@ def build_entries_with_prior(
     lam: float = LENGTH_PRIOR_LAMBDA,
 ) -> Tuple[List[Dict[str, Any]], Dict[str, Dict[str, float]], Dict[str, float]]:
     """
-    Read from lexicon.json ：
+    Build lexicon entries and priors from the lexicon config.
+
+    Returns:
       - entries: [{meaning, program, utterance, length}]
-      - lexicon_prior: dict[meaning][utterance]，** consider the frequency of lexicons and the fidelity
-      - meaning_prior: dict[meaning] = P(m)，length prior before fidelity adjustment
+      - lexicon_prior: dict[meaning][utterance] = P(u|m)
+      - meaning_prior: dict[meaning] = P(m)
     """
     entries: List[Dict[str, Any]] = []
     weights: Dict[str, float] = defaultdict(float)
@@ -66,9 +65,6 @@ def build_entries_with_prior(
         lexicon_prior[m] = row
 
     return entries, lexicon_prior, meaning_prior
-
-
-# -------- Tool functions for managing the lexicon dict --------
 
 def get_program_for_meaning(entries: List[Dict[str, Any]], meaning: str) -> str:
     for e in entries:

@@ -1,19 +1,20 @@
-"""Visualize belief_history.json with slice heatmaps for beliefs."""
+"""Visualize dyad belief history as heatmaps."""
+
+from __future__ import annotations
 
 import argparse
 import json
-import os
 from pathlib import Path
 from typing import Dict, List, Tuple
 
 import matplotlib
 
 matplotlib.use("Agg")
-import matplotlib.pyplot as plt  # noqa: E402
-import numpy as np  # noqa: E402
+import matplotlib.pyplot as plt 
+import numpy as np  
 
-from config import TOWERS_CONFIG_PATH  # noqa: E402
-from task import load_towers_config, program_length  # noqa: E402
+from config import TOWERS_CONFIG_PATH 
+from task import load_towers_config, program_length 
 
 
 def _normalize(dist: Dict[str, float]) -> Dict[str, float]:
@@ -61,7 +62,9 @@ def _infer_utterance_meaning(history: List[Dict], agent_key: str) -> Dict[str, s
 
 def load_history(path: Path) -> List[Dict]:
     if not path.exists():
-        raise FileNotFoundError(f"belief history not found at {path}. Run test.py first or pass --input <path>.")
+        raise FileNotFoundError(
+            f"belief history not found at {path}. Run exp1_dyad_convention.py first or pass --input <path>."
+        )
     with path.open("r", encoding="utf-8") as f:
         return json.load(f)
 
@@ -269,12 +272,17 @@ def architect_task_confidence_heatmap(history: List[Dict], out_path: Path) -> No
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Visualize belief_history.json as heatmaps.")
-    parser.add_argument("--input", type=Path, default=Path("results") / "belief_history.json", help="Path to belief_history.json")
+    parser.add_argument(
+        "--input",
+        type=Path,
+        default=Path("results") / "exp1" / "belief_history.json",
+        help="Path to belief_history.json",
+    )
     parser.add_argument("--out-dir", type=Path, default=Path("plots"), help="Directory to save figures")
     args = parser.parse_args()
 
     out_dir: Path = args.out_dir / "exp1"
-    os.makedirs(out_dir, exist_ok=True)
+    out_dir.mkdir(parents=True, exist_ok=True)
 
     history = load_history(args.input)
     if not history:

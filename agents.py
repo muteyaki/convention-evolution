@@ -1,12 +1,22 @@
-import random
-import math
-import json
-from dataclasses import dataclass
-from typing import Dict, List, Any, Optional, Tuple
+"""RSA-style dyad agents and belief updates."""
 
-from config import *
-from task import program_to_actions, program_length
-from lexicon import get_utterance_action_length,get_meaning_for_utterance
+import json
+import math
+import random
+from dataclasses import dataclass
+from typing import Any, Dict, List, Optional, Tuple
+
+from config import (
+    ALPHA_SPEAKER,
+    BELIF_UPDATE,
+    CHOICE_TEMPERATURE,
+    EPSILON,
+    GLOBAL_SEED,
+    LENGTH_PRIOR_LAMBDA,
+    TASK_COST_WEIGHT,
+)
+from lexicon import get_meaning_for_utterance
+from task import program_length, program_to_actions
 
 
 @dataclass
@@ -34,7 +44,7 @@ class DyadAgent:
         self,
         lexicon_entries: List[Dict[str, Any]],
         lexicon_prior: Dict[str, Dict[str, float]],
-        meaning_prior:  Dict[str, float],
+        meaning_prior: Dict[str, float],
         towers_cfg: Dict[str, Dict],
         cfg: AgentConfig,
         role: str = "pragmatic",
@@ -61,16 +71,12 @@ class DyadAgent:
             u: {m: self.belief_m2u[m].get(u, 0.0) for m in self.meanings} for u in self.utterances
         }
 
-        # print(f"Initialized agent belief_m2u: {self.belief_m2u}")
-        # print(f"Initialized agent belief_u2m: {self.belief_u2m}")
-
         # task→program belief (length prior)
         self.task_program_belief: Dict[str, Dict[str, float]] = {}
         for task_id, info in towers_cfg.items():
             programs = info["correct_programs"]
             weights = {p: math.exp(LENGTH_PRIOR_LAMBDA * (program_length(p) - 1)) for p in programs}
             self.task_program_belief[task_id] = _normalize(weights)
-        # print(f"Initialized agent task_program_belief: {self.task_program_belief}")
 
         # logging
         self.log_path = log_path

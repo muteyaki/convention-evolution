@@ -5,16 +5,16 @@ from __future__ import annotations
 import argparse
 import json
 from pathlib import Path
-from typing import Any, Dict, List, Sequence
+from typing import Any, Dict, List
 
 import matplotlib
 
 matplotlib.use("Agg")
-import matplotlib.pyplot as plt  # noqa: E402
-import numpy as np  # noqa: E402
+import matplotlib.pyplot as plt  
+import numpy as np  
 
-from config import TOWERS_CONFIG_PATH  # noqa: E402
-from task import load_towers_config, program_length  # noqa: E402
+from config import TOWERS_CONFIG_PATH 
+from task import load_towers_config, program_length  
 
 
 def _normalize(dist: Dict[str, float]) -> Dict[str, float]:
@@ -197,7 +197,7 @@ def plot_u2m_heatmap(mean_history: Dict[str, List[Dict[str, Any]]], out_path: Pa
 def plot_task_heatmap(mean_history: Dict[str, List[Dict[str, Any]]], towers_cfg: Dict[str, Any], out_path: Path) -> None:
     modes = ["paired", "mixed"]
     task_ids = sorted(towers_cfg.keys(), key=str)
-    rounds = list(range(0, 150))
+    rounds = list(range(0, 61))
 
     fig, axes = plt.subplots(2, 6, figsize=(18, 8), sharey=False)
     im = None

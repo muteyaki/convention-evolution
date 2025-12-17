@@ -1,15 +1,23 @@
-"""Dyad demo: initialize a single Architect–Builder pair and track learning over rounds."""
+"""Experiment 1: single dyad learning demo."""
+
+from __future__ import annotations
 
 import argparse
-import random
-from typing import Dict, List
+import json
 import math
+import random
+from pathlib import Path
+from typing import Dict, List
+
 import matplotlib
 
-matplotlib.use("Agg") 
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-import json
-import copy
+
+from agents import AgentConfig, DyadAgent
+from config import *
+from lexicon import build_entries_with_prior, load_lexicon_config
+from task import load_towers_config, program_to_actions
 
 
 def _normalize(dist: Dict[str, float]) -> Dict[str, float]:
@@ -18,24 +26,18 @@ def _normalize(dist: Dict[str, float]) -> Dict[str, float]:
         return {k: 0.0 for k in dist}
     return {k: v / Z for k, v in dist.items()}
 
-from agents import AgentConfig, DyadAgent
-from config import *
-from task import load_towers_config, program_length, program_to_actions
-from lexicon import load_lexicon_config, build_entries_with_prior
-
 
 def run_dyad_demo(
     n_rounds: int,
     length_prior_lambda: float,
     seed: int,
-    log_prefix: str = "sampling_log",
 ) -> None:
     random.seed(seed)
 
     plots_dir = Path("plots") / "exp1"
-    plots_dir.mkdir(exist_ok=True)
+    plots_dir.mkdir(parents=True, exist_ok=True)
     results_dir = Path("results") / "exp1"
-    results_dir.mkdir(exist_ok=True)
+    results_dir.mkdir(parents=True, exist_ok=True)
 
     towers_cfg = load_towers_config(TOWERS_CONFIG_PATH)
     lex_cfg = load_lexicon_config(LEXICON_CONFIG_PATH)
@@ -43,17 +45,18 @@ def run_dyad_demo(
         lex_cfg, lam=length_prior_lambda
     )
 
+    log_prefix = "sampling_log"
     architect_log = results_dir / f"{log_prefix}_architect.json" if log_prefix else None
     builder_log = results_dir / f"{log_prefix}_builder.json" if log_prefix else None
 
-    cfg_A = AgentConfig(seed=seed)
-    cfg_B = AgentConfig(seed=seed + 1)
+    cfg_architect = AgentConfig(seed=seed)
+    cfg_builder = AgentConfig(seed=seed + 1)
     architect = DyadAgent(
         lexicon_entries=lexicon_entries,
         lexicon_prior=lexicon_prior,
         meaning_prior=meaning_prior,
         towers_cfg=towers_cfg,
-        cfg=cfg_A,
+        cfg=cfg_architect,
         log_path=architect_log,
     )
     builder = DyadAgent(
@@ -61,7 +64,7 @@ def run_dyad_demo(
         lexicon_prior=lexicon_prior,
         meaning_prior=meaning_prior,
         towers_cfg=towers_cfg,
-        cfg=cfg_B,
+        cfg=cfg_builder,
         log_path=builder_log,
     )
 
@@ -100,7 +103,6 @@ def run_dyad_demo(
 
     for t in range(n_rounds):
         tower_id = tower_schedule[t]
-        # tower_id = "PiC"
         sampled_program, utterance_seq = architect.produce_message_for_task(tower_id)
         target_tokens = program_to_actions(sampled_program)
         program_len = len(target_tokens)
@@ -118,11 +120,11 @@ def run_dyad_demo(
         losses.append(loss)
         successes.append(success)
 
-        print(
-            f"[round {t:02d}] tower={tower_id} target={sampled_program} | "
-            f"sampled_program={sampled_program} | utterance={utterance_seq} | guess={guess_program} | "
-            f"len={program_len} | loss={loss:.3f} | success={success}"
-        )
+        # print(
+        #     f"[round {t:02d}] tower={tower_id} target={sampled_program} | "
+        #     f"sampled_program={sampled_program} | utterance={utterance_seq} | guess={guess_program} | "
+        #     f"len={program_len} | loss={loss:.3f} | success={success}"
+        # )
 
         architect.observe_interaction(tower_id, sampled_program, utterance_seq, decoded_tokens)
         builder.observe_interaction(tower_id, sampled_program, utterance_seq, decoded_tokens)
@@ -186,24 +188,22 @@ def run_dyad_demo(
 
     # save distribution of every trail
     belief_path = results_dir / "belief_history.json"
-    with open(belief_path, "w", encoding="utf-8") as f:
+    with belief_path.open("w", encoding="utf-8") as f:
         json.dump(belief_history, f, ensure_ascii=False, indent=2)
     print(f"Saved belief history to {belief_path}")
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Run a single dyad for a few rounds and report learning metrics.")
-    parser.add_argument("--rounds", type=int, default=50, help="Number of dyad rounds.")
+    parser.add_argument("--rounds", type=int, default=ROUNDS_PER_DYAD, help="Number of dyad rounds.")
     parser.add_argument("--lambda-length", type=float, default=LENGTH_PRIOR_LAMBDA, help="Length prior weight λ.")
     parser.add_argument("--seed", type=int, default=GLOBAL_SEED, help="Random seed.")
-    parser.add_argument("--log-prefix", type=str, default="sampling_log", help="Prefix for agent sampling logs (JSON).")
     args = parser.parse_args()
 
     run_dyad_demo(
         n_rounds=args.rounds,
         length_prior_lambda=args.lambda_length,
         seed=args.seed,
-        log_prefix=args.log_prefix,
     )
 
 

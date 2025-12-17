@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import copy
 import json
 import random
 from pathlib import Path
@@ -11,9 +12,12 @@ from typing import Any, Dict, List, Tuple
 import matplotlib
 
 matplotlib.use("Agg")
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt
 
-from config import * 
+from config import *
+from lexicon import build_entries_with_prior, load_lexicon_config
+from population import Dyad, Population, sample_dyads
+from task import load_towers_config, program_to_actions
 
 
 def _smooth(xs: List[int], ys: List[float], window: int = 3) -> Tuple[List[int], List[float]]:
@@ -27,9 +31,6 @@ def _smooth(xs: List[int], ys: List[float], window: int = 3) -> Tuple[List[int],
         segment = ys[start:end]
         smoothed.append(sum(segment) / len(segment))
     return xs, smoothed
-from lexicon import build_entries_with_prior, load_lexicon_config
-from population import Dyad, Population, sample_dyads
-from task import load_towers_config, program_to_actions
 
 
 def replace_dyads(
@@ -146,15 +147,16 @@ def run_generation_loop(
 
         # mean belief and dyad belief history with global round offset
         for entry in generation_result.get("mean_belief_history", []):
-            entry_copy = json.loads(json.dumps(entry))
+            entry_copy = copy.deepcopy(entry)
             entry_copy["round"] = round_offset + int(entry.get("round", 0))
             entry_copy["generation"] = gen_idx
             entry_copy["round_in_gen"] = int(entry.get("round", 0))
             mean_history_all.append(entry_copy)
         for entry in generation_result.get("dyad_belief_history", []):
-            entry_copy = json.loads(json.dumps(entry))
+            entry_copy = copy.deepcopy(entry)
             entry_copy["round"] = round_offset + int(entry.get("round", 0))
             entry_copy["generation"] = gen_idx
+            entry_copy["round_in_gen"] = int(entry.get("round", 0))
             dyad_history_all.append(entry_copy)
 
         # Prepare next generation population with turnover
@@ -247,9 +249,9 @@ def _plot_length_by_task(length_by_task: Dict[str, List[Tuple[int, int, float]]]
 
 def _plot_js_over_rounds(mean_history: List[Dict[str, Any]], rounds_per_gen: int, out_path: Path) -> None:
     keys = [
-        ("task_to_program", "Architect task belief"),
-        ("meaning_to_utterance", "Architect utterance belief"),
-        ("utterance_to_meaning", "Builder meaning belief"),
+        ("task_to_program", "Task → Program"),
+        ("meaning_to_utterance", "Meaning → Utterance"),
+        ("utterance_to_meaning", "Utterance → Meaning"),
     ]
     fig, axes = plt.subplots(1, 3, figsize=(12, 4), sharey=False)
     for ax, (k, label) in zip(axes, keys):
@@ -284,7 +286,7 @@ def _plot_js_over_rounds(mean_history: List[Dict[str, Any]], rounds_per_gen: int
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Run multi-generation population evolution with dyad turnover.")
-    parser.add_argument("--generations", type=int, default=5, help="Number of generations to run.")
+    parser.add_argument("--generations", type=int, default=GEN_POP, help="Number of generations to run.")
     parser.add_argument("--dyads", type=int, default=N_DYADS, help="Number of dyads per generation.")
     parser.add_argument(
         "--rounds-per-dyad",
@@ -298,9 +300,8 @@ def main() -> None:
         default=NEWPOP_RATIO,
         help="Fraction of dyads to replace between generations (0–1).",
     )
-    parser.add_argument("--seed", type=int, default=GLOBAL_SEED, help="Random seed.")
     parser.add_argument("--results-dir", type=Path, default=RESULTS_DIR / "exp3", help="Directory for outputs.")
-    parser.add_argument("--plots-dir", type=Path, default=Path("plots") / "exp3", help="Directory for plots.")
+    parser.add_argument("--plots-dir", type=Path, default=PLOTS_DIR / "exp3", help="Directory for plots.")
     args = parser.parse_args()
 
     replace_ratio = min(max(args.replace_ratio, 0.0), 1.0)
@@ -310,7 +311,7 @@ def main() -> None:
         n_dyads=args.dyads,
         rounds_per_dyad=args.rounds_per_dyad,
         replace_ratio=replace_ratio,
-        seed=args.seed,
+        seed=GLOBAL_SEED,
         results_dir=args.results_dir,
     )
 
@@ -332,7 +333,7 @@ def main() -> None:
     _plot_metric_by_generation(
         round_metrics, "avg_loss", "Average Loss", "Loss over Rounds", args.rounds_per_dyad, plots_dir / "loss.png"
     )
-    # _plot_length_by_task(results["length_by_task"], args.rounds_per_dyad, plots_dir / "program_length_by_task.png")
+    _plot_length_by_task(results["length_by_task"], args.rounds_per_dyad, plots_dir / "program_length_by_task.png")
     _plot_js_over_rounds(results["mean_belief_history"], args.rounds_per_dyad, plots_dir / "js_divergence_over_rounds.png")
 
     print("=== exp3 generation convention ===")

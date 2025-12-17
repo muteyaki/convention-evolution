@@ -1,95 +1,100 @@
-# Convention Evolution (Builder–Architect RSA Simulation)
+# Convention Formation and Transmission.
 
-This repo implements a minimal cultural evolution sandbox: two RSA-based agents (Architect ↔ Builder) learn a shared lexicon that maps DSL programs (meanings) to natural-language utterances while solving tower-building tasks. It includes single-dyad runs, population scaffolding, logging, and visualization.
+This repo implements a minimal cultural evolution sandbox inspired by [Compositional Abstractions Tutorial](https://github.com/cogtoolslab/compositional-abstractions-tutorial).
+
+## Requirements
+- Python 3.10+ (should work on 3.9+).
+- Dependencies:
+ `python3 -m pip install -r requirements.txt`
+
 
 ## Project Layout
+
+- `data/task/task.json` — tower tasks and their correct programs. Extracted from the original project above.
+- `data/task/lexicon.json` — lexicon dict includes meaning, utterance and the associated program. Extracted from the original project above.
+
 - `config.py` — hyperparameters and paths.
-- `data/task/task.json` — tower tasks and their correct programs.
-- `data/task/lexicon.json` — initial meaning–program–utterance entries.
-- `agents.py` — `DyadAgent` with task→program and meaning↔utterance beliefs, sampling, and updates.
-- `task.py`, `lexicon.py` — task/lexicon loaders and utilities.
-- `test.py` — single-dyad demo, logging, and training curves.
-- `plot.py` — heatmaps for belief trajectories from `belief_history.json`.
-- `population.py`, `main.py` — population scaffold (multiple dyads; extend as needed).
+- `task.py`, `lexicon.py` — task/lexicon  utilities.
+- `agents.py` — `DyadAgent` class.
+- `population.py` — population class.
+- `exp1_dyad_convention.py` — single-dyad demo (round-level logs + curves).
+- `plot.py` — heatmaps for Exp1.
+- `exp2_population_convention.py` — paired vs mixed training mode for population.
+- `plot2.py` — heatmaps for Exp2.
+- `exp3_generation_convention.py` — multi-generation turnover experiment.
+- `plot3.py` — heatmaps for Exp3.
 
 Outputs:
 - Plots → `plots/`
 - JSON logs → `results/`
 
-## Core Modeling Ideas
-### Meaning and Programs
-- Meanings are DSL programs (primitives `h, v, l, r` plus chunked shapes `chunk_8, chunk_C, chunk_L, chunk_Pi`).
-- Tasks define sets of correct programs (`data/task/task.json`).
+# Usage
 
-### Length-Based Prior (lexicon.py)
-For a meaning $m$ with length $L(m)$ (number of actions):
-$$
-w(m) = \exp(-\lambda \cdot (L(m) - 1)), \quad P(m) = \frac{w(m)}{\sum_{m'} w(m')}.
-$$
-`build_entries_with_prior` expands the lexicon and produces a matrix prior $P(u \mid m)$ by boosting aligned utterances with `FIDELITY`. Concretely, with length prior $P(m)$ and an utterance’s canonical meaning $m^*(u)$:
-$$
-P(u \mid m) \propto
-\begin{cases}
-\text{FIDELITY} \cdot P(m^*(u)) & m = m^*(u), \\
-P(m^*(u)) & \text{otherwise},
-\end{cases}
-$$
-then normalized over $u$ for each $m$. This prior seeds agent beliefs.
-
-### Agent Beliefs (agents.py)
-- Meaning↔Utterance beliefs: `belief_m2u[m][u]`, `belief_u2m[u][m]`, initialized from the prior matrix.
-- Task→Program belief: for each task, a length-aware prior over candidate programs.
-- Meaning prior for pragmatic listening is marginalized from `belief_m2u`.
-
-### Utilities and Sampling
-- Task→Program sampling:
-  - Utility per program $p$ (for task $t$):  
-    $$
-    U(p) = (1-\beta_t)\log P(p \mid t) - \beta_t \log \text{cost}(p),
-    $$
-    scaled by `alpha_speaker`; softmaxed to sample.
-  - `cost(p)` is program length.
-- Speaker $P(u \mid m)$: uses literal listener $L_0(m \mid u)$ → utility $\log L_0(m \mid u)$ with cost weight `beta_u`; softmax with `alpha_speaker`.
-- Pragmatic listener $P(m \mid u)$: $S_1(u \mid m) \times P(m)$, normalized.
-- Updates:
-  - Task belief updated proportionally to fraction of correctly decoded actions.
-  - Meaning↔utterance beliefs updated only when the listener’s guess matches the gold meaning for that utterance.
-
-## Running a Single Dyad
+## Exp1: Running a Single Dyad
 ```bash
-python3 test.py --rounds 50 
+python3 exp1_dyad_convention.py
 ```
 Outputs:
-- `plots/loss_curve.png`, `plots/accuracy_curve.png`, `plots/program_length_curve.png`
-- `results/belief_history.json` (full belief trace)
-- `results/sampling_log_architect.json`, `results/sampling_log_builder.json` (per-sample distributions)
+- Plots under `plots/exp1/`
+- JSON logs under `results/exp1/` 
 
-## Visualizing Belief Trajectories
-After running `test.py` (which writes `results/belief_history.json`):
+## Exp1 Heatmaps
 ```bash
-python3 plot.py --input results/belief_history.json --out-dir plots
+python3 plot.py
 ```
-Generates:
-- `architect_m2u_slices.png` — 4 slices (rounds 0–20, step 5) of $P(u \mid m)$ for the architect.
-- `builder_u2m_slices.png` — 4 slices of derived $P(m \mid u)$ for the builder.
-- `architect_task_heatmap.png` — per-task grids of $P(\text{program} \mid \text{task})$ over rounds, programs sorted by length.
+Outputs:
+- Plots under `plots/exp1/`
 
-## Population Scaffold
-`main.py` and `population.py` illustrate how to spin up multiple dyads. The current scaffold initializes independent dyads; extend `population.py` to aggregate accuracies, share lexica, or model cultural transmission.
+## Exp2: Population Experiments(Paired vs Mixed)
+```bash
+python3 exp2_population_convention.py
+```
+Outputs:
+- Plots under `plots/exp2/`
+- JSON logs under `results/exp2/` 
+
+## Exp2 Heatmaps
+```bash
+python3 plot2.py
+```
+Outputs:
+- Plots under `plots/exp2/`
+
+## Exp3: Turnover Across Generations
+```bash
+python3 exp3_generation_convention.py
+```
+Outputs:
+- Plots under `plots/exp3/`
+- JSON logs under `results/exp3/` 
+
+## Exp3 Heatmaps
+```bash
+python3 plot3.py
+```
+Outputs:
+- Plots under `plots/exp3/`
 
 ## Configuration
-Key knobs in `config.py`:
-- `LENGTH_PRIOR_LAMBDA` — length prior λ.
-- `FIDELITY` — boost for aligned meaning–utterance pairs in the prior.
-- `ALPHA_SPEAKER` — speaker rationality (sharpens softmax).
-- `UTTERANCE_COST_WEIGHT`, `TASK_COST_WEIGHT` — cost weights for speaker and task sampling.
-- `BELIF_UPDATE` — belief update step size.
-- `GLOBAL_SEED` — default RNG seed.
+All global knobs live in `config.py`. 
 
-## Data Files
-- `data/task/task.json` — tasks and candidate programs.
-- `data/task/lexicon.json` — meaning↔utterance seed entries; modify to experiment with new templates or chunks.
+The “increase/decrease” notes below are directional heuristics. Exact behavior depends on the seed, task set, and number of rounds.
 
-## Notes and Tips
-- All plots/JOSN outputs are organized under `plots/` and `results/`.
-- Extend `plot.py` to add more diagnostics (e.g., KL to prior, entropy trajectories).
+| Parameter | What it controls (code) | If increased… | If decreased… |
+|---|---|---|---|
+| `LENGTH_PRIOR_LAMBDA` | Length bias (`lexicon.py`, `agents.py`) | **Note**: in `lexicon.py` the prior uses `exp(-λ*(L-1))` (λ↑ favors *shorter* meanings/programs), but in `agents.py` the task→program initialization uses `exp(+λ*(L-1))` (λ↑ favors *longer* programs). | Closer to uniform length preference (length trends become more data-driven). |
+| `FIDELITY` | Strength of aligned meaning↔utterance pairs in the prior (`lexicon.py`) | More diagonal/aligned prior → often higher early accuracy / lower loss / faster JS drop; less exploration. | Flatter prior → more exploration; slower convergence. |
+| `ALPHA_SPEAKER` | Rationality in program choice (`agents.py: sample_program_for_task`) | Sharper softmax → more “greedy/deterministic”; often faster convergence but more prone to early lock-in. | More stochastic exploration; potentially slower but more robust. |
+| `TASK_COST_WEIGHT` | Weight of program-length cost β (`agents.py: sample_program_for_task`) | Stronger preference for short programs (length curves drop); may reduce diversity. | More driven by belief probabilities; weaker length pressure. |
+| `BELIF_UPDATE` | Belief update step size (`agents.py: update_*`) | More aggressive updates → faster changes but noisier / more sensitive to early samples. | More conservative updates → slower but smoother/stabler trends. |
+| `CHOICE_TEMPERATURE` | Sampling temperature τ (`agents.py: _apply_temperature`) | More random (flatter distributions) → more exploration; slower improvements and slower loss/JS convergence. | Closer to argmax → more deterministic; faster convergence but less exploration. |
+| `EPSILON` | Numerical stability constant (`agents.py`) | More smoothing (tiny probabilities get lifted); too large can distort distributions. | More faithful probabilities but higher risk of numeric issues (e.g., `log(0)` / divide-by-zero). |
+
+### Experiment defaults 
+| Parameter | What it controls |
+|---|---|
+| `ROUNDS_PER_DYAD` | Rounds per generation |
+| `N_DYADS` | Number of dyads in the population (Exp2/Exp3) |
+| `NEWPOP_RATIO` | Fraction of dyads replaced between generations (Exp3) |
+| `GEN_POP` | Default number of generations (Exp3 default) | 
+| `GLOBAL_SEED` | Random seed |

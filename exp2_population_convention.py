@@ -22,7 +22,7 @@ from task import load_towers_config, program_to_actions
 ModeCurves = Dict[str, Dict[str, List[float]]]
 
 
-def summarize_records(records: List[Dict[str, float]]) -> Dict[str, List[float]]:
+def summarize_records(records: List[Dict[str, Any]]) -> Dict[str, List[float]]:
     buckets: Dict[int, List[Dict[str, float]]] = defaultdict(list)
     for rec in records:
         key = int(rec.get("round", 0))
@@ -53,7 +53,7 @@ def summarize_records(records: List[Dict[str, float]]) -> Dict[str, List[float]]
     }
 
 
-def summarize_program_lengths_by_task(records: List[Dict[str, float]]) -> Dict[str, Dict[str, List[float]]]:
+def summarize_program_lengths_by_task(records: List[Dict[str, Any]]) -> Dict[str, Dict[str, List[float]]]:
     per_task: Dict[str, Dict[int, List[Dict[str, float]]]] = defaultdict(lambda: defaultdict(list))
     for rec in records:
         task_id = rec.get("tower_id")
@@ -78,11 +78,7 @@ def summarize_program_lengths_by_task(records: List[Dict[str, float]]) -> Dict[s
 
 
 def summarize_js_history(mean_history: List[Dict[str, Any]]) -> Dict[str, Dict[str, List[float]]]:
-    """
-    Extract JS divergence curves from mean_belief_history.
-    Keys follow evolute_convention structure:
-      task_to_program, meaning_to_utterance, utterance_to_meaning
-    """
+    """Extract JS divergence curves from `mean_belief_history`."""
     curves: Dict[str, Dict[str, List[float]]] = defaultdict(lambda: {"rounds": [], "js": []})
     ordered = sorted(mean_history, key=lambda r: r.get("round", 0))
     for idx, rec in enumerate(ordered):
@@ -126,9 +122,9 @@ def plot_js_grid(
     output_path: Path,
 ) -> None:
     titles = [
-        ("task_to_program", "Architect task belief"),
-        ("meaning_to_utterance", "Architect utterance belief"),
-        ("utterance_to_meaning", "Builder meaning belief"),
+        ("task_to_program", "Task → Program"),
+        ("meaning_to_utterance", "Meaning → Utterance"),
+        ("utterance_to_meaning", "Utterance → Meaning"),
     ]
     fig, axes = plt.subplots(1, 3, figsize=(12, 4), sharey=True)
     label_used: Dict[str, bool] = {}
@@ -173,7 +169,7 @@ def plot_program_length_grid(
             ys = data.get("program_length", [])
             if xs and ys:
                 label = mode.capitalize() if not label_used.get(mode) else None
-                ax.plot(xs, ys, marker="o",markersize=3, label=label)
+                ax.plot(xs, ys, marker="o", markersize=3, label=label)
                 label_used[mode] = True
         ax.set_title(f"Task {task_id}")
         ax.set_xlabel("Round")
@@ -229,16 +225,15 @@ def main() -> None:
         default=ROUNDS_PER_DYAD,
         help="Rounds per dyad in a generation.",
     )
-    parser.add_argument("--seed", type=int, default=GLOBAL_SEED, help="Random seed.")
-    parser.add_argument("--results-dir", type=str, default="results", help="Base directory for results.")
-    parser.add_argument("--plots-dir", type=str, default="plots", help="Directory to store comparison plots.")
+    parser.add_argument("--results-dir", type=str, default=RESULTS_DIR, help="Base directory for results.")
+    parser.add_argument("--plots-dir", type=str, default=PLOTS_DIR, help="Directory to store comparison plots.")
     args = parser.parse_args()
 
     lex_cfg = load_lexicon_config(LEXICON_CONFIG_PATH)
     entries, lexicon_prior, meaning_prior = build_entries_with_prior(lex_cfg, lam=LENGTH_PRIOR_LAMBDA)
     towers_cfg = load_towers_config(TOWERS_CONFIG_PATH)
 
-    results_root = Path(args.results_dir) / "exp2" 
+    results_root = Path(args.results_dir) / "exp2"
     results_root.mkdir(parents=True, exist_ok=True)
     plots_root = Path(args.plots_dir) / "exp2"
     plots_root.mkdir(parents=True, exist_ok=True)
@@ -251,11 +246,11 @@ def main() -> None:
     dyad_beliefs_by_mode: Dict[str, List[Dict[str, Any]]] = {}
 
     for mode in ("paired", "mixed"):
-        results, generation = run_mode(
+        _, generation = run_mode(
             mode=mode,
             n_dyads=args.dyads,
             rounds_per_dyad=args.rounds_per_dyad,
-            seed=args.seed,
+            seed=GLOBAL_SEED,
             entries=entries,
             lexicon_prior=lexicon_prior,
             meaning_prior=meaning_prior,
@@ -268,7 +263,6 @@ def main() -> None:
         js_by_mode[mode] = summarize_js_history(generation.get("mean_belief_history", []))
         dyad_beliefs_by_mode[mode] = generation.get("dyad_belief_history", [])
         avg_loss = sum(r["loss"] for r in records) / len(records) if records else 0.0
-        avg_acc = sum(r["success"] for r in records) / len(records) if records else 0.0
         summary[mode] = {
             "mean_accuracy": generation.get("mean_accuracy", 0.0),
             "avg_loss": avg_loss,

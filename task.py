@@ -1,8 +1,9 @@
-# dsl.py
-from dataclasses import dataclass
-from typing import List, Dict
+"""Task and DSL utilities."""
+
 import json
 from pathlib import Path
+from typing import Dict, List
+
 
 def program_length(program: str) -> int:
     return len([tok for tok in program.strip().split() if tok])

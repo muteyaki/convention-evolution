@@ -1,3 +1,5 @@
+"""Population training and evaluation utilities."""
+
 from __future__ import annotations
 
 import json
@@ -8,7 +10,7 @@ from pathlib import Path
 from typing import Any, Callable, Dict, List, Optional, Sequence, Tuple
 
 from agents import AgentConfig, DyadAgent
-from config import *
+from config import GLOBAL_SEED, RESULTS_DIR, ROUNDS_PER_DYAD
 from task import program_to_actions
 
 
