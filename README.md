@@ -5,7 +5,7 @@ This repo implements a minimal cultural evolution sandbox inspired by [Compositi
 ## Requirements
 - Python 3.10+ (should work on 3.9+).
 - Dependencies:
- `python3 -m pip install -r requirements.txt`
+ `python -m pip install -r requirements.txt`
 
 
 ## Project Layout
