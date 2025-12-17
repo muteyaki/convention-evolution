@@ -218,7 +218,7 @@ def architect_task_confidence_heatmap(history: List[Dict], out_path: Path) -> No
     tasks_sorted = [tid for tid, _ in sorted(task_lengths.items(), key=lambda kv: kv[1])]
 
     round_index = _build_round_index(history)
-    max_round = min(50, max(round_index.keys()) if round_index else 0)
+    max_round = max(round_index.keys()) if round_index else 0
     rounds = list(range(0, max_round + 1))
 
     fig, axes = plt.subplots(3, 2, figsize=(30, 20), squeeze=False)
@@ -256,7 +256,7 @@ def architect_task_confidence_heatmap(history: List[Dict], out_path: Path) -> No
         ticks = list(range(0, len(rounds), step))
         ax.set_xticks(ticks)
         ax.set_xticklabels([rounds[i] for i in ticks], rotation=45, ha="right")
-        ax.set_xlabel("Round (0–50)")
+        ax.set_xlabel(f"Round (0–{max_round})")
         ax.set_ylabel("Program")
 
     for j in range(len(tasks_sorted), 6):

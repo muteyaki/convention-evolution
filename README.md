@@ -32,69 +32,51 @@ Outputs:
 
 ## Exp1: Running a Single Dyad
 ```bash
-python3 exp1_dyad_convention.py
+python exp1_dyad_convention.py
+python plot.py
 ```
 Outputs:
 - Plots under `plots/exp1/`
 - JSON logs under `results/exp1/` 
 
-## Exp1 Heatmaps
-```bash
-python3 plot.py
-```
-Outputs:
-- Plots under `plots/exp1/`
 
 ## Exp2: Population Experiments(Paired vs Mixed)
 ```bash
-python3 exp2_population_convention.py
+python exp2_population_convention.py
+python plot2.py
 ```
 Outputs:
 - Plots under `plots/exp2/`
 - JSON logs under `results/exp2/` 
 
-## Exp2 Heatmaps
-```bash
-python3 plot2.py
-```
-Outputs:
-- Plots under `plots/exp2/`
-
 ## Exp3: Turnover Across Generations
 ```bash
-python3 exp3_generation_convention.py
+python exp3_generation_convention.py
+python plot3.py
 ```
 Outputs:
 - Plots under `plots/exp3/`
 - JSON logs under `results/exp3/` 
 
-## Exp3 Heatmaps
-```bash
-python3 plot3.py
-```
-Outputs:
-- Plots under `plots/exp3/`
 
 ## Configuration
 All global knobs live in `config.py`. 
 
-The “increase/decrease” notes below are directional heuristics. Exact behavior depends on the seed, task set, and number of rounds.
-
 | Parameter | What it controls (code) | If increased… | If decreased… |
 |---|---|---|---|
 | `LENGTH_PRIOR_LAMBDA` | Length bias (`lexicon.py`, `agents.py`) | **Note**: in `lexicon.py` the prior uses `exp(-λ*(L-1))` (λ↑ favors *shorter* meanings/programs), but in `agents.py` the task→program initialization uses `exp(+λ*(L-1))` (λ↑ favors *longer* programs). | Closer to uniform length preference (length trends become more data-driven). |
-| `FIDELITY` | Strength of aligned meaning↔utterance pairs in the prior (`lexicon.py`) | More diagonal/aligned prior → often higher early accuracy / lower loss / faster JS drop; less exploration. | Flatter prior → more exploration; slower convergence. |
-| `ALPHA_SPEAKER` | Rationality in program choice (`agents.py: sample_program_for_task`) | Sharper softmax → more “greedy/deterministic”; often faster convergence but more prone to early lock-in. | More stochastic exploration; potentially slower but more robust. |
-| `TASK_COST_WEIGHT` | Weight of program-length cost β (`agents.py: sample_program_for_task`) | Stronger preference for short programs (length curves drop); may reduce diversity. | More driven by belief probabilities; weaker length pressure. |
-| `BELIF_UPDATE` | Belief update step size (`agents.py: update_*`) | More aggressive updates → faster changes but noisier / more sensitive to early samples. | More conservative updates → slower but smoother/stabler trends. |
-| `CHOICE_TEMPERATURE` | Sampling temperature τ (`agents.py: _apply_temperature`) | More random (flatter distributions) → more exploration; slower improvements and slower loss/JS convergence. | Closer to argmax → more deterministic; faster convergence but less exploration. |
-| `EPSILON` | Numerical stability constant (`agents.py`) | More smoothing (tiny probabilities get lifted); too large can distort distributions. | More faithful probabilities but higher risk of numeric issues (e.g., `log(0)` / divide-by-zero). |
+| `FIDELITY` | Strength of aligned meaning↔utterance pairs in the prior (`lexicon.py`) | More aligned prior → often higher early accuracy and less exploration. | Flatter prior → more exploration and slower convergence. |
+| `ALPHA_SPEAKER` | Rationality in program choice (`agents.py: sample_program_for_task`) | Sharper softmax and more greedy. | More stochastic exploration. |
+| `TASK_COST_WEIGHT` | Weight of program-length cost β (`agents.py: sample_program_for_task`) | Stronger preference for short programs. | More driven by belief probabilities. |
+| `BELIF_UPDATE` | Belief update step size (`agents.py: update_*`) | More aggressive updates and faster changes. | More conservative updates. |
+| `CHOICE_TEMPERATURE` | Sampling temperature τ (`agents.py: _apply_temperature`) | More random sample. | Closer to argmax. |
 
 ### Experiment defaults 
 | Parameter | What it controls |
 |---|---|
-| `ROUNDS_PER_DYAD` | Rounds per generation |
-| `N_DYADS` | Number of dyads in the population (Exp2/Exp3) |
-| `NEWPOP_RATIO` | Fraction of dyads replaced between generations (Exp3) |
-| `GEN_POP` | Default number of generations (Exp3 default) | 
-| `GLOBAL_SEED` | Random seed |
+| `ROUNDS_PER_DYAD` | Rounds per generation. |
+| `N_DYADS` | Number of dyads in the population (Exp2/Exp3). |
+| `NEWPOP_RATIO` | Fraction of dyads replaced between generations (Exp3). |
+| `GEN_POP` | Default number of generations (Exp3 default). | 
+| `GLOBAL_SEED` | Random seed. |
+| `EPSILON` | Numerical stability constant for safety.|
