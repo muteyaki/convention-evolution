@@ -2,6 +2,8 @@
 
 This repo implements a minimal cultural evolution sandbox inspired by [Compositional Abstractions Tutorial](https://github.com/cogtoolslab/compositional-abstractions-tutorial).
 
+***The report of this project is here: [Convention Formation and Transmission](https://drive.google.com/file/d/1yC-qUfA0wo3nx9hkZV_A2hUesYU2H71V/view?usp=sharing)***
+
 ## Requirements
 - Python 3.10+ (should work on 3.9+).
 - Dependencies:
